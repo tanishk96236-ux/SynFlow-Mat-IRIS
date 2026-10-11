@@ -224,7 +224,9 @@ def main():
                 name, target, result.get("error", "?")))
         else:
             print("{:20s} {:12s} {:>5s}  dG {:+7.3f} eV  {}{}".format(
-                name, target, "OK" if result["feasible"] else "NO",
+                name, target,
+                "UNCRT" if result.get("within_error")
+                else "OK" if result["feasible"] else "NO",
                 result["free_energy_eV"],
                 " + ".join(recipe["precursors"]),
                 "   KINETIC RISK" if result.get("kinetic_risk") else ""))
@@ -240,9 +242,13 @@ def main():
     pathlib.Path(args.out).write_text(json.dumps(rows, indent=2), "utf-8")
 
     checked = [r for r in rows if r.get("feasible") is not None]
-    feasible = [r for r in checked if r["feasible"]]
-    print("\n{} structures, {} checked, {} feasible".format(
-        len(rows), len(checked), len(feasible)))
+    # Inside the error band the sign of dG is not known, so those rows are
+    # "uncertain", not feasible -- the per-row line and the protocol say so.
+    uncertain = [r for r in checked if r.get("within_error")]
+    feasible = [r for r in checked
+                if r["feasible"] and not r.get("within_error")]
+    print("\n{} structures, {} checked, {} feasible, {} uncertain".format(
+        len(rows), len(checked), len(feasible), len(uncertain)))
     if len(rows) != len(checked):
         print("{} could not be checked -- counted, not discarded".format(
             len(rows) - len(checked)))
