@@ -156,7 +156,7 @@ Some data is downloaded automatically; the rest you fetch yourself.
 
 - Kononova et al. 2019 text-mined recipes (figshare 9722159)
 - The LLM-extracted corpus of 80,806 syntheses (figshare 30423274)
-- Kingsbury et al. 2022 calorimetric enthalpies (figshare file 28232538)
+- Measured formation enthalpies of 2,135 solids compiled by Wang et al., Sci. Rep. 11, 15496 (2021) (matminer dataset "expt_formation_enthalpy_kingsbury", figshare file 28232538)
 
 **Included:** the Precursor Genome ledger (Walters, McDermott, Rendy, Fei and Ceder, [github.com/lauren-walters/precursor-genome](https://github.com/lauren-walters/precursor-genome), CC BY 4.0).
 

@@ -489,7 +489,7 @@ def reaction_enthalpy(precursors: Sequence[str], target: str) -> dict:
 
         dH = sum over products of n dHf  -  sum over reactants of n dHf
 
-    Gases from NIST-JANAF, solids from calorimetry (Kingsbury 2022). Raises
+    Gases from NIST-JANAF, solids from calorimetry (Wang et al. 2021). Raises
     NotAllMeasured if any species has no measurement; assess then takes the
     whole reaction from Materials Project instead.
 

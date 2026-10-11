@@ -43,7 +43,8 @@ SOURCES
 -------
 gases   NIST-JANAF gas-phase values, below. Gas phase matters: the CO2
         leaving a carbonate leaves as gas.
-solids  Kingsbury et al., Phys. Rev. Materials 6, 013801 (2022): 2,135
+solids  Wang et al., Sci. Rep. 11, 15496 (2021), distributed by matminer as
+        "expt_formation_enthalpy_kingsbury" (the file name below): 2,135
         calorimetric formation enthalpies from Kim et al., Kubaschewski and
         NIST-JANAF, 1,834 of them with a stated uncertainty.
 """
@@ -61,7 +62,7 @@ EXPECTED_MD5 = "961033dbfa21626850ee6ee8d8e14d7c"
 KJ_PER_MOL_TO_EV = 1.0 / 96.4853
 
 # Standard formation enthalpies of gases at 298.15 K, kJ/mol, NIST-JANAF.
-# Kingsbury's dataset excludes gases, so these few are stated here, the same
+# That dataset excludes gases, so these few are stated here, the same
 # way the gas entropies in reaction.py are.
 GAS_FORMATION_KJ_PER_MOL = {
     "CO2": -393.51,
@@ -166,5 +167,5 @@ def formation_enthalpy(formula: str) -> Optional[dict]:
     if reduced in table:
         value, error = table[reduced]
         return {"per_atom": value, "uncertainty": error,
-                "source": "measured (Kingsbury 2022)"}
+                "source": "measured (Wang et al. 2021)"}
     return None
