@@ -1,0 +1,13 @@
+# Tested with Python 3.13 on Windows 10, CPU only.
+# Versions in brackets are the ones the results in results/ were produced with.
+
+torch>=2.4            # [2.10.0]
+pymatgen>=2024.5.1    # [2026.5.4]
+mp-api>=0.41.2        # [0.46.5]  Materials Project client; needs MP_API_KEY
+orb-models>=0.5       # [0.7.0]   ORB interatomic potential, relaxes structures
+ase>=3.23             # [3.29.0]
+numpy>=1.26           # [2.1.3]
+scikit-learn>=1.4     # [1.6.1]   scripts/train_kinetics.py
+matplotlib>=3.8       # [3.10.0]  scripts/make_paper_figures.py
+pypdf>=4.0            # only to turn the A-Lab SI PDF into text (see README)
+pytest>=8.0           # [8.3.4]

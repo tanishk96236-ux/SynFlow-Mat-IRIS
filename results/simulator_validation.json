@@ -1,0 +1,1103 @@
+{
+  "positives": [
+    {
+      "set": "real",
+      "target": "BiFeO3",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 750.0,
+      "feasible": false,
+      "free_energy_eV": 0.008162515000012019,
+      "enthalpy_eV": 0.008162515000012019,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Li2TiO3",
+      "precursors": [
+        "Li2CO3",
+        "TiO2"
+      ],
+      "temperature_C": 700.0,
+      "feasible": true,
+      "free_energy_eV": -1.1684710486053858,
+      "enthalpy_eV": 0.9879208257792351,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Y3Al5O12",
+      "precursors": [
+        "Y2O3",
+        "\u03b1-Al2O3"
+      ],
+      "temperature_C": 600.0,
+      "feasible": true,
+      "free_energy_eV": -1.0215622043749941,
+      "enthalpy_eV": -1.0215622043749941,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "BiFeO3",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3",
+        "MnO2"
+      ],
+      "temperature_C": 830.0,
+      "feasible": false,
+      "free_energy_eV": 0.008162515000013516,
+      "enthalpy_eV": 0.008162515000013516,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "La0.4Ce0.6O2",
+      "precursors": [
+        "CeO2",
+        "La2O3"
+      ],
+      "temperature_C": 900.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for La0.4Ce0.6O2 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "Bi4Sr2Ti5O18",
+      "precursors": [
+        "Bi2O3",
+        "SrCO3",
+        "TiO2"
+      ],
+      "temperature_C": 800.0,
+      "feasible": true,
+      "free_energy_eV": -3.109296207284025,
+      "enthalpy_eV": 1.6466652375001438,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Nd2CuO4",
+      "precursors": [
+        "CuO",
+        "Nd2O3"
+      ],
+      "temperature_C": 1240.0,
+      "feasible": true,
+      "free_energy_eV": -0.011584612499990403,
+      "enthalpy_eV": -0.011584612499990403,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Ba4.2Nd9.2Ti18O54",
+      "precursors": [
+        "BaCO3",
+        "Nd2O3",
+        "TiO2"
+      ],
+      "temperature_C": 1320.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Ba4.2Nd9.2Ti18O54 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "Ca2CuO3",
+      "precursors": [
+        "CaCO3",
+        "CuO"
+      ],
+      "temperature_C": 800.0,
+      "feasible": true,
+      "free_energy_eV": -1.778722074784178,
+      "enthalpy_eV": 2.977239369999987,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "InTaO4",
+      "precursors": [
+        "In2O3",
+        "Ta2O5"
+      ],
+      "temperature_C": 500.0,
+      "feasible": true,
+      "free_energy_eV": -0.15631432500002188,
+      "enthalpy_eV": -0.15631432500002188,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "SrAl2O4",
+      "precursors": [
+        "Al2O3",
+        "Eu2O3",
+        "SrCO3"
+      ],
+      "temperature_C": 1400.0,
+      "feasible": true,
+      "free_energy_eV": -2.0925038121543906,
+      "enthalpy_eV": 1.615009998282468,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Ba2CaUO6",
+      "precursors": [
+        "BaCO3",
+        "CaCO3",
+        "U3O8"
+      ],
+      "temperature_C": 1195.0,
+      "feasible": true,
+      "free_energy_eV": -6.794565062713536,
+      "enthalpy_eV": 2.4448056166666814,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "BiFeO3",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 820.0,
+      "feasible": false,
+      "free_energy_eV": 0.008162515000012019,
+      "enthalpy_eV": 0.008162515000012019,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Li0.058(Na0.51K0.49)0.942NbO3",
+      "precursors": [
+        "K2CO3",
+        "Li2CO3",
+        "Na2CO3",
+        "Nb2O5"
+      ],
+      "temperature_C": 1080.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Li0.058(Na0.51K0.49)0.942NbO3 -- pass the structure and the critic to score it instea"
+    },
+    {
+      "set": "real",
+      "target": "Nd2Ce2O7",
+      "precursors": [
+        "CeO2",
+        "Nd2O3"
+      ],
+      "temperature_C": 1400.0,
+      "feasible": false,
+      "free_energy_eV": 0.5292976924999729,
+      "enthalpy_eV": 0.5292976924999729,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "NaFe(PO3)3",
+      "precursors": [
+        "FeC2O4\u00b72H2O",
+        "NH4H2PO4",
+        "Na2CO3"
+      ],
+      "temperature_C": 599.85,
+      "feasible": true,
+      "free_energy_eV": -21.70504770958712,
+      "enthalpy_eV": -1.460061442291705,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Bi1.5ZnNb1.5O7",
+      "precursors": [
+        "Bi2O3",
+        "Nb2O5",
+        "ZnO"
+      ],
+      "temperature_C": 1000.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Bi1.5ZnNb1.5O7 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "BiFeO3",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 650.0,
+      "feasible": false,
+      "free_energy_eV": 0.008162515000012019,
+      "enthalpy_eV": 0.008162515000012019,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "SrAl2O4",
+      "precursors": [
+        "Al2O3",
+        "SrO"
+      ],
+      "temperature_C": 2300.0,
+      "feasible": true,
+      "free_energy_eV": -0.8163426625243844,
+      "enthalpy_eV": -0.8163426625243844,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Ni0.8Cu0.2Fe2O4",
+      "precursors": [
+        "CuO",
+        "Fe2O3",
+        "NiO"
+      ],
+      "temperature_C": 900.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Ni0.8Cu0.2Fe2O4 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "Bi2Ti2O7",
+      "precursors": [
+        "Bi(NO3)3\u00b75H2O",
+        "C16H36O4Ti",
+        "Er2O3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Bi(NO3)3(H2O)5, C16H36O4Ti -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "InVO4",
+      "precursors": [
+        "In2O3",
+        "V2O5"
+      ],
+      "temperature_C": 800.0,
+      "feasible": true,
+      "free_energy_eV": -0.3000105375000042,
+      "enthalpy_eV": -0.3000105375000042,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Ca1.7La0.3Cu2Ti4O12",
+      "precursors": [
+        "CaCO3",
+        "CuO",
+        "La2O3",
+        "TiO2"
+      ],
+      "temperature_C": 1100.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Ca1.7La0.3Cu2Ti4O12 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "InVO4",
+      "precursors": [
+        "In2O3",
+        "V2O5"
+      ],
+      "temperature_C": 800.0,
+      "feasible": true,
+      "free_energy_eV": -0.3000105375000042,
+      "enthalpy_eV": -0.3000105375000042,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Y3Al5O12",
+      "precursors": [
+        "Al2O3",
+        "CeO2",
+        "Y2O3"
+      ],
+      "temperature_C": 1600.0,
+      "feasible": true,
+      "free_energy_eV": -1.0215622043750072,
+      "enthalpy_eV": -1.0215622043750072,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "BaBiNaTeO6",
+      "precursors": [
+        "BaCO3",
+        "Bi2O3",
+        "Na2CO3",
+        "TeO2"
+      ],
+      "temperature_C": 790.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for BaBiNaTeO6 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "SrBi2Ta2O9",
+      "precursors": [
+        "Bi2O3",
+        "SrCO3",
+        "Ta2O5"
+      ],
+      "temperature_C": 1199.85,
+      "feasible": true,
+      "free_energy_eV": -3.171345418649886,
+      "enthalpy_eV": 0.09265831250003669,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Li0.30Nd0.57TiO3",
+      "precursors": [
+        "Li2CO3",
+        "Nd2O3",
+        "TiO2"
+      ],
+      "temperature_C": 1200.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Li0.30Nd0.57TiO3 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "LiFeO2",
+      "precursors": [
+        "CH3COOLi\u00b72H2O",
+        "Fe2O3"
+      ],
+      "temperature_C": 400.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for CH3COOLi(H2O)2 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "SrAl2O4",
+      "precursors": [
+        "Al2O3",
+        "SrCO3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": false,
+      "free_energy_eV": 0.8324689815441156,
+      "enthalpy_eV": 1.615009998282468,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "Bi0.75Ba0.25FeO3",
+      "precursors": [
+        "BaCO3",
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 875.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Bi0.75Ba0.25FeO3 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "PbBi2Nb2O9",
+      "precursors": [
+        "Bi2O3",
+        "Nb2O5",
+        "PbO"
+      ],
+      "temperature_C": 1100.0,
+      "feasible": true,
+      "free_energy_eV": -0.7952205180803567,
+      "enthalpy_eV": -0.7952205180803567,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "BiFeO3",
+      "precursors": [
+        "Bi(NO3)3\u00b75H2O",
+        "Fe(NO3)3\u00b79H2O"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Bi(NO3)3(H2O)5 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "Bi0.8Ba0.2Fe0.9Ti0.1O3",
+      "precursors": [
+        "BaCO3",
+        "Bi2O3",
+        "Fe2O3",
+        "TiO2"
+      ],
+      "temperature_C": 849.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Bi0.8Ba0.2Fe0.9Ti0.1O3 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "SrAl2O4",
+      "precursors": [
+        "Al2O3",
+        "SrCO3"
+      ],
+      "temperature_C": 80.0,
+      "feasible": false,
+      "free_energy_eV": 0.8324689815441156,
+      "enthalpy_eV": 1.615009998282468,
+      "error": null
+    },
+    {
+      "set": "real",
+      "target": "LaMnO3",
+      "precursors": [
+        "La(NO3)3",
+        "Mn(CH3COO)2"
+      ],
+      "temperature_C": 999.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Mn(CH3COO)2 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "CaEr0.1La0.9Ga3O7",
+      "precursors": [
+        "CaCO3",
+        "Er2O3",
+        "Ga2O3",
+        "La2O3"
+      ],
+      "temperature_C": 1200.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for CaEr0.1La0.9Ga3O7 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "LiVOPO4",
+      "precursors": [
+        "Li2CO3",
+        "NH4H2(PO4)3",
+        "V2O5"
+      ],
+      "temperature_C": 1300.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for NH4H2(PO4)3 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "La1.85Sr0.15CuO4",
+      "precursors": [
+        "CuO",
+        "La2O3",
+        "SrCO3"
+      ],
+      "temperature_C": 1050.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for La1.85Sr0.15CuO4 -- pass the structure and the critic to score it instead"
+    },
+    {
+      "set": "real",
+      "target": "Zn1.8SiO3.8",
+      "precursors": [
+        "SiO2",
+        "ZnO"
+      ],
+      "temperature_C": 1150.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: Materials Project has no entry for Zn1.8SiO3.8 -- pass the structure and the critic to score it instead"
+    }
+  ],
+  "negatives": [
+    {
+      "set": "scrambled",
+      "target": "SrAl2O4",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3",
+        "Pr2O3"
+      ],
+      "temperature_C": 1420.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + Fe2O3 + Pr2O3 -> SrAl2O4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "CeO2",
+        "Nd2O3"
+      ],
+      "temperature_C": 700.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance CeO2 + Nd2O3 -> BiFeO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiVO4",
+      "precursors": [
+        "Al2O3",
+        "Eu2O3",
+        "SrCO3"
+      ],
+      "temperature_C": 650.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Al2O3 + Eu2O3 + SrCO3 -> BiVO4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Li2(UO2)3(PO4)2O",
+      "precursors": [
+        "Bi2O3",
+        "SrCO3",
+        "Ta2O5"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + SrCO3 + Ta2O5 -> Li2(UO2)3(PO4)2O: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Mn2V2O7",
+      "precursors": [
+        "Al2O3",
+        "BaCO3",
+        "Eu2O3",
+        "MgO"
+      ],
+      "temperature_C": 600.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Al2O3 + BaCO3 + Eu2O3 + MgO -> Mn2V2O7: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Ag4.64Pb2O5.87",
+      "precursors": [
+        "CeO2",
+        "Nd2O3"
+      ],
+      "temperature_C": 499.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance CeO2 + Nd2O3 -> Ag4.64Pb2O5.87: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "LiLa(PO3)4",
+      "precursors": [
+        "BaCO3",
+        "Bi2O3",
+        "Er2O3",
+        "K2CO3",
+        "Na2CO3",
+        "TiO2"
+      ],
+      "temperature_C": 426.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance BaCO3 + Bi2O3 + Er2O3 + K2CO3 + Na2CO3 + TiO2 -> LiLa(PO3)4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "SrFeO2",
+      "precursors": [
+        "V2O5",
+        "Y2O3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance V2O5 + Y2O3 -> SrFeO2: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Mn2Mo3O8",
+      "precursors": [
+        "Ag2O",
+        "PbO"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Ag2O + PbO -> Mn2Mo3O8: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Bi0.487Na0.402K0.085Ba0.026Ti0.98Er0.02O3",
+      "precursors": [
+        "Ag2O",
+        "PbO"
+      ],
+      "temperature_C": 850.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Ag2O + PbO -> Bi0.487Na0.402K0.085Ba0.026Ti0.98Er0.02O3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "SrBi2Ta2O9",
+      "precursors": [
+        "BaCO3",
+        "Eu2O3",
+        "K2CO3",
+        "WO3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance BaCO3 + Eu2O3 + K2CO3 + WO3 -> SrBi2Ta2O9: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Al86Ni8La6",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + Fe2O3 -> Al86Ni8La6: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "SrAl2O4",
+      "precursors": [
+        "(NH4)2HPO4",
+        "La2O3",
+        "Li2CO3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance (NH4)2HPO4 + La2O3 + Li2CO3 -> SrAl2O4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiNbO4",
+      "precursors": [
+        "CuO",
+        "Nd2O3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance CuO + Nd2O3 -> BiNbO4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BaMgAl10O17",
+      "precursors": [
+        "La2O3",
+        "Li2CO3",
+        "Ta2O5",
+        "Zr2O"
+      ],
+      "temperature_C": 1600.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance La2O3 + Li2CO3 + Ta2O5 + Zr2O -> BaMgAl10O17: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Nd2Ce2O7",
+      "precursors": [
+        "BaCO3",
+        "Eu2O3",
+        "MgO",
+        "SiO2"
+      ],
+      "temperature_C": 1400.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance BaCO3 + Eu2O3 + MgO + SiO2 -> Nd2Ce2O7: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Pb(Zr0.53Ti0.47)O3",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3",
+        "Pr2O3"
+      ],
+      "temperature_C": 1000.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + Fe2O3 + Pr2O3 -> Pb(Zr0.53Ti0.47)O3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "V2O5",
+        "Y2O3"
+      ],
+      "temperature_C": 850.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance V2O5 + Y2O3 -> BiFeO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Li6.6La3Zr1.6Ta0.4O12",
+      "precursors": [
+        "Bi2O3",
+        "Nb2O5"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + Nb2O5 -> Li6.6La3Zr1.6Ta0.4O12: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Nd2CuO4",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + Fe2O3 -> Nd2CuO4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Na0.5Bi0.5TiO3",
+      "precursors": [
+        "BaCO3",
+        "Eu2O3",
+        "MgO",
+        "SiO2"
+      ],
+      "temperature_C": 1150.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance BaCO3 + Eu2O3 + MgO + SiO2 -> Na0.5Bi0.5TiO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "BaS",
+        "Mo",
+        "MoS2"
+      ],
+      "temperature_C": 720.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance BaS + Mo + MoS2 -> BiFeO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "SrAl2O4",
+      "precursors": [
+        "La2O3",
+        "Li2CO3",
+        "Ta2O5",
+        "Zr2O"
+      ],
+      "temperature_C": 1400.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance La2O3 + Li2CO3 + Ta2O5 + Zr2O -> SrAl2O4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BaMgAl10O17",
+      "precursors": [
+        "Ag2O",
+        "PbO"
+      ],
+      "temperature_C": 1250.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Ag2O + PbO -> BaMgAl10O17: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "SrAl2O4",
+      "precursors": [
+        "Bi2O3",
+        "Fe2O3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + Fe2O3 -> SrAl2O4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Bi2Sr2CaCu2O",
+      "precursors": [
+        "CeO2",
+        "Nd2O3"
+      ],
+      "temperature_C": 760.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance CeO2 + Nd2O3 -> Bi2Sr2CaCu2O: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Ba3MnSb2O9",
+      "precursors": [
+        "La2O3",
+        "Li2CO3",
+        "Ta2O5",
+        "Zr2O"
+      ],
+      "temperature_C": 1450.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance La2O3 + Li2CO3 + Ta2O5 + Zr2O -> Ba3MnSb2O9: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BaCdP2O7",
+      "precursors": [
+        "Al",
+        "La",
+        "Ni"
+      ],
+      "temperature_C": 900.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Al + La + Ni -> BaCdP2O7: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "Al2O3",
+        "Eu2O3",
+        "SrCO3"
+      ],
+      "temperature_C": 750.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Al2O3 + Eu2O3 + SrCO3 -> BiFeO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Li2TiO3",
+      "precursors": [
+        "Al",
+        "La",
+        "Ni"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Al + La + Ni -> Li2TiO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "CaMgSiO4",
+      "precursors": [
+        "Bi2O3",
+        "V2O5"
+      ],
+      "temperature_C": 1225.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Bi2O3 + V2O5 -> CaMgSiO4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "PbCO3",
+        "TiO2",
+        "ZrO2"
+      ],
+      "temperature_C": 890.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance PbCO3 + TiO2 + ZrO2 -> BiFeO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "K2Ba(WO4)2",
+      "precursors": [
+        "CaCO3",
+        "MgO",
+        "SiO2"
+      ],
+      "temperature_C": 949.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance CaCO3 + MgO + SiO2 -> K2Ba(WO4)2: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Sc2W3O12",
+      "precursors": [
+        "MnO2",
+        "V2O5"
+      ],
+      "temperature_C": 1099.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance MnO2 + V2O5 -> Sc2W3O12: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "YVO4",
+      "precursors": [
+        "Ag2O",
+        "PbO"
+      ],
+      "temperature_C": 1200.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Ag2O + PbO -> YVO4: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Ba1.997Eu0.003MgSi2O7",
+      "precursors": [
+        "MnO2",
+        "MoO3"
+      ],
+      "temperature_C": 1199.85,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance MnO2 + MoO3 -> Ba1.997Eu0.003MgSi2O7: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "SrBi2Ta2O9",
+      "precursors": [
+        "Ag2O",
+        "PbO"
+      ],
+      "temperature_C": 1200.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Ag2O + PbO -> SrBi2Ta2O9: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "Ba4Mo12S18",
+      "precursors": [
+        "V2O5",
+        "Y2O3"
+      ],
+      "temperature_C": 300.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance V2O5 + Y2O3 -> Ba4Mo12S18: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "Sc2O3",
+        "WO3"
+      ],
+      "temperature_C": 800.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Sc2O3 + WO3 -> BiFeO3: Reaction cannot be balanced."
+    },
+    {
+      "set": "scrambled",
+      "target": "BiFeO3",
+      "precursors": [
+        "Sc2O3",
+        "WO3"
+      ],
+      "temperature_C": 600.0,
+      "feasible": null,
+      "free_energy_eV": null,
+      "enthalpy_eV": null,
+      "error": "ValueError: could not balance Sc2O3 + WO3 -> BiFeO3: Reaction cannot be balanced."
+    }
+  ],
+  "sample": 40,
+  "seed": 0
+}

@@ -1,0 +1,1895 @@
+[
+ {
+  "id": "ours:Na3Ca18Fe(PO4)14",
+  "label": "made",
+  "target": "Na3Ca18Fe(PO4)14",
+  "precursors": [
+   "CaCO3",
+   "Fe2O3",
+   "NH4H2PO4",
+   "Na2CO3"
+  ],
+  "temperature_C": 968
+ },
+ {
+  "id": "ours:Na7Mg7Fe5(PO4)12",
+  "label": "made",
+  "target": "Na7Mg7Fe5(PO4)12",
+  "precursors": [
+   "Fe2O3",
+   "MgO",
+   "NH4H2PO4",
+   "Na2CO3"
+  ],
+  "temperature_C": 715
+ },
+ {
+  "id": "ours:MgV4Cu3O14",
+  "label": "made",
+  "target": "MgV4Cu3O14",
+  "precursors": [
+   "CuO",
+   "MgO",
+   "V2O5"
+  ],
+  "temperature_C": 767
+ },
+ {
+  "id": "ours:MgCuP2O7",
+  "label": "made",
+  "target": "MgCuP2O7",
+  "precursors": [
+   "CuO",
+   "MgO",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 863
+ },
+ {
+  "id": "ours:NaMnFe(PO4)2",
+  "label": "made",
+  "target": "NaMnFe(PO4)2",
+  "precursors": [
+   "Fe2O3",
+   "MnO2",
+   "NH4H2PO4",
+   "Na2CO3"
+  ],
+  "temperature_C": 768
+ },
+ {
+  "id": "ours:K4TiSn3(PO5)4",
+  "label": "made",
+  "target": "K4TiSn3(PO5)4",
+  "precursors": [
+   "K2CO3",
+   "NH4H2PO4",
+   "SnO2",
+   "TiO2"
+  ],
+  "temperature_C": 974
+ },
+ {
+  "id": "ours:NaCaMgFe(SiO3)4",
+  "label": "made",
+  "target": "NaCaMgFe(SiO3)4",
+  "precursors": [
+   "CaCO3",
+   "Fe2O3",
+   "MgO",
+   "Na2CO3",
+   "SiO2"
+  ],
+  "temperature_C": 1118
+ },
+ {
+  "id": "ours:Mn2VPO7",
+  "label": "made",
+  "target": "Mn2VPO7",
+  "precursors": [
+   "MnO2",
+   "NH4H2PO4",
+   "V2O5"
+  ],
+  "temperature_C": 882
+ },
+ {
+  "id": "ours:K4MgFe3(PO4)5",
+  "label": "made",
+  "target": "K4MgFe3(PO4)5",
+  "precursors": [
+   "Fe2O3",
+   "K2CO3",
+   "MgO",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 832
+ },
+ {
+  "id": "ours:MnAgO2",
+  "label": "made",
+  "target": "MnAgO2",
+  "precursors": [
+   "Ag2O",
+   "MnO2"
+  ],
+  "temperature_C": 807
+ },
+ {
+  "id": "ours:KMn3O6",
+  "label": "made",
+  "target": "KMn3O6",
+  "precursors": [
+   "K2CO3",
+   "MnO2"
+  ],
+  "temperature_C": 803
+ },
+ {
+  "id": "ours:CaCo(PO3)4",
+  "label": "made",
+  "target": "CaCo(PO3)4",
+  "precursors": [
+   "CaCO3",
+   "Co3O4",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 840
+ },
+ {
+  "id": "ours:Mn4Zn3(NiO6)2",
+  "label": "made",
+  "target": "Mn4Zn3(NiO6)2",
+  "precursors": [
+   "MnO2",
+   "NiO",
+   "ZnO"
+  ],
+  "temperature_C": 1103
+ },
+ {
+  "id": "ours:CaNi(PO3)4",
+  "label": "made",
+  "target": "CaNi(PO3)4",
+  "precursors": [
+   "CaCO3",
+   "NH4H2PO4",
+   "NiO"
+  ],
+  "temperature_C": 929
+ },
+ {
+  "id": "ours:CaMn(PO3)4",
+  "label": "made",
+  "target": "CaMn(PO3)4",
+  "precursors": [
+   "CaCO3",
+   "MnO2",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 907
+ },
+ {
+  "id": "ours:MgNi(PO3)4",
+  "label": "made",
+  "target": "MgNi(PO3)4",
+  "precursors": [
+   "MgO",
+   "NH4H2PO4",
+   "NiO"
+  ],
+  "temperature_C": 951
+ },
+ {
+  "id": "ours:KNaTi2(PO5)2",
+  "label": "made",
+  "target": "KNaTi2(PO5)2",
+  "precursors": [
+   "K2CO3",
+   "NH4H2PO4",
+   "Na2CO3",
+   "TiO2"
+  ],
+  "temperature_C": 987
+ },
+ {
+  "id": "ours:Hf2Sb2Pb4O13",
+  "label": "made",
+  "target": "Hf2Sb2Pb4O13",
+  "precursors": [
+   "HfO2",
+   "PbO",
+   "Sb2O3"
+  ],
+  "temperature_C": 1073
+ },
+ {
+  "id": "ours:Zr2Sb2Pb4O13",
+  "label": "made",
+  "target": "Zr2Sb2Pb4O13",
+  "precursors": [
+   "PbO",
+   "Sb2O3",
+   "ZrO2"
+  ],
+  "temperature_C": 1035
+ },
+ {
+  "id": "ours:Sn2Sb2Pb4O13",
+  "label": "made",
+  "target": "Sn2Sb2Pb4O13",
+  "precursors": [
+   "PbO",
+   "Sb2O3",
+   "SnO2"
+  ],
+  "temperature_C": 1105
+ },
+ {
+  "id": "ours:CaFe2P2O9",
+  "label": "made",
+  "target": "CaFe2P2O9",
+  "precursors": [
+   "CaCO3",
+   "Fe2O3",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 910
+ },
+ {
+  "id": "ours:KPr9(Si3O13)2",
+  "label": "made",
+  "target": "KPr9(Si3O13)2",
+  "precursors": [
+   "K2CO3",
+   "Pr6O11",
+   "SiO2"
+  ],
+  "temperature_C": 1178
+ },
+ {
+  "id": "ours:KNaP6(PbO3)8",
+  "label": "made",
+  "target": "KNaP6(PbO3)8",
+  "precursors": [
+   "K2CO3",
+   "NH4H2PO4",
+   "Na2CO3",
+   "PbO"
+  ],
+  "temperature_C": 949
+ },
+ {
+  "id": "ours:MgTi2NiO6",
+  "label": "made",
+  "target": "MgTi2NiO6",
+  "precursors": [
+   "MgO",
+   "NiO",
+   "TiO2"
+  ],
+  "temperature_C": 1306
+ },
+ {
+  "id": "ours:MgTi4(PO4)6",
+  "label": "made",
+  "target": "MgTi4(PO4)6",
+  "precursors": [
+   "MgO",
+   "NH4H2PO4",
+   "TiO2"
+  ],
+  "temperature_C": 1067
+ },
+ {
+  "id": "ours:InSb3Pb4O13",
+  "label": "made",
+  "target": "InSb3Pb4O13",
+  "precursors": [
+   "In2O3",
+   "PbO",
+   "Sb2O3"
+  ],
+  "temperature_C": 937
+ },
+ {
+  "id": "ours:FeSb3Pb4O13",
+  "label": "made",
+  "target": "FeSb3Pb4O13",
+  "precursors": [
+   "Fe2O3",
+   "PbO",
+   "Sb2O3"
+  ],
+  "temperature_C": 978
+ },
+ {
+  "id": "ours:Mg3MnNi3O8",
+  "label": "made",
+  "target": "Mg3MnNi3O8",
+  "precursors": [
+   "MgO",
+   "MnO2",
+   "NiO"
+  ],
+  "temperature_C": 1313
+ },
+ {
+  "id": "ours:Ba6Na2Ta2V2O17",
+  "label": "made",
+  "target": "Ba6Na2Ta2V2O17",
+  "precursors": [
+   "BaCO3",
+   "Na2CO3",
+   "Ta2O5",
+   "V2O5"
+  ],
+  "temperature_C": 1016
+ },
+ {
+  "id": "ours:Ba6Na2V2Sb2O17",
+  "label": "made",
+  "target": "Ba6Na2V2Sb2O17",
+  "precursors": [
+   "BaCO3",
+   "Na2CO3",
+   "Sb2O3",
+   "V2O5"
+  ],
+  "temperature_C": 873
+ },
+ {
+  "id": "ours:K2TiCr(PO4)3",
+  "label": "made",
+  "target": "K2TiCr(PO4)3",
+  "precursors": [
+   "Cr2O3",
+   "K2CO3",
+   "NH4H2PO4",
+   "TiO2"
+  ],
+  "temperature_C": 1050
+ },
+ {
+  "id": "ours:KBaPrWO6",
+  "label": "made",
+  "target": "KBaPrWO6",
+  "precursors": [
+   "BaCO3",
+   "K2CO3",
+   "Pr6O11",
+   "WO3"
+  ],
+  "temperature_C": 1025
+ },
+ {
+  "id": "ours:Mg3NiO4",
+  "label": "made",
+  "target": "Mg3NiO4",
+  "precursors": [
+   "MgO",
+   "NiO"
+  ],
+  "temperature_C": 1320
+ },
+ {
+  "id": "ours:Ba2ZrSnO6",
+  "label": "made",
+  "target": "Ba2ZrSnO6",
+  "precursors": [
+   "BaCO3",
+   "SnO2",
+   "ZrO2"
+  ],
+  "temperature_C": 1445
+ },
+ {
+  "id": "ours:Y3In2Ga3O12",
+  "label": "made",
+  "target": "Y3In2Ga3O12",
+  "precursors": [
+   "Ga2O3",
+   "In2O3",
+   "Y2O3"
+  ],
+  "temperature_C": 1423
+ },
+ {
+  "id": "ours:Ba9Ca3La4(Fe4O15)2",
+  "label": "made",
+  "target": "Ba9Ca3La4(Fe4O15)2",
+  "precursors": [
+   "BaCO3",
+   "CaCO3",
+   "Fe2O3",
+   "La2O3"
+  ],
+  "temperature_C": 1239
+ },
+ {
+  "id": "ours:CaGd2Zr(GaO3)4",
+  "label": "made",
+  "target": "CaGd2Zr(GaO3)4",
+  "precursors": [
+   "CaCO3",
+   "Ga2O3",
+   "Gd2O3",
+   "ZrO2"
+  ],
+  "temperature_C": 1419
+ },
+ {
+  "id": "ours:InSb3(PO4)6",
+  "label": "made",
+  "target": "InSb3(PO4)6",
+  "precursors": [
+   "In2O3",
+   "NH4H2PO4",
+   "Sb2O3"
+  ],
+  "temperature_C": 814
+ },
+ {
+  "id": "ours:KNa2Ga3(SiO4)3",
+  "label": "made",
+  "target": "KNa2Ga3(SiO4)3",
+  "precursors": [
+   "Ga2O3",
+   "K2CO3",
+   "Na2CO3",
+   "SiO2"
+  ],
+  "temperature_C": 979
+ },
+ {
+  "id": "ours:Zn3Ni4(SbO6)2",
+  "label": "made",
+  "target": "Zn3Ni4(SbO6)2",
+  "precursors": [
+   "NiO",
+   "Sb2O3",
+   "ZnO"
+  ],
+  "temperature_C": 1130
+ },
+ {
+  "id": "ours:Mn7(P2O7)4",
+  "label": "made",
+  "target": "Mn7(P2O7)4",
+  "precursors": [
+   "MnO2",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 811
+ },
+ {
+  "id": "ours:KBaGdWO6",
+  "label": "made",
+  "target": "KBaGdWO6",
+  "precursors": [
+   "BaCO3",
+   "Gd2O3",
+   "K2CO3",
+   "WO3"
+  ],
+  "temperature_C": 976
+ },
+ {
+  "id": "ours:La5Mn5O16",
+  "label": "failed",
+  "target": "La5Mn5O16",
+  "precursors": [
+   "La2O3",
+   "MnO2"
+  ],
+  "temperature_C": 1298
+ },
+ {
+  "id": "ours:Mo(PO3)5",
+  "label": "failed",
+  "target": "Mo(PO3)5",
+  "precursors": [
+   "MoO3",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 645
+ },
+ {
+  "id": "ours:V3AgO8",
+  "label": "failed",
+  "target": "V3AgO8",
+  "precursors": [
+   "Ag2O",
+   "V2O5"
+  ],
+  "temperature_C": 478
+ },
+ {
+  "id": "ours:Ca2Sn3O8",
+  "label": "failed",
+  "target": "Ca2Sn3O8",
+  "precursors": [
+   "CaCO3",
+   "SnO2"
+  ],
+  "temperature_C": 1258
+ },
+ {
+  "id": "ours:Ca2Ti3O8",
+  "label": "failed",
+  "target": "Ca2Ti3O8",
+  "precursors": [
+   "CaCO3",
+   "TiO2"
+  ],
+  "temperature_C": 1251
+ },
+ {
+  "id": "ours:CuAg2P2O7",
+  "label": "failed",
+  "target": "CuAg2P2O7",
+  "precursors": [
+   "Ag2O",
+   "CuO",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 749
+ },
+ {
+  "id": "ours:KMg3V3CuO12",
+  "label": "failed",
+  "target": "KMg3V3CuO12",
+  "precursors": [
+   "CuO",
+   "K2CO3",
+   "MgO",
+   "V2O5"
+  ],
+  "temperature_C": 709
+ },
+ {
+  "id": "ours:CaTiNiP2O9",
+  "label": "failed",
+  "target": "CaTiNiP2O9",
+  "precursors": [
+   "CaCO3",
+   "NH4H2PO4",
+   "NiO",
+   "TiO2"
+  ],
+  "temperature_C": 1146
+ },
+ {
+  "id": "ours:CaCr2P2O9",
+  "label": "failed",
+  "target": "CaCr2P2O9",
+  "precursors": [
+   "CaCO3",
+   "Cr2O3",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 1124
+ },
+ {
+  "id": "ours:Ba4InSbO8",
+  "label": "failed",
+  "target": "Ba4InSbO8",
+  "precursors": [
+   "BaCO3",
+   "In2O3",
+   "Sb2O3"
+  ],
+  "temperature_C": 1324
+ },
+ {
+  "id": "ours:YbMoO4",
+  "label": "failed",
+  "target": "YbMoO4",
+  "precursors": [
+   "MoO3",
+   "Yb2O3"
+  ],
+  "temperature_C": 1080
+ },
+ {
+  "id": "ours:Ta4PbO11",
+  "label": "failed",
+  "target": "Ta4PbO11",
+  "precursors": [
+   "PbO",
+   "Ta2O5"
+  ],
+  "temperature_C": 1215
+ },
+ {
+  "id": "ours:BaGdCrFeO6",
+  "label": "failed",
+  "target": "BaGdCrFeO6",
+  "precursors": [
+   "BaCO3",
+   "Cr2O3",
+   "Fe2O3",
+   "Gd2O3"
+  ],
+  "temperature_C": 1233
+ },
+ {
+  "id": "ours:Ca3Ti3Cr2O12",
+  "label": "failed",
+  "target": "Ca3Ti3Cr2O12",
+  "precursors": [
+   "CaCO3",
+   "Cr2O3",
+   "TiO2"
+  ],
+  "temperature_C": 1218
+ },
+ {
+  "id": "ours:Na3V3Cr2O12",
+  "label": "failed",
+  "target": "Na3V3Cr2O12",
+  "precursors": [
+   "Cr2O3",
+   "Na2CO3",
+   "V2O5"
+  ],
+  "temperature_C": 750
+ },
+ {
+  "id": "corpus:Ti5Si3:Si+Ti",
+  "label": "impurity",
+  "target": "Ti5Si3",
+  "precursors": [
+   "Si",
+   "Ti"
+  ],
+  "temperature_C": 200.0
+ },
+ {
+  "id": "corpus:MgB2:ZnO+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "ZnO",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 750.0
+ },
+ {
+  "id": "corpus:V4AlC3:C+V+Al",
+  "label": "impurity",
+  "target": "V4AlC3",
+  "precursors": [
+   "C",
+   "V",
+   "Al"
+  ],
+  "temperature_C": 1700.0
+ },
+ {
+  "id": "corpus:Ca2SnO4:SnO2+CaCO3+Sm2O3",
+  "label": "impurity",
+  "target": "Ca2SnO4",
+  "precursors": [
+   "SnO2",
+   "CaCO3",
+   "Sm2O3"
+  ],
+  "temperature_C": 1400.0
+ },
+ {
+  "id": "corpus:MgB2:MgB2+Fe",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "MgB2",
+   "Fe"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 950.0
+ },
+ {
+  "id": "corpus:Mg4Nb2O9:MgO+Nb2O5",
+  "label": "impurity",
+  "target": "Mg4Nb2O9",
+  "precursors": [
+   "MgO",
+   "Nb2O5"
+  ],
+  "temperature_C": 1360.0
+ },
+ {
+  "id": "corpus:LaMgAl11O19:Al2O3+MgO+La2O3",
+  "label": "impurity",
+  "target": "LaMgAl11O19",
+  "precursors": [
+   "Al2O3",
+   "MgO",
+   "La2O3"
+  ],
+  "temperature_C": 1650.0
+ },
+ {
+  "id": "corpus:CaZrGeO5:GeO2+CaCO3+ZrO2",
+  "label": "impurity",
+  "target": "CaZrGeO5",
+  "precursors": [
+   "GeO2",
+   "CaCO3",
+   "ZrO2"
+  ],
+  "temperature_C": 1425.0
+ },
+ {
+  "id": "corpus:LaGaS3:Ga+La+S",
+  "label": "impurity",
+  "target": "LaGaS3",
+  "precursors": [
+   "Ga",
+   "La",
+   "S"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:Bi4Ti3O12:TiO2+B2O3+Bi2O3",
+  "label": "impurity",
+  "target": "Bi4Ti3O12",
+  "precursors": [
+   "TiO2",
+   "B2O3",
+   "Bi2O3"
+  ],
+  "temperature_C": 500.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:Ni3Ta:Ni+Ta",
+  "label": "impurity",
+  "target": "Ni3Ta",
+  "precursors": [
+   "Ni",
+   "Ta"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 775.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "impurity",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1080.0
+ },
+ {
+  "id": "corpus:MgB2:Ag+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Ag",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 775.0
+ },
+ {
+  "id": "corpus:CaFe5O7:Fe2O3+Fe+CaO",
+  "label": "impurity",
+  "target": "CaFe5O7",
+  "precursors": [
+   "Fe2O3",
+   "Fe",
+   "CaO"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:MgB2:C16H10+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "C16H10",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:MgB2:Mg(BH4)2+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg(BH4)2",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 680.0
+ },
+ {
+  "id": "corpus:V4AlC3:C+V+Al",
+  "label": "impurity",
+  "target": "V4AlC3",
+  "precursors": [
+   "C",
+   "V",
+   "Al"
+  ],
+  "temperature_C": 1500.0
+ },
+ {
+  "id": "corpus:MgB2:Ni+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Ni",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 750.0
+ },
+ {
+  "id": "corpus:Ti4O7:H2+TiO2",
+  "label": "impurity",
+  "target": "Ti4O7",
+  "precursors": [
+   "H2",
+   "TiO2"
+  ],
+  "temperature_C": 1050.0
+ },
+ {
+  "id": "corpus:Al4C3:C+Al",
+  "label": "impurity",
+  "target": "Al4C3",
+  "precursors": [
+   "C",
+   "Al"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:MgB2:C6H12O6+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "C6H12O6",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "impurity",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1115.0
+ },
+ {
+  "id": "corpus:Mg2Cu:Cu4Cu+Ni+MgH2",
+  "label": "impurity",
+  "target": "Mg2Cu",
+  "precursors": [
+   "Cu4Cu",
+   "Ni",
+   "MgH2"
+  ],
+  "temperature_C": 400.0
+ },
+ {
+  "id": "corpus:MgH2:Y+Mg",
+  "label": "impurity",
+  "target": "MgH2",
+  "precursors": [
+   "Y",
+   "Mg"
+  ],
+  "temperature_C": 350.0
+ },
+ {
+  "id": "corpus:SrTaO2N:SrCO3+Ta3N5",
+  "label": "impurity",
+  "target": "SrTaO2N",
+  "precursors": [
+   "SrCO3",
+   "Ta3N5"
+  ],
+  "temperature_C": 1400.0
+ },
+ {
+  "id": "corpus:MgB2:Nd2O3+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Nd2O3",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 950.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 650.0
+ },
+ {
+  "id": "corpus:SnS2:NH4Cl+S+Sn",
+  "label": "impurity",
+  "target": "SnS2",
+  "precursors": [
+   "NH4Cl",
+   "S",
+   "Sn"
+  ],
+  "temperature_C": 400.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:TiNb(PO4)3:NH4H2PO4+Nb2O5+TiO2",
+  "label": "impurity",
+  "target": "TiNb(PO4)3",
+  "precursors": [
+   "NH4H2PO4",
+   "Nb2O5",
+   "TiO2"
+  ],
+  "temperature_C": 1200.0
+ },
+ {
+  "id": "corpus:LaSbO4:Sb2O5+La2O3",
+  "label": "impurity",
+  "target": "LaSbO4",
+  "precursors": [
+   "Sb2O5",
+   "La2O3"
+  ],
+  "temperature_C": 1500.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:Li5FeO4:LiOH\u00b7H2O+FeC6H5O7\u00b7nH2O",
+  "label": "impurity",
+  "target": "Li5FeO4",
+  "precursors": [
+   "LiOH\u00b7H2O",
+   "FeC6H5O7\u00b7nH2O"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "impurity",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:MgB2:Si+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Si",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B+C9H6O2",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B",
+   "C9H6O2"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:Na2Ti6O13:TiO2+Na2CO3",
+  "label": "impurity",
+  "target": "Na2Ti6O13",
+  "precursors": [
+   "TiO2",
+   "Na2CO3"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:Ti4O7:C+TiO2",
+  "label": "impurity",
+  "target": "Ti4O7",
+  "precursors": [
+   "C",
+   "TiO2"
+  ],
+  "temperature_C": 1200.0
+ },
+ {
+  "id": "corpus:CaAl12O19:Al2O3+CaCO3",
+  "label": "impurity",
+  "target": "CaAl12O19",
+  "precursors": [
+   "Al2O3",
+   "CaCO3"
+  ],
+  "temperature_C": 1600.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "impurity",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:Al2TiO5:Al(OH)3+Fe2O3+TiO2",
+  "label": "impurity",
+  "target": "Al2TiO5",
+  "precursors": [
+   "Al(OH)3",
+   "Fe2O3",
+   "TiO2"
+  ],
+  "temperature_C": 1450.0
+ },
+ {
+  "id": "corpus:Ti2Cu3:Ag+Ti+Cu",
+  "label": "impurity",
+  "target": "Ti2Cu3",
+  "precursors": [
+   "Ag",
+   "Ti",
+   "Cu"
+  ],
+  "temperature_C": 860.0
+ },
+ {
+  "id": "corpus:Mg4Nb2O9:MgO+MgNb2O6",
+  "label": "impurity",
+  "target": "Mg4Nb2O9",
+  "precursors": [
+   "MgO",
+   "MgNb2O6"
+  ],
+  "temperature_C": 1375.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:MgB2:TiB2+Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "TiB2",
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 1700.0
+ },
+ {
+  "id": "corpus:MgH2:Mg+LiBH4",
+  "label": "impurity",
+  "target": "MgH2",
+  "precursors": [
+   "Mg",
+   "LiBH4"
+  ],
+  "temperature_C": 350.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "impurity",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:Sb2Se3:I+Sb2Se3",
+  "label": "impurity",
+  "target": "Sb2Se3",
+  "precursors": [
+   "I",
+   "Sb2Se3"
+  ],
+  "temperature_C": 400.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "impurity",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:Bi4Ge3O12:GeO2+Bi2O3",
+  "label": "impurity",
+  "target": "Bi4Ge3O12",
+  "precursors": [
+   "GeO2",
+   "Bi2O3"
+  ],
+  "temperature_C": 1050.0
+ },
+ {
+  "id": "corpus:LiCoPO4:(NH4)2HPO4+Li2CO3+Co3O4",
+  "label": "impurity",
+  "target": "LiCoPO4",
+  "precursors": [
+   "(NH4)2HPO4",
+   "Li2CO3",
+   "Co3O4"
+  ],
+  "temperature_C": 750.0
+ },
+ {
+  "id": "corpus:NiNb2O6:Nb2O5+NiO",
+  "label": "impurity",
+  "target": "NiNb2O6",
+  "precursors": [
+   "Nb2O5",
+   "NiO"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:CuSbSe2:Se+Sb+Cu",
+  "label": "impurity",
+  "target": "CuSbSe2",
+  "precursors": [
+   "Se",
+   "Sb",
+   "Cu"
+  ],
+  "temperature_C": 400.0
+ },
+ {
+  "id": "corpus:Bi4Ti3O12:TiO2+Bi2O3",
+  "label": "impurity",
+  "target": "Bi4Ti3O12",
+  "precursors": [
+   "TiO2",
+   "Bi2O3"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:NaMoP2O7:(NH4)6Mo7O24\u00b74H2O+Na2C2O4+NH4H2PO4",
+  "label": "clean",
+  "target": "NaMoP2O7",
+  "precursors": [
+   "(NH4)6Mo7O24\u00b74H2O",
+   "Na2C2O4",
+   "NH4H2PO4"
+  ],
+  "temperature_C": 650.0
+ },
+ {
+  "id": "corpus:AlCNi3:Ni+C+Al",
+  "label": "clean",
+  "target": "AlCNi3",
+  "precursors": [
+   "Ni",
+   "C",
+   "Al"
+  ],
+  "temperature_C": 980.0
+ },
+ {
+  "id": "corpus:Nd2MgIrO6:Ir+Nd2O3+MgO",
+  "label": "clean",
+  "target": "Nd2MgIrO6",
+  "precursors": [
+   "Ir",
+   "Nd2O3",
+   "MgO"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:Dy3NbO7:Dy2O3+Nb2O5",
+  "label": "clean",
+  "target": "Dy3NbO7",
+  "precursors": [
+   "Dy2O3",
+   "Nb2O5"
+  ],
+  "temperature_C": 1650.0
+ },
+ {
+  "id": "corpus:PrRh2Si2:Si+Pr+Rh",
+  "label": "clean",
+  "target": "PrRh2Si2",
+  "precursors": [
+   "Si",
+   "Pr",
+   "Rh"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:LaCoO3:Co2O3+La2O3",
+  "label": "clean",
+  "target": "LaCoO3",
+  "precursors": [
+   "Co2O3",
+   "La2O3"
+  ],
+  "temperature_C": 120.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CuO+CaO+TiO2",
+  "label": "clean",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CuO",
+   "CaO",
+   "TiO2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:MgF2:MgF2+EuF3",
+  "label": "clean",
+  "target": "MgF2",
+  "precursors": [
+   "MgF2",
+   "EuF3"
+  ],
+  "temperature_C": 650.0
+ },
+ {
+  "id": "corpus:Bi4Ti3O12:TiO2+CaCO3+Bi2O3",
+  "label": "clean",
+  "target": "Bi4Ti3O12",
+  "precursors": [
+   "TiO2",
+   "CaCO3",
+   "Bi2O3"
+  ],
+  "temperature_C": 650.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "clean",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 580.0
+ },
+ {
+  "id": "corpus:Bi4Ti3O12:TiO2+Bi2O3",
+  "label": "clean",
+  "target": "Bi4Ti3O12",
+  "precursors": [
+   "TiO2",
+   "Bi2O3"
+  ],
+  "temperature_C": 1300.0
+ },
+ {
+  "id": "corpus:LaTaO4:Ta2O5+La2O3",
+  "label": "clean",
+  "target": "LaTaO4",
+  "precursors": [
+   "Ta2O5",
+   "La2O3"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:Al2TiO5:Fe2O3+Al2O3+TiO2",
+  "label": "clean",
+  "target": "Al2TiO5",
+  "precursors": [
+   "Fe2O3",
+   "Al2O3",
+   "TiO2"
+  ],
+  "temperature_C": 1500.0
+ },
+ {
+  "id": "corpus:ZnGa2O4:Ga2O3+ZnO",
+  "label": "clean",
+  "target": "ZnGa2O4",
+  "precursors": [
+   "Ga2O3",
+   "ZnO"
+  ],
+  "temperature_C": 1200.0
+ },
+ {
+  "id": "corpus:MOCC:Li2CO3+Ce0.9Gd0.1O2+K2CO3",
+  "label": "clean",
+  "target": "MOCC",
+  "precursors": [
+   "Li2CO3",
+   "Ce0.9Gd0.1O2",
+   "K2CO3"
+  ],
+  "temperature_C": 1585.0
+ },
+ {
+  "id": "corpus:AgCrSe2:Se+Ag+Cr",
+  "label": "clean",
+  "target": "AgCrSe2",
+  "precursors": [
+   "Se",
+   "Ag",
+   "Cr"
+  ],
+  "temperature_C": 1050.0
+ },
+ {
+  "id": "corpus:Lu(PO3)3:(NH4)2HPO4+Lu2O3",
+  "label": "clean",
+  "target": "Lu(PO3)3",
+  "precursors": [
+   "(NH4)2HPO4",
+   "Lu2O3"
+  ],
+  "temperature_C": 500.0
+ },
+ {
+  "id": "corpus:NiNb2O6:Nb2O5+NiO",
+  "label": "clean",
+  "target": "NiNb2O6",
+  "precursors": [
+   "Nb2O5",
+   "NiO"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:NiCo2O4:Ni1-xO+Co1-xO",
+  "label": "clean",
+  "target": "NiCo2O4",
+  "precursors": [
+   "Ni1-xO",
+   "Co1-xO"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:Ca3Fe2Ge3O12:Fe2O3+CaCO3+GeO2",
+  "label": "clean",
+  "target": "Ca3Fe2Ge3O12",
+  "precursors": [
+   "Fe2O3",
+   "CaCO3",
+   "GeO2"
+  ],
+  "temperature_C": 350.0
+ },
+ {
+  "id": "corpus:CuFeO2:Fe2O3+CuO",
+  "label": "clean",
+  "target": "CuFeO2",
+  "precursors": [
+   "Fe2O3",
+   "CuO"
+  ],
+  "temperature_C": 950.0
+ },
+ {
+  "id": "corpus:MgB2:MgB4+Mg",
+  "label": "clean",
+  "target": "MgB2",
+  "precursors": [
+   "MgB4",
+   "Mg"
+  ],
+  "temperature_C": 1200.0
+ },
+ {
+  "id": "corpus:ZnFe2O4:Zn(OH)2+Fe(OH)3",
+  "label": "clean",
+  "target": "ZnFe2O4",
+  "precursors": [
+   "Zn(OH)2",
+   "Fe(OH)3"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "clean",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:NaFeTiO4:Fe2O3+TiO2+Na2CO3",
+  "label": "clean",
+  "target": "NaFeTiO4",
+  "precursors": [
+   "Fe2O3",
+   "TiO2",
+   "Na2CO3"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:LaCoO3:Co2O3+La2O3",
+  "label": "clean",
+  "target": "LaCoO3",
+  "precursors": [
+   "Co2O3",
+   "La2O3"
+  ],
+  "temperature_C": 750.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "clean",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 600.0
+ },
+ {
+  "id": "corpus:YVO3:V2O3+Y2O3",
+  "label": "clean",
+  "target": "YVO3",
+  "precursors": [
+   "V2O3",
+   "Y2O3"
+  ],
+  "temperature_C": 1200.0
+ },
+ {
+  "id": "corpus:EuFe2As2:Fe+As+Eu",
+  "label": "clean",
+  "target": "EuFe2As2",
+  "precursors": [
+   "Fe",
+   "As",
+   "Eu"
+  ],
+  "temperature_C": 1190.0
+ },
+ {
+  "id": "corpus:BaCeO3:CeO2+BaO",
+  "label": "clean",
+  "target": "BaCeO3",
+  "precursors": [
+   "CeO2",
+   "BaO"
+  ],
+  "temperature_C": 1500.0
+ },
+ {
+  "id": "corpus:Bi4Ti3O12:TiO2+Bi2O3",
+  "label": "clean",
+  "target": "Bi4Ti3O12",
+  "precursors": [
+   "TiO2",
+   "Bi2O3"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "clean",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 850.0
+ },
+ {
+  "id": "corpus:BiYO3:Y2O3+Bi2O3",
+  "label": "clean",
+  "target": "BiYO3",
+  "precursors": [
+   "Y2O3",
+   "Bi2O3"
+  ],
+  "temperature_C": 1160.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:TiO2+CuO+Ca(OH)2",
+  "label": "clean",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "TiO2",
+   "CuO",
+   "Ca(OH)2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:SmMnO3:MnO2+Sm2O3",
+  "label": "clean",
+  "target": "SmMnO3",
+  "precursors": [
+   "MnO2",
+   "Sm2O3"
+  ],
+  "temperature_C": 1400.0
+ },
+ {
+  "id": "corpus:Sr2Ce2Ti5O15:SrCO3+CeO2+TiO2",
+  "label": "clean",
+  "target": "Sr2Ce2Ti5O15",
+  "precursors": [
+   "SrCO3",
+   "CeO2",
+   "TiO2"
+  ],
+  "temperature_C": 1300.0
+ },
+ {
+  "id": "corpus:Na3SbS4:Na+Sb+S",
+  "label": "clean",
+  "target": "Na3SbS4",
+  "precursors": [
+   "Na",
+   "Sb",
+   "S"
+  ],
+  "temperature_C": 700.0
+ },
+ {
+  "id": "corpus:PNZT:Pb(Ni1/3Nb2/3)O3+PbZrO3+PbTiO3",
+  "label": "clean",
+  "target": "PNZT",
+  "precursors": [
+   "Pb(Ni1/3Nb2/3)O3",
+   "PbZrO3",
+   "PbTiO3"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:Cu3SbSe3:Se+Sb+Cu",
+  "label": "clean",
+  "target": "Cu3SbSe3",
+  "precursors": [
+   "Se",
+   "Sb",
+   "Cu"
+  ],
+  "temperature_C": 320.0
+ },
+ {
+  "id": "corpus:ZnGa2O4:Ga2O3+ZnO",
+  "label": "clean",
+  "target": "ZnGa2O4",
+  "precursors": [
+   "Ga2O3",
+   "ZnO"
+  ],
+  "temperature_C": 1300.0
+ },
+ {
+  "id": "corpus:Mg4Nb2O9:Nb2O5+MgCO3",
+  "label": "clean",
+  "target": "Mg4Nb2O9",
+  "precursors": [
+   "Nb2O5",
+   "MgCO3"
+  ],
+  "temperature_C": 1325.0
+ },
+ {
+  "id": "corpus:CuFeO2:Fe2O3+CuO",
+  "label": "clean",
+  "target": "CuFeO2",
+  "precursors": [
+   "Fe2O3",
+   "CuO"
+  ],
+  "temperature_C": 1050.0
+ },
+ {
+  "id": "corpus:MgB2:Mg+B",
+  "label": "clean",
+  "target": "MgB2",
+  "precursors": [
+   "Mg",
+   "B"
+  ],
+  "temperature_C": 900.0
+ },
+ {
+  "id": "corpus:ZnTiO3:ZnO+TiO2",
+  "label": "clean",
+  "target": "ZnTiO3",
+  "precursors": [
+   "ZnO",
+   "TiO2"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:YBaMn2O6:BaCO3+Y2O3+MnO2",
+  "label": "clean",
+  "target": "YBaMn2O6",
+  "precursors": [
+   "BaCO3",
+   "Y2O3",
+   "MnO2"
+  ],
+  "temperature_C": 1295.0
+ },
+ {
+  "id": "corpus:BaBiO3:BaCO3+Bi2O3",
+  "label": "clean",
+  "target": "BaBiO3",
+  "precursors": [
+   "BaCO3",
+   "Bi2O3"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:CaCu3Ti4O12:CaCO3+CuO+TiO2",
+  "label": "clean",
+  "target": "CaCu3Ti4O12",
+  "precursors": [
+   "CaCO3",
+   "CuO",
+   "TiO2"
+  ],
+  "temperature_C": 1100.0
+ },
+ {
+  "id": "corpus:ZnGa2O4:Ga2O3+ZnO",
+  "label": "clean",
+  "target": "ZnGa2O4",
+  "precursors": [
+   "Ga2O3",
+   "ZnO"
+  ],
+  "temperature_C": 1400.0
+ },
+ {
+  "id": "corpus:MgF2:MgF2+EuCl2+MnCl2",
+  "label": "clean",
+  "target": "MgF2",
+  "precursors": [
+   "MgF2",
+   "EuCl2",
+   "MnCl2"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:BaCeO3:CeO2+Y2O3+BaO",
+  "label": "clean",
+  "target": "BaCeO3",
+  "precursors": [
+   "CeO2",
+   "Y2O3",
+   "BaO"
+  ],
+  "temperature_C": 1200.0
+ },
+ {
+  "id": "corpus:Na2Ti6O13:TiO2+Na2CO3",
+  "label": "clean",
+  "target": "Na2Ti6O13",
+  "precursors": [
+   "TiO2",
+   "Na2CO3"
+  ],
+  "temperature_C": 800.0
+ },
+ {
+  "id": "corpus:Al2TiO5:Al2O3+TiO2",
+  "label": "clean",
+  "target": "Al2TiO5",
+  "precursors": [
+   "Al2O3",
+   "TiO2"
+  ],
+  "temperature_C": 1600.0
+ },
+ {
+  "id": "corpus:Ag2NiO2:Ag2O+NiO",
+  "label": "clean",
+  "target": "Ag2NiO2",
+  "precursors": [
+   "Ag2O",
+   "NiO"
+  ],
+  "temperature_C": 550.0
+ },
+ {
+  "id": "corpus:Ni5As2:Ni+As",
+  "label": "clean",
+  "target": "Ni5As2",
+  "precursors": [
+   "Ni",
+   "As"
+  ],
+  "temperature_C": 1250.0
+ },
+ {
+  "id": "corpus:LaCo2B2:Co+La+B",
+  "label": "clean",
+  "target": "LaCo2B2",
+  "precursors": [
+   "Co",
+   "La",
+   "B"
+  ],
+  "temperature_C": 1000.0
+ },
+ {
+  "id": "corpus:Li6PS5Br:Li2S+LiBr+P2S5",
+  "label": "clean",
+  "target": "Li6PS5Br",
+  "precursors": [
+   "Li2S",
+   "LiBr",
+   "P2S5"
+  ],
+  "temperature_C": 300.0
+ },
+ {
+  "id": "corpus:LaMgAl11O19:Al2O3+MgO+La2O3",
+  "label": "clean",
+  "target": "LaMgAl11O19",
+  "precursors": [
+   "Al2O3",
+   "MgO",
+   "La2O3"
+  ],
+  "temperature_C": 1525.0
+ },
+ {
+  "id": "corpus:Ba6Y2Ti4O17:BaCO3+Y2O3+TiO2",
+  "label": "clean",
+  "target": "Ba6Y2Ti4O17",
+  "precursors": [
+   "BaCO3",
+   "Y2O3",
+   "TiO2"
+  ],
+  "temperature_C": 1500.0
+ },
+ {
+  "id": "corpus:ZnFe2O4:Fe2O3+ZnO",
+  "label": "clean",
+  "target": "ZnFe2O4",
+  "precursors": [
+   "Fe2O3",
+   "ZnO"
+  ],
+  "temperature_C": 1250.0
+ },
+ {
+  "id": "corpus:MgB2:MgB2+Zn",
+  "label": "clean",
+  "target": "MgB2",
+  "precursors": [
+   "MgB2",
+   "Zn"
+  ],
+  "temperature_C": 950.0
+ }
+]

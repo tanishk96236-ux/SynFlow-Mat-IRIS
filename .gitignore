@@ -1,0 +1,34 @@
+# --- secrets ---
+.env
+*.key
+mp_api_key.txt
+
+# --- downloaded data: fetched by the code or by the steps in README ---
+# Leading slash anchors these to the repo root, so synflow/data/ (a package)
+# is not caught. /data/* rather than /data/ so the negations below can work.
+/data/*
+!/data/benchmark/
+!/data/precursor_genome/
+
+# --- run outputs: scripts write here; only the shipped models are kept ---
+/runs/*
+!/runs/precursor_lookup.json
+!/runs/kinetics_model.json
+!/runs/dao_s_temperature/
+!/runs/dao_s_dwell/
+/runs/dao_s_temperature/*
+/runs/dao_s_dwell/*
+!/runs/dao_s_temperature/best.pt
+!/runs/dao_s_dwell/best.pt
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- os ---
+Thumbs.db
+.DS_Store

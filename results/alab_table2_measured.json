@@ -1,0 +1,4715 @@
+{
+  "enthalpies": "measured",
+  "rows": [
+    {
+      "pair": "Ca(OH)2|NH4H2PO4",
+      "reactants": [
+        "Ca(OH)2",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Ca3(PO4)2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ca3(PO4)2",
+        "feasible": true,
+        "enthalpy_eV": -2.5214318541666625,
+        "entropy_term_eV": -16.888334559776144,
+        "free_energy_eV": -19.409766413942805,
+        "driving_force_meV_per_atom": 497.68631830622576,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 6.000000000000002,
+          "NH3": 2.000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 Ca(HO)2 + 2 PH6NO4 -> Ca3(PO4)2 + 6 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -19.409766413942805,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 497.68631830622576,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:1"
+      }
+    },
+    {
+      "pair": "Ca(OH)2|(NH4)2HPO4",
+      "reactants": [
+        "Ca(OH)2",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Ca3(PO4)2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ca3(PO4)2",
+        "feasible": true,
+        "enthalpy_eV": -1.9266886516665795,
+        "entropy_term_eV": -21.177152925325203,
+        "free_energy_eV": -23.103841576991783,
+        "driving_force_meV_per_atom": 491.57109738280394,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 6.000000000000006,
+          "NH3": 4.000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 Ca(HO)2 + 2 PH9(NO2)2 -> Ca3(PO4)2 + 6 H2O + 4 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -23.103841576991783,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 491.57109738280394,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:2"
+      }
+    },
+    {
+      "pair": "CaCO3|(NH4)2HPO4",
+      "reactants": [
+        "CaCO3",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Ca3(PO4)2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ca3(PO4)2",
+        "feasible": true,
+        "enthalpy_eV": 1.517436275833378,
+        "entropy_term_eV": -22.011336995387875,
+        "free_energy_eV": -20.493900719554496,
+        "driving_force_meV_per_atom": 436.040440841585,
+        "kinetic_risk": false,
+        "onset_C": -199.1682723224944,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 3.0000000000000013,
+          "H2O": 2.999999999999997,
+          "NH3": 3.9999999999999973
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 CaCO3 + 2 PH9(NO2)2 -> Ca3(PO4)2 + 3 CO2 + 3 H2O + 4 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -22.651003094591367,
+          "onset_temperature_C": -205.7713532263349,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 481.9362360551355,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:3"
+      }
+    },
+    {
+      "pair": "CaCO3|NH4H2PO4",
+      "reactants": [
+        "CaCO3",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Ca3(PO4)2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ca3(PO4)2",
+        "feasible": true,
+        "enthalpy_eV": 0.9226930733334601,
+        "entropy_term_eV": -17.72251862983882,
+        "free_energy_eV": -16.79982555650536,
+        "driving_force_meV_per_atom": 430.76475785911185,
+        "kinetic_risk": false,
+        "onset_C": -217.27825330702962,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 2.9999999999999947,
+          "H2O": 2.9999999999999964,
+          "NH3": 2.0000000000000018
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 CaCO3 + 2 PH6NO4 -> Ca3(PO4)2 + 3 CO2 + 3 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -18.956927931542225,
+          "onset_temperature_C": -223.34079732933796,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 486.07507516774933,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:4"
+      }
+    },
+    {
+      "pair": "CaO|NH4H2PO4",
+      "reactants": [
+        "CaO",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Ca3(PO4)2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ca3(PO4)2",
+        "feasible": true,
+        "enthalpy_eV": -3.6358472766666536,
+        "entropy_term_eV": -10.588576462662598,
+        "free_energy_eV": -14.224423739329252,
+        "driving_force_meV_per_atom": 474.1474579776417,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.0000000000000018,
+          "NH3": 2.000000000000001
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 CaO + 2 PH6NO4 -> Ca3(PO4)2 + 3 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -14.224423739329252,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 474.1474579776417,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:5"
+      }
+    },
+    {
+      "pair": "CaO|(NH4)2HPO4",
+      "reactants": [
+        "CaO",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Ca3(PO4)2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ca3(PO4)2",
+        "feasible": true,
+        "enthalpy_eV": -3.0411040741665207,
+        "entropy_term_eV": -14.877394828211651,
+        "free_energy_eV": -17.918498902378172,
+        "driving_force_meV_per_atom": 471.53944479942555,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.000000000000002,
+          "NH3": 4.000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 CaO + 2 PH9(NO2)2 -> Ca3(PO4)2 + 3 H2O + 4 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -17.918498902378172,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 471.53944479942555,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:6"
+      }
+    },
+    {
+      "pair": "CaO|TiO2",
+      "reactants": [
+        "CaO",
+        "TiO2"
+      ],
+      "air": false,
+      "products": [
+        "CaTiO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaTiO3",
+        "feasible": true,
+        "enthalpy_eV": -0.8467608309166046,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -0.8467608309166046,
+        "driving_force_meV_per_atom": 169.35216618332092,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": {
+          "CaO": "measured (Kingsbury 2022)",
+          "TiO2": "measured (Kingsbury 2022)",
+          "CaTiO3": "measured (Kingsbury 2022)"
+        },
+        "error": null,
+        "reaction": "CaO + TiO2 -> CaTiO3",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.6442306449999753,
+          "free_energy_eV": -0.6442306449999753,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.8467608309166046,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 169.35216618332092,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:7"
+      }
+    },
+    {
+      "pair": "Ca(OH)2|TiO2",
+      "reactants": [
+        "Ca(OH)2",
+        "TiO2"
+      ],
+      "air": false,
+      "products": [
+        "CaTiO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaTiO3",
+        "feasible": true,
+        "enthalpy_eV": 0.28662304287914697,
+        "entropy_term_eV": -2.0999193657045154,
+        "free_energy_eV": -1.8132963228253685,
+        "driving_force_meV_per_atom": 226.66204035317105,
+        "kinetic_risk": false,
+        "onset_C": -126.67317641846145,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.0000000000000007
+        },
+        "enthalpy_sources": {
+          "Ca(HO)2": "measured (Kingsbury 2022)",
+          "TiO2": "measured (Kingsbury 2022)",
+          "CaTiO3": "measured (Kingsbury 2022)",
+          "H2O": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "Ca(HO)2 + TiO2 -> CaTiO3 + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.2727588374999924,
+          "free_energy_eV": -2.372678203204507,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.8132963228253685,
+          "onset_temperature_C": -126.67317641846145,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 226.66204035317105,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:8"
+      }
+    },
+    {
+      "pair": "CaCO3|TiO2",
+      "reactants": [
+        "CaCO3",
+        "TiO2"
+      ],
+      "air": false,
+      "products": [
+        "CaTiO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaTiO3",
+        "feasible": true,
+        "enthalpy_eV": 1.0031563021739425,
+        "entropy_term_eV": -2.3779807223920835,
+        "free_energy_eV": -1.374824420218141,
+        "driving_force_meV_per_atom": 171.85305252726764,
+        "kinetic_risk": false,
+        "onset_C": 179.5606445989372,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.0000000000000007
+        },
+        "enthalpy_sources": {
+          "CaCO3": "measured (Kingsbury 2022)",
+          "TiO2": "measured (Kingsbury 2022)",
+          "CaTiO3": "measured (Kingsbury 2022)",
+          "CO2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "CaCO3 + TiO2 -> CaTiO3 + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": 0.8979959275000224,
+          "free_energy_eV": -1.479984794892061,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.0938585452304306,
+          "onset_temperature_C": 74.45478677724742,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 261.7323181538038,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:9"
+      }
+    },
+    {
+      "pair": "Fe2O3|(NH4)2HPO4",
+      "reactants": [
+        "Fe2O3",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "FePO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "FePO4",
+        "feasible": true,
+        "enthalpy_eV": 0.336374835000015,
+        "entropy_term_eV": -7.43869741410583,
+        "free_energy_eV": -7.102322579105815,
+        "driving_force_meV_per_atom": 383.9093286003143,
+        "kinetic_risk": false,
+        "onset_C": -224.62259875153046,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.500000000000002,
+          "NH3": 2.000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Fe2O3 + PH9(NO2)2 -> FePO4 + 1.5 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "FePO4",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -7.102322579105815,
+          "onset_temperature_C": -224.62259875153046,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 383.9093286003143,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:10"
+      }
+    },
+    {
+      "pair": "Fe3O4|NH4H2PO4",
+      "reactants": [
+        "Fe3O4",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "FePO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "FePO4",
+        "feasible": true,
+        "enthalpy_eV": -0.4263648887499857,
+        "entropy_term_eV": -5.104094263357005,
+        "free_energy_eV": -5.530459152106991,
+        "driving_force_meV_per_atom": 381.4172891211296,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.5000000000000004,
+          "NH3": 1.0000000000000009,
+          "O2": -0.08333333333333232
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.3333 Fe3O4 + PH6NO4 + 0.08333 O2 -> FePO4 + 1.5 H2O + H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "FePO4",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -5.518413749811792,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 380.5865579714279,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:11"
+      }
+    },
+    {
+      "pair": "CaFe3P3O13|CaO",
+      "reactants": [
+        "CaFe3P3O13",
+        "CaO"
+      ],
+      "air": false,
+      "products": [
+        "CaFe2P2O9"
+      ],
+      "inert": false,
+      "lower_C": 900,
+      "upper_C": 1000,
+      "corrected": false,
+      "result": {
+        "target": "CaFe2P2O9",
+        "feasible": true,
+        "enthalpy_eV": -0.5714687775000082,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -0.5714687775000082,
+        "driving_force_meV_per_atom": 40.81744907361172,
+        "kinetic_risk": true,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.6667 CaFe3P3O13 + 0.3333 CaO -> CaFe2P2O9",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "CaFe2P2O9",
+          "CaFe3P3O13"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.5714687775000082,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 40.81744907361172,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees",
+        "key": "formed:12"
+      }
+    },
+    {
+      "pair": "Na2CO3|FePO4",
+      "reactants": [
+        "Na2CO3",
+        "FePO4"
+      ],
+      "air": false,
+      "products": [
+        "NaFeP2O7"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "NaFeP2O7",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: could not balance Na2CO3 + FePO4 -> NaFeP2O7: Reaction cannot be balanced.",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": null,
+        "outcome_air": "unchecked",
+        "key": "formed:13"
+      }
+    },
+    {
+      "pair": "MgO|NiO",
+      "reactants": [
+        "MgO",
+        "NiO"
+      ],
+      "air": false,
+      "products": [
+        "MgNiO2"
+      ],
+      "inert": false,
+      "lower_C": 800,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "MgNiO2",
+        "feasible": true,
+        "enthalpy_eV": -0.022330535000007617,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -0.022330535000007617,
+        "driving_force_meV_per_atom": 5.5826337500019045,
+        "kinetic_risk": true,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MgO + NiO -> MgNiO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "MgNiO2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.022330535000007617,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 5.5826337500019045,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees",
+        "key": "formed:14"
+      }
+    },
+    {
+      "pair": "MgCO3|NiO",
+      "reactants": [
+        "MgCO3",
+        "NiO"
+      ],
+      "air": false,
+      "products": [
+        "MgNiO2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "MgNiO2",
+        "feasible": true,
+        "enthalpy_eV": 0.8050344449999811,
+        "entropy_term_eV": -2.599569570399545,
+        "free_energy_eV": -1.794535125399564,
+        "driving_force_meV_per_atom": 256.3621607713663,
+        "kinetic_risk": false,
+        "onset_C": 90.15097486353204,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.0000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MgCO3 + NiO -> MgNiO2 + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "MgNiO2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.580571451875981,
+          "onset_temperature_C": 5.803365488637951,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 368.65306455371154,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:15"
+      }
+    },
+    {
+      "pair": "MgCO3|air",
+      "reactants": [
+        "MgCO3"
+      ],
+      "air": true,
+      "products": [
+        "MgO"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "MgO",
+        "feasible": true,
+        "enthalpy_eV": 1.2084098238786876,
+        "entropy_term_eV": -2.1563918743846187,
+        "free_energy_eV": -0.9479820505059311,
+        "driving_force_meV_per_atom": 189.59641010118622,
+        "kinetic_risk": false,
+        "onset_C": 272.18873646835925,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.9999999999999998
+        },
+        "enthalpy_sources": {
+          "MgCO3": "measured (Kingsbury 2022)",
+          "MgO": "measured (Kingsbury 2022)",
+          "CO2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "MgCO3 -> MgO + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": 0.8273649800000263,
+          "free_energy_eV": -1.3290268943845933,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.6000139740540926,
+          "onset_temperature_C": 145.57740893776304,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 320.0027948108185,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:16"
+      }
+    },
+    {
+      "pair": "Ni(OH)2|air",
+      "reactants": [
+        "Ni(OH)2"
+      ],
+      "air": true,
+      "products": [
+        "NiO"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "NiO",
+        "feasible": true,
+        "enthalpy_eV": -0.05473211250001013,
+        "entropy_term_eV": -1.9042412810281388,
+        "free_energy_eV": -1.958973393528149,
+        "driving_force_meV_per_atom": 391.7946787056298,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 0.9999999999999999
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "Ni(HO)2 -> NiO + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ni(HO)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.958973393528149,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 391.7946787056298,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:17"
+      }
+    },
+    {
+      "pair": "MnO|(NH4)2HPO4",
+      "reactants": [
+        "MnO",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 1.0634363599999899,
+        "entropy_term_eV": -10.718406384412091,
+        "free_energy_eV": -9.654970024412101,
+        "driving_force_meV_per_atom": 283.96970660035595,
+        "kinetic_risk": false,
+        "onset_C": -196.44122518346367,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.0000000000000013,
+          "NH3": 4.000000000000003
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MnO + 2 PH9(NO2)2 -> Mn(PO3)2 + 3 H2O + 4 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -9.654970024412101,
+          "onset_temperature_C": -196.44122518346367,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 283.96970660035595,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "MnO|NH4H2PO4",
+      "reactants": [
+        "MnO",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 0.468693157499925,
+        "entropy_term_eV": -7.628530859719132,
+        "free_energy_eV": -7.159837702219207,
+        "driving_force_meV_per_atom": 275.37837316227717,
+        "kinetic_risk": false,
+        "onset_C": -225.64804695233167,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.0000000000000027,
+          "NH3": 1.9999999999999998
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MnO + 2 PH6NO4 -> Mn(PO3)2 + 3 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -7.159837702219207,
+          "onset_temperature_C": -225.64804695233167,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 275.37837316227717,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "MnO2|NH4H2PO4",
+      "reactants": [
+        "MnO2",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 1.8711373966666685,
+        "entropy_term_eV": -8.450681349432548,
+        "free_energy_eV": -6.57954395276588,
+        "driving_force_meV_per_atom": 243.68681306540296,
+        "kinetic_risk": false,
+        "onset_C": -101.96026766794648,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 2.9999999999999987,
+          "NH3": 1.9999999999999984,
+          "O2": 0.4999999999999982
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MnO2 + 2 PH6NO4 -> Mn(PO3)2 + 3 H2O + 2 H3N + 0.5 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -6.631612551477332,
+          "onset_temperature_C": -103.00858845012638,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 245.61527968434564,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "MnCO3|NH4H2PO4",
+      "reactants": [
+        "MnCO3",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 1.1623067525000508,
+        "entropy_term_eV": -9.341745038088826,
+        "free_energy_eV": -8.179438285588775,
+        "driving_force_meV_per_atom": 282.04959605478535,
+        "kinetic_risk": false,
+        "onset_C": -176.95411132701372,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.9999999999999996,
+          "H2O": 3.0000000000000018,
+          "NH3": 2.0000000000000004
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MnCO3 + 2 PH6NO4 -> Mn(PO3)2 + CO2 + 3 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -8.69746580620868,
+          "onset_temperature_C": -182.0081952225982,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 299.9126140071959,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Mn2O3|(NH4)2HPO4",
+      "reactants": [
+        "Mn2O3",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 2.0330964359375296,
+        "entropy_term_eV": -11.12948162926881,
+        "free_energy_eV": -9.09638519333128,
+        "driving_force_meV_per_atom": 263.6633389371385,
+        "kinetic_risk": false,
+        "onset_C": -131.91354696419296,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.0,
+          "NH3": 4.000000000000003,
+          "O2": 0.250000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Mn2O3 + 2 PH9(NO2)2 -> Mn(PO3)2 + 3 H2O + 4 H3N + 0.25 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -9.122419492687005,
+          "onset_temperature_C": -132.2431589805086,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 264.4179563097682,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Mn3O4|NH4H2PO4",
+      "reactants": [
+        "Mn3O4",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 1.1878418524999497,
+        "entropy_term_eV": -7.902581022956925,
+        "free_energy_eV": -6.714739170456975,
+        "driving_force_meV_per_atom": 254.99235450657062,
+        "kinetic_risk": false,
+        "onset_C": -156.93734421166312,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 2.999999999999999,
+          "NH3": 1.9999999999999967,
+          "O2": 0.16666666666666302
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.3333 Mn3O4 + 2 PH6NO4 -> Mn(PO3)2 + 3 H2O + 2 H3N + 0.1667 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -6.7320953700274595,
+          "onset_temperature_C": -157.1920192159979,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 255.65145653293607,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Mn3O4|(NH4)2HPO4",
+      "reactants": [
+        "Mn3O4",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Mn2P4O12"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "Mn2P4O12",
+        "feasible": true,
+        "enthalpy_eV": 1.7825850549999684,
+        "entropy_term_eV": -10.992456547649894,
+        "free_energy_eV": -9.209871492649926,
+        "driving_force_meV_per_atom": 268.25050731363973,
+        "kinetic_risk": false,
+        "onset_C": -147.77259875224377,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.0000000000000044,
+          "NH3": 3.9999999999999982,
+          "O2": 0.16666666666666383
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.3333 Mn3O4 + 2 PH9(NO2)2 -> Mn(PO3)2 + 3 H2O + 4 H3N + 0.1667 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mn(PO3)2",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -9.22722769222041,
+          "onset_temperature_C": -147.97024745414694,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 268.7560311250778,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "MnO|air",
+      "reactants": [
+        "MnO"
+      ],
+      "air": true,
+      "products": [
+        "Mn2O3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Mn2O3",
+        "feasible": true,
+        "enthalpy_eV": -1.951591976274166,
+        "entropy_term_eV": 0.928488262424211,
+        "free_energy_eV": -1.023103713849955,
+        "driving_force_meV_per_atom": 204.620742769991,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 1562.1263336336542,
+        "gases": {
+          "O2": -0.5
+        },
+        "enthalpy_sources": {
+          "MnO": "measured (Kingsbury 2022)",
+          "Mn2O3": "measured (Kingsbury 2022)",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "2 MnO + 0.5 O2 -> Mn2O3",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -1.939320151874984,
+          "free_energy_eV": -1.010831889450773,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.9643005101185897,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 1452.8170446855343,
+          "driving_force_meV_per_atom": 192.86010202371796,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:25"
+      }
+    },
+    {
+      "pair": "MnCO3|air",
+      "reactants": [
+        "MnCO3"
+      ],
+      "air": true,
+      "products": [
+        "Mn2O3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Mn2O3",
+        "feasible": true,
+        "enthalpy_eV": 0.18738327967384194,
+        "entropy_term_eV": -2.941117790330101,
+        "free_energy_eV": -2.753734510656259,
+        "driving_force_meV_per_atom": 250.33950096875085,
+        "kinetic_risk": false,
+        "onset_C": -217.5202284943672,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.9999999999999973,
+          "O2": -0.49999999999999856
+        },
+        "enthalpy_sources": {
+          "MnCO3": "measured (Kingsbury 2022)",
+          "Mn2O3": "measured (Kingsbury 2022)",
+          "CO2": "NIST-JANAF gas",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "2 MnCO3 + 0.5 O2 -> Mn2O3 + 2 CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.5520929618750179,
+          "free_energy_eV": -3.4932107522051217,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -3.864990751092958,
+          "onset_temperature_C": -232.77521983286528,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 351.3627955539053,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:26"
+      }
+    },
+    {
+      "pair": "Mn3O4|air",
+      "reactants": [
+        "Mn3O4"
+      ],
+      "air": true,
+      "products": [
+        "Mn2O3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Mn2O3",
+        "feasible": true,
+        "enthalpy_eV": -0.34374827693269694,
+        "entropy_term_eV": 0.309496087474737,
+        "free_energy_eV": -0.034252189457959936,
+        "driving_force_meV_per_atom": 6.850026889978588,
+        "kinetic_risk": true,
+        "onset_C": null,
+        "ceiling_C": 696.6322368377563,
+        "gases": {
+          "O2": -0.16666666666666666
+        },
+        "enthalpy_sources": {
+          "Mn3O4": "measured (Kingsbury 2022)",
+          "Mn2O3": "measured (Kingsbury 2022)",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "0.6667 Mn3O4 + 0.1667 O2 -> Mn2O3",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.5010227618750056,
+          "free_energy_eV": -0.19152667440026871,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.014651121547504864,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 638.8718850037786,
+          "driving_force_meV_per_atom": 2.9300485065905773,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees",
+        "key": "formed:27"
+      }
+    },
+    {
+      "pair": "MnO2|air",
+      "reactants": [
+        "MnO2"
+      ],
+      "air": true,
+      "products": [
+        "Mn2O3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Mn2O3",
+        "feasible": true,
+        "enthalpy_eV": 0.8674893702291389,
+        "entropy_term_eV": -0.9284882624242091,
+        "free_energy_eV": -0.060998892195070264,
+        "driving_force_meV_per_atom": 10.166482032511711,
+        "kinetic_risk": true,
+        "onset_C": 542.6366655610003,
+        "ceiling_C": null,
+        "gases": {
+          "O2": 0.49999999999999906
+        },
+        "enthalpy_sources": {
+          "MnO2": "measured (Kingsbury 2022)",
+          "Mn2O3": "measured (Kingsbury 2022)",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "2 MnO2 -> Mn2O3 + 0.5 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": 0.8655683264583303,
+          "free_energy_eV": -0.06291993596587886,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.11980209592643576,
+          "onset_temperature_C": 494.04830929462935,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 19.96701598773929,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees",
+        "key": "formed:28"
+      }
+    },
+    {
+      "pair": "MgCO3|air",
+      "reactants": [
+        "MgCO3"
+      ],
+      "air": true,
+      "products": [
+        "MgO"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "MgO",
+        "feasible": true,
+        "enthalpy_eV": 1.2084098238786876,
+        "entropy_term_eV": -1.9348030263771565,
+        "free_energy_eV": -0.726393202498469,
+        "driving_force_meV_per_atom": 145.27864049969378,
+        "kinetic_risk": false,
+        "onset_C": 272.18873646835925,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.9999999999999998
+        },
+        "enthalpy_sources": {
+          "MgCO3": "measured (Kingsbury 2022)",
+          "MgO": "measured (Kingsbury 2022)",
+          "CO2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "MgCO3 -> MgO + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": 0.8273649800000263,
+          "free_energy_eV": -1.1074380463771312,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.3114229245825024,
+          "onset_temperature_C": 145.57740893776304,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 262.2845849165005,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:29"
+      }
+    },
+    {
+      "pair": "TiO2|NiO",
+      "reactants": [
+        "TiO2",
+        "NiO"
+      ],
+      "air": false,
+      "products": [
+        "NiTiO3"
+      ],
+      "inert": false,
+      "lower_C": 800,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "NiTiO3",
+        "feasible": true,
+        "enthalpy_eV": -0.19197375547464013,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -0.19197375547464013,
+        "driving_force_meV_per_atom": 38.394751094928026,
+        "kinetic_risk": true,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": {
+          "TiO2": "measured (Kingsbury 2022)",
+          "NiO": "measured (Kingsbury 2022)",
+          "TiNiO3": "measured (Kingsbury 2022)"
+        },
+        "error": null,
+        "reaction": "TiO2 + NiO -> TiNiO3",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.02325137750002148,
+          "free_energy_eV": -0.02325137750002148,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.19197375547464013,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 38.394751094928026,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees",
+        "key": "formed:30"
+      }
+    },
+    {
+      "pair": "Y2(CO3)3|Fe2O3",
+      "reactants": [
+        "Y2(CO3)3",
+        "Fe2O3"
+      ],
+      "air": false,
+      "products": [
+        "YFeO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "YFeO3",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: Materials Project has no entry for Y2(CO3)3 -- pass the structure and the critic to score it instead",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": [
+          "Y2(CO3)3",
+          "YFeO3"
+        ],
+        "outcome_air": "unchecked",
+        "key": "formed:31"
+      }
+    },
+    {
+      "pair": "Y2O3|Fe2O3",
+      "reactants": [
+        "Y2O3",
+        "Fe2O3"
+      ],
+      "air": false,
+      "products": [
+        "YFeO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "YFeO3",
+        "feasible": false,
+        "enthalpy_eV": 0.043558679374998445,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": 0.043558679374998445,
+        "driving_force_meV_per_atom": -8.71173587499969,
+        "kinetic_risk": false,
+        "onset_C": Infinity,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Y2O3 + 0.5 Fe2O3 -> YFeO3",
+        "outcome": "rejected",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "YFeO3"
+        ],
+        "air": {
+          "feasible": false,
+          "free_energy_eV": 0.043558679374998445,
+          "onset_temperature_C": Infinity,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": -8.71173587499969,
+          "kinetic_risk": false
+        },
+        "outcome_air": "rejected",
+        "key": "formed:32"
+      }
+    },
+    {
+      "pair": "MoO2|(NH4)2HPO4",
+      "reactants": [
+        "MoO2",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Mo(PO3)3",
+        "Mo2P4O15"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "Mo(PO3)3",
+        "feasible": true,
+        "enthalpy_eV": 3.6256274866667173,
+        "entropy_term_eV": -25.019337254495493,
+        "free_energy_eV": -21.393709767828774,
+        "driving_force_meV_per_atom": 419.4845052515446,
+        "kinetic_risk": false,
+        "onset_C": -103.14530152547084,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 4.499999999999996,
+          "NH3": 5.999999999999993,
+          "O2": 0.2499999999999982
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MoO2 + 3 PH9(NO2)2 -> Mo(PO3)3 + 4.5 H2O + 6 H3N + 0.25 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mo(PO3)3",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -21.433213277224326,
+          "onset_temperature_C": -103.41330203941135,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 420.2590838671436,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:33"
+      }
+    },
+    {
+      "pair": "MoO2|NH4H4PO4",
+      "reactants": [
+        "MoO2",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Mo(PO3)3",
+        "Mo2P4O15"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": true,
+      "result": {
+        "target": "Mo(PO3)3",
+        "feasible": true,
+        "enthalpy_eV": 2.7335126829166803,
+        "entropy_term_eV": -17.986638285743904,
+        "free_energy_eV": -15.253125602827224,
+        "driving_force_meV_per_atom": 391.10578468787753,
+        "kinetic_risk": false,
+        "onset_C": -94.86096382666406,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 4.499999999999998,
+          "NH3": 3.0000000000000013,
+          "O2": 0.2500000000000015
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MoO2 + 3 PH6NO4 -> Mo(PO3)3 + 4.5 H2O + 3 H3N + 0.25 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mo(PO3)3",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -15.292629112222775,
+          "onset_temperature_C": -95.25167653133701,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 392.11869518519933,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:34"
+      }
+    },
+    {
+      "pair": "MoO3|(NH4)2HPO4",
+      "reactants": [
+        "MoO3",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Mo(PO3)3",
+        "Mo2P4O15"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "Mo(PO3)3",
+        "feasible": true,
+        "enthalpy_eV": 5.259529410416651,
+        "entropy_term_eV": -26.266838835052088,
+        "free_energy_eV": -21.007309424635437,
+        "driving_force_meV_per_atom": 403.9867197045277,
+        "kinetic_risk": false,
+        "onset_C": -38.244803886473875,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 4.500000000000003,
+          "NH3": 5.999999999999999,
+          "O2": 0.7499999999999977
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MoO3 + 3 PH9(NO2)2 -> Mo(PO3)3 + 4.5 H2O + 6 H3N + 0.75 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mo(PO3)3",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -21.125819952822088,
+          "onset_temperature_C": -39.2998870874562,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 406.2657683235017,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:35"
+      }
+    },
+    {
+      "pair": "MoO3|NH4H4PO4",
+      "reactants": [
+        "MoO3",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Mo(PO3)3",
+        "Mo2P4O15"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": true,
+      "result": {
+        "target": "Mo(PO3)3",
+        "feasible": true,
+        "enthalpy_eV": 4.36741460666665,
+        "entropy_term_eV": -19.234139866300456,
+        "free_energy_eV": -14.866725259633807,
+        "driving_force_meV_per_atom": 371.66813149084516,
+        "kinetic_risk": false,
+        "onset_C": -6.767802437428429,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 4.500000000000001,
+          "NH3": 2.999999999999997,
+          "O2": 0.7499999999999987
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "MoO3 + 3 PH6NO4 -> Mo(PO3)3 + 4.5 H2O + 3 H3N + 0.75 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mo(PO3)3",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -14.985235787820457,
+          "onset_temperature_C": -8.399056776712825,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 374.6308946955114,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:36"
+      }
+    },
+    {
+      "pair": "CuO|(NH4)2HPO4",
+      "reactants": [
+        "CuO",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Cu2P2O7"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "Cu2P2O7",
+        "feasible": true,
+        "enthalpy_eV": 1.8127733949999925,
+        "entropy_term_eV": -16.263724309478174,
+        "free_energy_eV": -14.450950914478183,
+        "driving_force_meV_per_atom": 401.4153031799495,
+        "kinetic_risk": false,
+        "onset_C": -142.38935330698706,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 3.000000000000003,
+          "NH3": 4.0000000000000036
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "2 CuO + 2 PH9(NO2)2 -> Cu2P2O7 + 3 H2O + 4 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Cu2P2O7",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -14.450950914478183,
+          "onset_temperature_C": -142.38935330698706,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 401.4153031799495,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:37"
+      }
+    },
+    {
+      "pair": "NiO|Sb2O5",
+      "reactants": [
+        "NiO",
+        "Sb2O5"
+      ],
+      "air": false,
+      "products": [
+        "NiSb2O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "NiSb2O6",
+        "feasible": true,
+        "enthalpy_eV": -1.4911846849998593,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -1.4911846849998593,
+        "driving_force_meV_per_atom": 165.6871872222066,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "NiO + Sb2O5 -> Ni(SbO3)2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ni(SbO3)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.4911846849998593,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 165.6871872222066,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:38"
+      }
+    },
+    {
+      "pair": "Ni(OH)2|Sb2O5",
+      "reactants": [
+        "Ni(OH)2",
+        "Sb2O5"
+      ],
+      "air": false,
+      "products": [
+        "NiSb2O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "NiSb2O6",
+        "feasible": true,
+        "enthalpy_eV": -1.5459167974999695,
+        "entropy_term_eV": -2.2955974503808867,
+        "free_energy_eV": -3.8415142478808564,
+        "driving_force_meV_per_atom": 320.12618732340474,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 0.9999999999999991
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "Ni(HO)2 + Sb2O5 -> Ni(SbO3)2 + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ni(HO)2",
+          "Ni(SbO3)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -3.8415142478808564,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 320.12618732340474,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:39"
+      }
+    },
+    {
+      "pair": "ZnO|NiO",
+      "reactants": [
+        "ZnO",
+        "NiO"
+      ],
+      "air": false,
+      "products": [
+        "ZnNiO2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "ZnNiO2",
+        "feasible": false,
+        "enthalpy_eV": 0.3332461449999946,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": 0.3332461449999946,
+        "driving_force_meV_per_atom": -83.31153624999865,
+        "kinetic_risk": false,
+        "onset_C": Infinity,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "ZnO + NiO -> ZnNiO2",
+        "outcome": "rejected",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "ZnNiO2"
+        ],
+        "air": {
+          "feasible": false,
+          "free_energy_eV": 0.3332461449999946,
+          "onset_temperature_C": Infinity,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": -83.31153624999865,
+          "kinetic_risk": false
+        },
+        "outcome_air": "rejected",
+        "key": "formed:40"
+      }
+    },
+    {
+      "pair": "Sb2O5|air",
+      "reactants": [
+        "Sb2O5"
+      ],
+      "air": true,
+      "products": [
+        "SbO2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "SbO2",
+        "feasible": true,
+        "enthalpy_eV": 0.5208045502271732,
+        "entropy_term_eV": -0.6237507902782812,
+        "free_energy_eV": -0.10294624005110797,
+        "driving_force_meV_per_atom": 29.413211443173708,
+        "kinetic_risk": true,
+        "onset_C": 706.3787919818488,
+        "ceiling_C": null,
+        "gases": {
+          "O2": 0.24999999999999978
+        },
+        "enthalpy_sources": {
+          "Sb2O5": "measured (Kingsbury 2022)",
+          "SbO2": "measured (Kingsbury 2022)",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "0.5 Sb2O5 -> SbO2 + 0.25 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": 0.6010993762500303,
+          "free_energy_eV": -0.022651414028250882,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.14244974944665922,
+          "onset_temperature_C": 648.0379340992888,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 40.6999284133312,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees",
+        "key": "formed:41"
+      }
+    },
+    {
+      "pair": "Sb2O3|air",
+      "reactants": [
+        "Sb2O3"
+      ],
+      "air": true,
+      "products": [
+        "SbO2"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "SbO2",
+        "feasible": true,
+        "enthalpy_eV": -0.9892695386902268,
+        "entropy_term_eV": 0.4642441312121058,
+        "free_energy_eV": -0.5250254074781211,
+        "driving_force_meV_per_atom": 175.0084691593737,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 1587.4673770083132,
+        "gases": {
+          "O2": -0.25000000000000017
+        },
+        "enthalpy_sources": {
+          "Sb2O3": "measured (Kingsbury 2022)",
+          "SbO2": "measured (Kingsbury 2022)",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "0.5 Sb2O3 + 0.25 O2 -> SbO2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -1.1376761837499823,
+          "free_energy_eV": -0.6734320525378765,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.4956238056124383,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 1476.6487723338778,
+          "driving_force_meV_per_atom": 165.20793520414608,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:42"
+      }
+    },
+    {
+      "pair": "Ag2CO3|air",
+      "reactants": [
+        "Ag2CO3"
+      ],
+      "air": true,
+      "products": [
+        "Ag"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "Ag",
+        "feasible": true,
+        "enthalpy_eV": 0.6154123266666534,
+        "entropy_term_eV": -1.5956089547598067,
+        "free_energy_eV": -0.9801966280931533,
+        "driving_force_meV_per_atom": 326.73220936438446,
+        "kinetic_risk": false,
+        "onset_C": 102.18538772713066,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.5000000000000002,
+          "O2": 0.2499999999999995
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Ag2CO3 -> Ag + 0.5 CO2 + 0.25 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ag"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.338981494242873,
+          "onset_temperature_C": 33.281845664015634,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 446.3271647476243,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:43"
+      }
+    },
+    {
+      "pair": "La2O3|Mn3O4",
+      "reactants": [
+        "La2O3",
+        "Mn3O4"
+      ],
+      "air": false,
+      "products": [
+        "LaMnO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 1000,
+      "corrected": false,
+      "result": {
+        "target": "LaMnO3",
+        "feasible": true,
+        "enthalpy_eV": -0.5745460012499592,
+        "entropy_term_eV": 0.22563989221122555,
+        "free_energy_eV": -0.3489061090387337,
+        "driving_force_meV_per_atom": 69.78457146717716,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 2968.6670134855012,
+        "gases": {
+          "O2": -0.0833333333333337
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 La2O3 + 0.3333 Mn3O4 + 0.08333 O2 -> LaMnO3",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "LaMnO3"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.33461583840356446,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 2775.58398497915,
+          "driving_force_meV_per_atom": 66.92638014695994,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:44"
+      }
+    },
+    {
+      "pair": "MgO|V2O5",
+      "reactants": [
+        "MgO",
+        "V2O5"
+      ],
+      "air": false,
+      "products": [
+        "Mg3V2O8"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "Mg3V2O8",
+        "feasible": true,
+        "enthalpy_eV": -1.535807204999917,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -1.535807204999917,
+        "driving_force_meV_per_atom": 118.13901576922439,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 MgO + V2O5 -> Mg3V2O8",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mg3V2O8"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.535807204999917,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 118.13901576922439,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:45"
+      }
+    },
+    {
+      "pair": "MgCO3|V2O5",
+      "reactants": [
+        "MgCO3",
+        "V2O5"
+      ],
+      "air": false,
+      "products": [
+        "Mg3V2O8"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "Mg3V2O8",
+        "feasible": true,
+        "enthalpy_eV": 0.9462877350001471,
+        "entropy_term_eV": -7.798708711198629,
+        "free_energy_eV": -6.8524209761984824,
+        "driving_force_meV_per_atom": 311.4736807362946,
+        "kinetic_risk": false,
+        "onset_C": -130.80111925243338,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 2.9999999999999987
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "3 MgCO3 + V2O5 -> Mg3V2O8 + 3 CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Mg3V2O8"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -9.210529955627731,
+          "onset_temperature_C": -163.85026753165084,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 418.66045252853326,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:46"
+      }
+    },
+    {
+      "pair": "Y2(CO3)3|air",
+      "reactants": [
+        "Y2(CO3)3"
+      ],
+      "air": true,
+      "products": [
+        "Y2O3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Y2O3",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: Materials Project has no entry for Y2(CO3)3 -- pass the structure and the critic to score it instead",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": [
+          "Y2(CO3)3"
+        ],
+        "outcome_air": "unchecked",
+        "key": "formed:47"
+      }
+    },
+    {
+      "pair": "Fe3O4|air",
+      "reactants": [
+        "Fe3O4"
+      ],
+      "air": true,
+      "products": [
+        "Fe2O3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Fe2O3",
+        "feasible": true,
+        "enthalpy_eV": -0.8109315507149217,
+        "entropy_term_eV": 0.309496087474737,
+        "free_energy_eV": -0.5014354632401847,
+        "driving_force_meV_per_atom": 100.28107578348994,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 2014.649142418983,
+        "gases": {
+          "O2": -0.16666666666666666
+        },
+        "enthalpy_sources": {
+          "Fe3O4": "measured (Kingsbury 2022)",
+          "Fe2O3": "measured (Kingsbury 2022)",
+          "O2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "0.6667 Fe3O4 + 0.1667 O2 -> Fe2O3",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.9307362450000118,
+          "free_energy_eV": -0.621240157525275,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.48183439532972966,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 1878.3875381412172,
+          "driving_force_meV_per_atom": 96.36109740010193,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:48"
+      }
+    },
+    {
+      "pair": "CaCO3|SnO2",
+      "reactants": [
+        "CaCO3",
+        "SnO2"
+      ],
+      "air": false,
+      "products": [
+        "CaSnO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaSnO3",
+        "feasible": true,
+        "enthalpy_eV": 0.981223017500006,
+        "entropy_term_eV": -2.3779807223920835,
+        "free_energy_eV": -1.3967577048920776,
+        "driving_force_meV_per_atom": 174.5947131115097,
+        "kinetic_risk": false,
+        "onset_C": 169.66245483390088,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.0000000000000007
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "CaCO3 + SnO2 -> CaSnO3 + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "CaSnO3"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.115791829904367,
+          "onset_temperature_C": 66.85466033046526,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 264.4739787380459,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:49"
+      }
+    },
+    {
+      "pair": "Ca(OH)2|SnO2",
+      "reactants": [
+        "Ca(OH)2",
+        "SnO2"
+      ],
+      "air": false,
+      "products": [
+        "CaSnO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaSnO3",
+        "feasible": true,
+        "enthalpy_eV": -0.16681862499999756,
+        "entropy_term_eV": -2.0999193657045145,
+        "free_energy_eV": -2.266737990704512,
+        "driving_force_meV_per_atom": 283.34224883806405,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.0000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "Ca(HO)2 + SnO2 -> CaSnO3 + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "CaSnO3"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.266737990704512,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 283.34224883806405,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees",
+        "key": "formed:50"
+      }
+    },
+    {
+      "pair": "Na2CO3|V2O5",
+      "reactants": [
+        "Na2CO3",
+        "V2O5"
+      ],
+      "air": false,
+      "products": [
+        "NaVO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "NaVO3",
+        "feasible": true,
+        "enthalpy_eV": -0.4961382673731136,
+        "entropy_term_eV": -0.8566070891848465,
+        "free_energy_eV": -1.3527453565579601,
+        "driving_force_meV_per_atom": 208.11467023968618,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.49999999999999944
+        },
+        "enthalpy_sources": {
+          "Na2CO3": "measured (Kingsbury 2022)",
+          "V2O5": "measured (Kingsbury 2022)",
+          "NaVO3": "measured (Kingsbury 2022)",
+          "CO2": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "0.5 Na2CO3 + 0.5 V2O5 -> NaVO3 + 0.5 CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": -0.31245248854168023,
+          "free_energy_eV": -1.169059577726527,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.6117591168679124,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 247.9629410566019,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "CuO|Ta2O5",
+      "reactants": [
+        "CuO",
+        "Ta2O5"
+      ],
+      "air": false,
+      "products": [
+        "CuTa2O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CuTa2O6",
+        "feasible": false,
+        "enthalpy_eV": 0.33790819624996976,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": 0.33790819624996976,
+        "driving_force_meV_per_atom": -37.545355138885526,
+        "kinetic_risk": false,
+        "onset_C": Infinity,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "CuO + Ta2O5 -> Ta2CuO6",
+        "outcome": "rejected",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ta2CuO6"
+        ],
+        "air": {
+          "feasible": false,
+          "free_energy_eV": 0.33790819624996976,
+          "onset_temperature_C": Infinity,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": -37.545355138885526,
+          "kinetic_risk": false
+        },
+        "outcome_air": "rejected"
+      }
+    },
+    {
+      "pair": "Ag2CO3|NH4H2PO4",
+      "reactants": [
+        "Ag2CO3",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "Ag3PO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Ag3PO4",
+        "feasible": true,
+        "enthalpy_eV": 0.45221011374996284,
+        "entropy_term_eV": -7.209810903249229,
+        "free_energy_eV": -6.757600789499266,
+        "driving_force_meV_per_atom": 321.79051378567937,
+        "kinetic_risk": false,
+        "onset_C": -218.38472721831923,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.5000000000000038,
+          "H2O": 1.5000000000000018,
+          "NH3": 1.0000000000000047
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "1.5 Ag2CO3 + PH6NO4 -> Ag3PO4 + 1.5 CO2 + 1.5 H2O + H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ag3PO4",
+          "PH6NO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -7.635145372625317,
+          "onset_temperature_C": -224.327209721277,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 363.578351077396,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Ag2CO3|(NH4)2HPO4",
+      "reactants": [
+        "Ag2CO3",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "Ag3PO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "Ag3PO4",
+        "feasible": true,
+        "enthalpy_eV": 0.7495817150000519,
+        "entropy_term_eV": -8.954572472405047,
+        "free_energy_eV": -8.204990757404996,
+        "driving_force_meV_per_atom": 328.1996302961998,
+        "kinetic_risk": false,
+        "onset_C": -200.05915434888334,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.4999999999999982,
+          "H2O": 1.5000000000000036,
+          "NH3": 2.000000000000004
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "1.5 Ag2CO3 + PH9(NO2)2 -> Ag3PO4 + 1.5 CO2 + 1.5 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ag3PO4",
+          "PH9(NO2)2"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -9.082535340531045,
+          "onset_temperature_C": -206.58272148249034,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 363.3014136212418,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Sb2O3|NH4H2PO4",
+      "reactants": [
+        "Sb2O3",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "SbPO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "SbPO4",
+        "feasible": true,
+        "enthalpy_eV": 0.1298506787500008,
+        "entropy_term_eV": -4.307606363683473,
+        "free_energy_eV": -4.177755684933473,
+        "driving_force_meV_per_atom": 288.12108171954986,
+        "kinetic_risk": false,
+        "onset_C": -246.82932197648353,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.4999999999999993,
+          "NH3": 1.0
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Sb2O3 + PH6NO4 -> SbPO4 + 1.5 H2O + H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH6NO4",
+          "SbPO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -4.177755684933473,
+          "onset_temperature_C": -246.82932197648353,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 288.12108171954986,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Sb2O5|NH4H2PO4",
+      "reactants": [
+        "Sb2O5",
+        "NH4H2PO4"
+      ],
+      "air": false,
+      "products": [
+        "SbPO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "SbPO4",
+        "feasible": true,
+        "enthalpy_eV": 1.8686262387499353,
+        "entropy_term_eV": -5.23609462610768,
+        "free_energy_eV": -3.3674683873577447,
+        "driving_force_meV_per_atom": 217.25602499082223,
+        "kinetic_risk": false,
+        "onset_C": 38.45456731038314,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.4999999999999978,
+          "NH3": 0.9999999999999993,
+          "O2": 0.5000000000000004
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Sb2O5 + PH6NO4 -> SbPO4 + 1.5 H2O + H3N + 0.5 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH6NO4",
+          "SbPO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -3.4262715910891117,
+          "onset_temperature_C": 34.994000658479706,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 221.04978007026526,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Sb2O3|(NH4)2HPO4",
+      "reactants": [
+        "Sb2O3",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "SbPO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "SbPO4",
+        "feasible": true,
+        "enthalpy_eV": 0.42722228000000934,
+        "entropy_term_eV": -6.052367932839309,
+        "free_energy_eV": -5.6251456528393,
+        "driving_force_meV_per_atom": 304.0619271805027,
+        "kinetic_risk": false,
+        "onset_C": -211.51641494347956,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.500000000000002,
+          "NH3": 2.000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Sb2O3 + PH9(NO2)2 -> SbPO4 + 1.5 H2O + 2 H3N",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH9(NO2)2",
+          "SbPO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -5.6251456528393,
+          "onset_temperature_C": -211.51641494347956,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 304.0619271805027,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Sb2O5|(NH4)2HPO4",
+      "reactants": [
+        "Sb2O5",
+        "(NH4)2HPO4"
+      ],
+      "air": false,
+      "products": [
+        "SbPO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "target": "SbPO4",
+        "feasible": true,
+        "enthalpy_eV": 2.165997840000043,
+        "entropy_term_eV": -6.980856195263531,
+        "free_energy_eV": -4.814858355263488,
+        "driving_force_meV_per_atom": 246.91581309043528,
+        "kinetic_risk": false,
+        "onset_C": -2.2317972615976487,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.500000000000003,
+          "NH3": 2.000000000000004,
+          "O2": 0.5000000000000028
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Sb2O5 + PH9(NO2)2 -> SbPO4 + 1.5 H2O + 2 H3N + 0.5 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "PH9(NO2)2",
+          "SbPO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -4.873661558994853,
+          "onset_temperature_C": -4.49481275243744,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 249.93136199973605,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Ca(OH)2|air",
+      "reactants": [
+        "Ca(OH)2"
+      ],
+      "air": true,
+      "products": [
+        "CaO"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "CaO",
+        "feasible": true,
+        "enthalpy_eV": 1.1333838737957613,
+        "entropy_term_eV": -1.9042412810281393,
+        "free_energy_eV": -0.770857407232378,
+        "driving_force_meV_per_atom": 154.17148144647558,
+        "kinetic_risk": false,
+        "onset_C": 306.0583848685594,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.0
+        },
+        "enthalpy_sources": {
+          "Ca(HO)2": "measured (Kingsbury 2022)",
+          "CaO": "measured (Kingsbury 2022)",
+          "H2O": "NIST-JANAF gas"
+        },
+        "error": null,
+        "reaction": "Ca(HO)2 -> CaO + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "measured, every species",
+        "not_measured": null,
+        "mp": {
+          "enthalpy_eV": 0.37147180749995684,
+          "free_energy_eV": -1.532769473528182,
+          "feasible": true,
+          "error": null
+        },
+        "outcome_mp": "agrees",
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.770857407232378,
+          "onset_temperature_C": 306.0583848685594,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 154.17148144647558,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "BaCO3|Fe2O3",
+      "reactants": [
+        "BaCO3",
+        "Fe2O3"
+      ],
+      "air": false,
+      "products": [
+        "BaFeO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "BaFeO3",
+        "feasible": true,
+        "enthalpy_eV": 1.6240489808333698,
+        "entropy_term_eV": -1.8073988184691923,
+        "free_energy_eV": -0.18334983763582247,
+        "driving_force_meV_per_atom": 22.91872970447781,
+        "kinetic_risk": true,
+        "onset_C": 691.1353287120473,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 1.0,
+          "O2": -0.25
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "BaCO3 + 0.5 Fe2O3 + 0.25 O2 -> BaFeO3 + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "BaFeO3"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.8662477557625161,
+          "onset_temperature_C": 426.70561887846316,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 108.28096947031452,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "BaO2|Fe2O3",
+      "reactants": [
+        "BaO2",
+        "Fe2O3"
+      ],
+      "air": false,
+      "products": [
+        "BaFeO3"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "BaFeO3",
+        "feasible": true,
+        "enthalpy_eV": 0.02690072083330719,
+        "entropy_term_eV": -0.5705819039228883,
+        "free_energy_eV": -0.5436811830895811,
+        "driving_force_meV_per_atom": 98.85112419810567,
+        "kinetic_risk": false,
+        "onset_C": -222.55514523193662,
+        "ceiling_C": null,
+        "gases": {
+          "O2": 0.24999999999999944
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "BaO2 + 0.5 Fe2O3 -> BaFeO3 + 0.25 O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "BaFeO3"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.5798173899751762,
+          "onset_temperature_C": -225.56858113680696,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 105.42134363185022,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Ag2CO3|V2O5",
+      "reactants": [
+        "Ag2CO3",
+        "V2O5"
+      ],
+      "air": false,
+      "products": [
+        "AgV4O11"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "target": "AgV4O11",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: Materials Project has no entry for AgV4O11 -- pass the structure and the critic to score it instead",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": [
+          "V4AgO11"
+        ],
+        "outcome_air": "unchecked"
+      }
+    },
+    {
+      "pair": "Cr2O3|BaO",
+      "reactants": [
+        "Cr2O3",
+        "BaO"
+      ],
+      "air": false,
+      "products": [
+        "BaCrO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "BaCrO4",
+        "feasible": true,
+        "enthalpy_eV": -3.204255587500014,
+        "entropy_term_eV": 1.5522390527024914,
+        "free_energy_eV": -1.6520165347975224,
+        "driving_force_meV_per_atom": 275.3360891329204,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 1735.703803508376,
+        "gases": {
+          "O2": -0.7499999999999996
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Cr2O3 + BaO + 0.75 O2 -> BaCrO4",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "BaCrO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.5537098216706056,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 1616.0562186526013,
+          "driving_force_meV_per_atom": 258.9516369451009,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Cr2O3|Ba(OH)2",
+      "reactants": [
+        "Cr2O3",
+        "Ba(OH)2"
+      ],
+      "air": false,
+      "products": [
+        "BaCrO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "BaCrO4",
+        "feasible": true,
+        "enthalpy_eV": -2.4054821274999982,
+        "entropy_term_eV": -0.35200222832564737,
+        "free_energy_eV": -2.7574843558256457,
+        "driving_force_meV_per_atom": 306.387150647294,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.0000000000000004,
+          "O2": -0.7500000000000001
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Cr2O3 + Ba(HO)2 + 0.75 O2 -> BaCrO4 + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "BaCrO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.659177642698729,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 295.464182522081,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Cr2O3|BaCO3",
+      "reactants": [
+        "Cr2O3",
+        "BaCO3"
+      ],
+      "air": false,
+      "products": [
+        "BaCrO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "BaCrO4",
+        "feasible": true,
+        "enthalpy_eV": -0.7438147524999845,
+        "entropy_term_eV": -0.6041528216821265,
+        "free_energy_eV": -1.3479675741821109,
+        "driving_force_meV_per_atom": 149.77417490912342,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.9999999999999996,
+          "O2": -0.7499999999999998
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Cr2O3 + BaCO3 + 0.75 O2 -> BaCrO4 + CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "BaCrO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.9016927846033551,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 211.29919828926168,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Cr2O3|BaO2",
+      "reactants": [
+        "Cr2O3",
+        "BaO2"
+      ],
+      "air": false,
+      "products": [
+        "BaCrO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "target": "BaCrO4",
+        "feasible": true,
+        "enthalpy_eV": -2.340963012500004,
+        "entropy_term_eV": 0.5174130175674974,
+        "free_energy_eV": -1.8235499949325067,
+        "driving_force_meV_per_atom": 303.92499915541777,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 4129.73140859772,
+        "gases": {
+          "O2": -0.2499999999999999
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Cr2O3 + BaO2 + 0.25 O2 -> BaCrO4",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "BaCrO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.7907810905568677,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 3867.495238884879,
+          "driving_force_meV_per_atom": 298.4635150928113,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Cr2O3|Gd2O3",
+      "reactants": [
+        "Cr2O3",
+        "Gd2O3"
+      ],
+      "air": false,
+      "products": [
+        "GdCrO3"
+      ],
+      "inert": false,
+      "lower_C": 700,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "GdCrO3",
+        "feasible": true,
+        "enthalpy_eV": -0.21152189499998725,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -0.21152189499998725,
+        "driving_force_meV_per_atom": 42.304378999997446,
+        "kinetic_risk": true,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 Cr2O3 + 0.5 Gd2O3 -> GdCrO3",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "GdCrO3"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.21152189499998725,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 42.304378999997446,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "CaO|Gd2O3",
+      "reactants": [
+        "CaO",
+        "Gd2O3"
+      ],
+      "air": false,
+      "products": [
+        "CaGd3O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 1100,
+      "corrected": false,
+      "result": {
+        "target": "CaGd3O6",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: Materials Project has no entry for CaGd3O6 -- pass the structure and the critic to score it instead",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": [
+          "CaGd3O6"
+        ],
+        "outcome_air": "unchecked"
+      }
+    },
+    {
+      "pair": "CaCO3|Gd2O3",
+      "reactants": [
+        "CaCO3",
+        "Gd2O3"
+      ],
+      "air": false,
+      "products": [
+        "CaGd3O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 1100,
+      "corrected": false,
+      "result": {
+        "target": "CaGd3O6",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: Materials Project has no entry for CaGd3O6 -- pass the structure and the critic to score it instead",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": [
+          "CaGd3O6"
+        ],
+        "outcome_air": "unchecked"
+      }
+    },
+    {
+      "pair": "Ca(OH)2|Gd2O3",
+      "reactants": [
+        "Ca(OH)2",
+        "Gd2O3"
+      ],
+      "air": false,
+      "products": [
+        "CaGd3O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 1100,
+      "corrected": false,
+      "result": {
+        "target": "CaGd3O6",
+        "feasible": null,
+        "enthalpy_eV": null,
+        "entropy_term_eV": null,
+        "free_energy_eV": null,
+        "driving_force_meV_per_atom": null,
+        "kinetic_risk": null,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": null,
+        "enthalpy_sources": null,
+        "error": "ValueError: Materials Project has no entry for CaGd3O6 -- pass the structure and the critic to score it instead",
+        "reaction": null,
+        "outcome": "unchecked",
+        "enthalpy_source": null,
+        "not_measured": [
+          "CaGd3O6"
+        ],
+        "outcome_air": "unchecked"
+      }
+    },
+    {
+      "pair": "K2CO3|Mn2O3",
+      "reactants": [
+        "K2CO3",
+        "Mn2O3"
+      ],
+      "air": false,
+      "products": [
+        "KMn3O6"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "KMn3O6",
+        "feasible": true,
+        "enthalpy_eV": -0.8732891934375386,
+        "entropy_term_eV": -0.052283204643209624,
+        "free_energy_eV": -0.9255723980807482,
+        "driving_force_meV_per_atom": 80.48455635484767,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 0.5000000000000007,
+          "O2": -0.5000000000000004
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "0.5 K2CO3 + 1.5 Mn2O3 + 0.5 O2 -> KMn3O6 + 0.5 CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "KMn3O6"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.2395835425278545,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 107.7898732632917,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "BaO|SnO2",
+      "reactants": [
+        "BaO",
+        "SnO2"
+      ],
+      "air": false,
+      "products": [
+        "Ba2SnO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ba2SnO4",
+        "feasible": true,
+        "enthalpy_eV": -1.459696030000038,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -1.459696030000038,
+        "driving_force_meV_per_atom": 208.52800428571967,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "2 BaO + SnO2 -> Ba2SnO4",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ba2SnO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.459696030000038,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 208.52800428571967,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "BaO2|SnO2",
+      "reactants": [
+        "BaO2",
+        "SnO2"
+      ],
+      "air": false,
+      "products": [
+        "Ba2SnO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ba2SnO4",
+        "feasible": true,
+        "enthalpy_eV": 0.2668891200000143,
+        "entropy_term_eV": -2.282327615691559,
+        "free_energy_eV": -2.0154384956915448,
+        "driving_force_meV_per_atom": 223.93761063239387,
+        "kinetic_risk": false,
+        "onset_C": -147.65878780116287,
+        "ceiling_C": null,
+        "gases": {
+          "O2": 1.0000000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "2 BaO2 + SnO2 -> Ba2SnO4 + O2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ba2SnO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.1599833232339254,
+          "onset_temperature_C": -155.13306016184526,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 239.99814702599173,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "BaCO3|SnO2",
+      "reactants": [
+        "BaCO3",
+        "SnO2"
+      ],
+      "air": false,
+      "products": [
+        "Ba2SnO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ba2SnO4",
+        "feasible": true,
+        "enthalpy_eV": 3.4611856399999525,
+        "entropy_term_eV": -4.755961444784165,
+        "free_energy_eV": -1.2947758047842126,
+        "driving_force_meV_per_atom": 99.59813882955481,
+        "kinetic_risk": false,
+        "onset_C": 507.84274199110223,
+        "ceiling_C": null,
+        "gases": {
+          "CO2": 2.0000000000000004
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "2 BaCO3 + SnO2 -> Ba2SnO4 + 2 CO2",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ba2SnO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -2.732844054808791,
+          "onset_temperature_C": 326.51960970157904,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 210.21877344683008,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Ba(OH)2|SnO2",
+      "reactants": [
+        "Ba(OH)2",
+        "SnO2"
+      ],
+      "air": false,
+      "products": [
+        "Ba2SnO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "Ba2SnO4",
+        "feasible": true,
+        "enthalpy_eV": 0.1378508899999638,
+        "entropy_term_eV": -4.199838731409025,
+        "free_energy_eV": -4.061987841409061,
+        "driving_force_meV_per_atom": 312.4606031853124,
+        "kinetic_risk": false,
+        "onset_C": -237.92610402106322,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.9999999999999982
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "2 Ba(HO)2 + SnO2 -> Ba2SnO4 + 2 H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ba2SnO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -4.061987841409061,
+          "onset_temperature_C": -237.92610402106322,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 312.4606031853124,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Ba2SnO4|ZrO2",
+      "reactants": [
+        "Ba2SnO4",
+        "ZrO2"
+      ],
+      "air": false,
+      "products": [
+        "Ba2ZrSnO6"
+      ],
+      "inert": false,
+      "lower_C": 800,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "target": "Ba2ZrSnO6",
+        "feasible": true,
+        "enthalpy_eV": -0.8755947050000039,
+        "entropy_term_eV": -0.0,
+        "free_energy_eV": -0.8755947050000039,
+        "driving_force_meV_per_atom": 87.5594705000004,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {},
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "Ba2SnO4 + ZrO2 -> Ba2ZrSnO6",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "Ba2SnO4",
+          "Ba2ZrSnO6"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.8755947050000039,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 87.5594705000004,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "CaO|Cr2O3",
+      "reactants": [
+        "CaO",
+        "Cr2O3"
+      ],
+      "air": false,
+      "products": [
+        "CaCrO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaCrO4",
+        "feasible": true,
+        "enthalpy_eV": -2.0635956425000117,
+        "entropy_term_eV": 1.7117457117686692,
+        "free_energy_eV": -0.3518499307313425,
+        "driving_force_meV_per_atom": 58.641655121890416,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": 1020.5863584575283,
+        "gases": {
+          "O2": -0.7500000000000002
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "CaO + 0.5 Cr2O3 + 0.75 O2 -> CaCrO4",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "CaCrO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -0.24344131007455694,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": 943.5312584501461,
+          "driving_force_meV_per_atom": 40.57355167909282,
+          "kinetic_risk": true
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "Ca(OH)2|Cr2O3",
+      "reactants": [
+        "Ca(OH)2",
+        "Cr2O3"
+      ],
+      "air": false,
+      "products": [
+        "CaCrO4"
+      ],
+      "inert": false,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "target": "CaCrO4",
+        "feasible": true,
+        "enthalpy_eV": -1.6921238350000323,
+        "entropy_term_eV": -0.3881736539358476,
+        "free_energy_eV": -2.08029748893588,
+        "driving_force_meV_per_atom": 231.14416543732003,
+        "kinetic_risk": false,
+        "onset_C": null,
+        "ceiling_C": null,
+        "gases": {
+          "H2O": 1.0000000000000009,
+          "O2": -0.7499999999999998
+        },
+        "enthalpy_sources": null,
+        "error": null,
+        "reaction": "Ca(HO)2 + 0.5 Cr2O3 + 0.75 O2 -> CaCrO4 + H2O",
+        "outcome": "agrees",
+        "enthalpy_source": "Materials Project, every species",
+        "not_measured": [
+          "CaCrO4"
+        ],
+        "air": {
+          "feasible": true,
+          "free_energy_eV": -1.9718888682790945,
+          "onset_temperature_C": null,
+          "ceiling_temperature_C": null,
+          "driving_force_meV_per_atom": 219.0987631421216,
+          "kinetic_risk": false
+        },
+        "outcome_air": "agrees"
+      }
+    },
+    {
+      "pair": "TiO2|NiO",
+      "reactants": [
+        "TiO2",
+        "NiO"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "outcome": "agrees_kinetic_risk",
+        "outcome_air": "agrees_kinetic_risk",
+        "candidates": [
+          "Ti2Ni",
+          "Ti4(Ni5O8)3",
+          "TiNi",
+          "TiNi3",
+          "TiNiO3"
+        ],
+        "tried": [
+          {
+            "product": "Ti2Ni",
+            "feasible": false,
+            "reaction": "2 TiO2 + NiO -> Ti2Ni + 2.5 O2",
+            "gases": {
+              "O2": 2.499999999999998
+            },
+            "free_energy_eV": 16.946698453271093,
+            "driving_force_meV_per_atom": -2118.3373066588865,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 16.585336384415143,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ti4(Ni5O8)3",
+            "feasible": false,
+            "reaction": "4 TiO2 + 15 NiO + 0.5 O2 -> Ti4(Ni5O8)3",
+            "gases": {
+              "O2": -0.49999999999998657
+            },
+            "free_energy_eV": 0.1642951178466101,
+            "driving_force_meV_per_atom": -3.820816694107212,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 0.23656753161779842,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "TiNi",
+            "feasible": false,
+            "reaction": "TiO2 + NiO -> TiNi + 1.5 O2",
+            "gases": {
+              "O2": 1.4999999999999991
+            },
+            "free_energy_eV": 8.158494568580196,
+            "driving_force_meV_per_atom": -1631.6989137160392,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 7.941677327266625,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "TiNi3",
+            "feasible": false,
+            "reaction": "TiO2 + 3 NiO -> TiNi3 + 2.5 O2",
+            "gases": {
+              "O2": 2.499999999999999
+            },
+            "free_energy_eV": 9.781397826100717,
+            "driving_force_meV_per_atom": -1086.8219806778573,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 9.420035757244765,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "TiNiO3",
+            "feasible": true,
+            "reaction": "TiO2 + NiO -> TiNiO3",
+            "gases": {},
+            "free_energy_eV": -0.19197375547464013,
+            "driving_force_meV_per_atom": 38.394751094928026,
+            "kinetic_risk": true,
+            "feasible_air": true,
+            "free_energy_air_eV": -0.19197375547464013,
+            "kinetic_risk_air": true,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "Y2O3|Ga2O3",
+      "reactants": [
+        "Y2O3",
+        "Ga2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "outcome": "predicted_reaction",
+        "outcome_air": "predicted_reaction",
+        "candidates": [
+          "Y3Ga2",
+          "Y3Ga5O12",
+          "YGa",
+          "YGa2",
+          "YGa3"
+        ],
+        "tried": [
+          {
+            "product": "Y3Ga2",
+            "feasible": false,
+            "reaction": "1.5 Y2O3 + Ga2O3 -> Y3Ga2 + 3.75 O2",
+            "gases": {
+              "O2": 3.749999999999997
+            },
+            "free_energy_eV": 28.90183483520074,
+            "driving_force_meV_per_atom": -2312.1467868160594,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 28.309282194267475,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Y3Ga5O12",
+            "feasible": true,
+            "reaction": "1.5 Y2O3 + 2.5 Ga2O3 -> Y3Ga5O12",
+            "gases": {},
+            "free_energy_eV": -1.0335369293750385,
+            "driving_force_meV_per_atom": 51.67684646875192,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -1.0335369293750385,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YGa",
+            "feasible": false,
+            "reaction": "0.5 Y2O3 + 0.5 Ga2O3 -> YGa + 1.5 O2",
+            "gases": {
+              "O2": 1.4999999999999998
+            },
+            "free_energy_eV": 10.30296210592003,
+            "driving_force_meV_per_atom": -2060.5924211840056,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 10.065941049546721,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YGa2",
+            "feasible": false,
+            "reaction": "0.5 Y2O3 + Ga2O3 -> YGa2 + 2.25 O2",
+            "gases": {
+              "O2": 2.2499999999999996
+            },
+            "free_energy_eV": 13.44780973508518,
+            "driving_force_meV_per_atom": -1793.0412980113574,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 13.092278150525217,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YGa3",
+            "feasible": false,
+            "reaction": "0.5 Y2O3 + 1.5 Ga2O3 -> YGa3 + 3 O2",
+            "gases": {
+              "O2": 2.999999999999998
+            },
+            "free_energy_eV": 17.110242243535644,
+            "driving_force_meV_per_atom": -1711.0242243535645,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 16.636200130789028,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "SbO2|Ga2O3",
+      "reactants": [
+        "SbO2",
+        "Ga2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "outcome": "predicted_reaction",
+        "outcome_air": "predicted_reaction",
+        "candidates": [
+          "GaSb",
+          "GaSbO4"
+        ],
+        "tried": [
+          {
+            "product": "GaSb",
+            "feasible": false,
+            "reaction": "SbO2 + 0.5 Ga2O3 -> GaSb + 1.75 O2",
+            "gases": {
+              "O2": 1.7499999999999991
+            },
+            "free_energy_eV": 6.276813728232501,
+            "driving_force_meV_per_atom": -1141.2388596786366,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 6.047431397603027,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "GaSbO4",
+            "feasible": true,
+            "reaction": "SbO2 + 0.5 Ga2O3 + 0.25 O2 -> GaSbO4",
+            "gases": {
+              "O2": -0.2500000000000009
+            },
+            "free_energy_eV": -0.6201668886825149,
+            "driving_force_meV_per_atom": 103.36114811375249,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -0.5873979843068758,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "Y2O3|Ga2O3",
+      "reactants": [
+        "Y2O3",
+        "Ga2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 700,
+      "corrected": false,
+      "result": {
+        "outcome": "predicted_reaction",
+        "outcome_air": "predicted_reaction",
+        "candidates": [
+          "Y3Ga2",
+          "Y3Ga5O12",
+          "YGa",
+          "YGa2",
+          "YGa3"
+        ],
+        "tried": [
+          {
+            "product": "Y3Ga2",
+            "feasible": false,
+            "reaction": "1.5 Y2O3 + Ga2O3 -> Y3Ga2 + 3.75 O2",
+            "gases": {
+              "O2": 3.749999999999997
+            },
+            "free_energy_eV": 30.496901425862504,
+            "driving_force_meV_per_atom": -2439.752114069,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 30.00536786022792,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Y3Ga5O12",
+            "feasible": true,
+            "reaction": "1.5 Y2O3 + 2.5 Ga2O3 -> Y3Ga5O12",
+            "gases": {},
+            "free_energy_eV": -1.0335369293750385,
+            "driving_force_meV_per_atom": 51.67684646875192,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -1.0335369293750385,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YGa",
+            "feasible": false,
+            "reaction": "0.5 Y2O3 + 0.5 Ga2O3 -> YGa + 1.5 O2",
+            "gases": {
+              "O2": 1.4999999999999998
+            },
+            "free_energy_eV": 10.940988742184734,
+            "driving_force_meV_per_atom": -2188.1977484369468,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 10.7443753159309,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YGa2",
+            "feasible": false,
+            "reaction": "0.5 Y2O3 + Ga2O3 -> YGa2 + 2.25 O2",
+            "gases": {
+              "O2": 2.2499999999999996
+            },
+            "free_energy_eV": 14.404849689482237,
+            "driving_force_meV_per_atom": -1920.646625264298,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 14.109929550101487,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YGa3",
+            "feasible": false,
+            "reaction": "0.5 Y2O3 + 1.5 Ga2O3 -> YGa3 + 3 O2",
+            "gases": {
+              "O2": 2.999999999999998
+            },
+            "free_energy_eV": 18.386295516065054,
+            "driving_force_meV_per_atom": -1838.6295516065052,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 17.993068663557388,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "BaCO3|Mn2O3",
+      "reactants": [
+        "BaCO3",
+        "Mn2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "outcome": "predicted_reaction",
+        "outcome_air": "predicted_reaction",
+        "candidates": [
+          "Ba2MnO3",
+          "Ba3Mn2O8",
+          "Ba4Mn3O10",
+          "Ba5Mn5O14",
+          "Ba8Mn8O21",
+          "BaMn8O16",
+          "BaMnO3"
+        ],
+        "tried": [
+          {
+            "product": "Ba2MnO3",
+            "feasible": false,
+            "reaction": "2 BaCO3 + 0.5 Mn2O3 -> Ba2MnO3 + 2 CO2 + 0.25 O2",
+            "gases": {
+              "CO2": 1.9999999999999998,
+              "O2": 0.25000000000000083
+            },
+            "free_energy_eV": 1.5427137794710166,
+            "driving_force_meV_per_atom": -123.41710235768133,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 0.3432527334372697,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba3Mn2O8",
+            "feasible": true,
+            "reaction": "3 BaCO3 + Mn2O3 + O2 -> Ba3Mn2O8 + 3 CO2",
+            "gases": {
+              "CO2": 2.9999999999999982,
+              "O2": -0.9999999999999991
+            },
+            "free_energy_eV": -1.1115058774081312,
+            "driving_force_meV_per_atom": 50.52299442764233,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -2.748988636197499,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba4Mn3O10",
+            "feasible": true,
+            "reaction": "4 BaCO3 + 1.5 Mn2O3 + 0.75 O2 -> Ba4Mn3O10 + 4 CO2",
+            "gases": {
+              "CO2": 4.000000000000003,
+              "O2": -0.7499999999999984
+            },
+            "free_energy_eV": -2.0951258840598666,
+            "driving_force_meV_per_atom": 72.2457201399954,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -4.34703996679895,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba5Mn5O14",
+            "feasible": true,
+            "reaction": "5 BaCO3 + 2.5 Mn2O3 + 0.75 O2 -> Ba5Mn5O14 + 5 CO2",
+            "gases": {
+              "CO2": 4.999999999999998,
+              "O2": -0.750000000000001
+            },
+            "free_energy_eV": -2.3792215535621803,
+            "driving_force_meV_per_atom": 61.005680860568724,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -5.216165358385297,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba8Mn8O21",
+            "feasible": true,
+            "reaction": "8 BaCO3 + 4 Mn2O3 + 0.5 O2 -> Ba8Mn8O21 + 8 CO2",
+            "gases": {
+              "CO2": 8.000000000000002,
+              "O2": -0.49999999999999895
+            },
+            "free_energy_eV": -1.6455576160935,
+            "driving_force_meV_per_atom": 26.976354362188523,
+            "kinetic_risk": true,
+            "feasible_air": true,
+            "free_energy_air_eV": -6.266992189034397,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "BaMn8O16",
+            "feasible": true,
+            "reaction": "BaCO3 + 4 Mn2O3 + 1.5 O2 -> BaMn8O16 + CO2",
+            "gases": {
+              "CO2": 1.0000000000000029,
+              "O2": -1.4999999999999996
+            },
+            "free_energy_eV": -1.7149549316045882,
+            "driving_force_meV_per_atom": 61.24839041444958,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -2.1235750424945268,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "BaMnO3",
+            "feasible": true,
+            "reaction": "BaCO3 + 0.5 Mn2O3 + 0.25 O2 -> BaMnO3 + CO2",
+            "gases": {
+              "CO2": 1.0,
+              "O2": -0.25
+            },
+            "free_energy_eV": -0.7777574075608893,
+            "driving_force_meV_per_atom": 97.21967594511116,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -1.3333855277792397,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "Ag|Mn2O3",
+      "reactants": [
+        "Ag",
+        "Mn2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 500,
+      "corrected": false,
+      "result": {
+        "outcome": "predicted_reaction",
+        "outcome_air": "predicted_reaction",
+        "candidates": [
+          "MnAgO2"
+        ],
+        "tried": [
+          {
+            "product": "MnAgO2",
+            "feasible": true,
+            "reaction": "Ag + 0.5 Mn2O3 + 0.25 O2 -> MnAgO2",
+            "gases": {
+              "O2": -0.25000000000000056
+            },
+            "free_energy_eV": -0.2799255558724528,
+            "driving_force_meV_per_atom": 69.98138896811321,
+            "kinetic_risk": false,
+            "feasible_air": true,
+            "free_energy_air_eV": -0.25389125651672634,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "In2O3|Y2O3",
+      "reactants": [
+        "In2O3",
+        "Y2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "outcome": "agrees_uphill",
+        "outcome_air": "agrees_uphill",
+        "candidates": [
+          "Y2In",
+          "Y3In5",
+          "YIn",
+          "YIn3"
+        ],
+        "tried": [
+          {
+            "product": "Y2In",
+            "feasible": false,
+            "reaction": "0.5 In2O3 + Y2O3 -> Y2In + 2.25 O2",
+            "gases": {
+              "O2": 2.2500000000000004
+            },
+            "free_energy_eV": 19.50860749534105,
+            "driving_force_meV_per_atom": -2601.147666045473,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 19.243993078549906,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Y3In5",
+            "feasible": false,
+            "reaction": "2.5 In2O3 + 1.5 Y2O3 -> Y3In5 + 6 O2",
+            "gases": {
+              "O2": 6.000000000000002
+            },
+            "free_energy_eV": 39.75853940403452,
+            "driving_force_meV_per_atom": -1987.926970201726,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 39.05290095925814,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YIn",
+            "feasible": false,
+            "reaction": "0.5 In2O3 + 0.5 Y2O3 -> YIn + 1.5 O2",
+            "gases": {
+              "O2": 1.4999999999999996
+            },
+            "free_energy_eV": 11.145009402102373,
+            "driving_force_meV_per_atom": -2229.0018804204747,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 10.968599790908277,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "YIn3",
+            "feasible": false,
+            "reaction": "1.5 In2O3 + 0.5 Y2O3 -> YIn3 + 3 O2",
+            "gases": {
+              "O2": 3.0000000000000004
+            },
+            "free_energy_eV": 17.660422209829736,
+            "driving_force_meV_per_atom": -1766.0422209829735,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 17.307602987441545,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "pair": "In2O3|Ga2O3",
+      "reactants": [
+        "In2O3",
+        "Ga2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 600,
+      "corrected": false,
+      "result": {
+        "outcome": "agrees_nothing_to_form",
+        "outcome_air": "agrees_nothing_to_form",
+        "candidates": [],
+        "tried": []
+      }
+    },
+    {
+      "pair": "NaVO3|Cr2O3",
+      "reactants": [
+        "NaVO3",
+        "Cr2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 900,
+      "corrected": false,
+      "result": {
+        "outcome": "agrees_kinetic_risk",
+        "outcome_air": "agrees_kinetic_risk",
+        "candidates": [
+          "Na2Cr2O7",
+          "Na2CrO4",
+          "Na3CrO4",
+          "Na3V3Cr2O12",
+          "Na4CrO4",
+          "NaCr3O8",
+          "NaCrO2",
+          "V3Cr",
+          "V4Cr2O13",
+          "VCr",
+          "VCr3"
+        ],
+        "tried": [
+          {
+            "product": "Na2Cr2O7",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> Na2Cr2O7: Reaction cannot be balanced."
+          },
+          {
+            "product": "Na2CrO4",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> Na2CrO4: Reaction cannot be balanced."
+          },
+          {
+            "product": "Na3CrO4",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> Na3CrO4: Reaction cannot be balanced."
+          },
+          {
+            "product": "Na3V3Cr2O12",
+            "feasible": true,
+            "reaction": "3 NaVO3 + Cr2O3 -> Na3V3Cr2O12",
+            "gases": {},
+            "free_energy_eV": -0.06436182250005873,
+            "driving_force_meV_per_atom": 3.2180911250029367,
+            "kinetic_risk": true,
+            "feasible_air": true,
+            "free_energy_air_eV": -0.06436182250005873,
+            "kinetic_risk_air": true,
+            "error": null
+          },
+          {
+            "product": "Na4CrO4",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> Na4CrO4: Reaction cannot be balanced."
+          },
+          {
+            "product": "NaCr3O8",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> NaCr3O8: Reaction cannot be balanced."
+          },
+          {
+            "product": "NaCrO2",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> NaCrO2: Reaction cannot be balanced."
+          },
+          {
+            "product": "V3Cr",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> V3Cr: Reaction cannot be balanced."
+          },
+          {
+            "product": "V4Cr2O13",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> V4Cr2O13: Reaction cannot be balanced."
+          },
+          {
+            "product": "VCr",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> VCr: Reaction cannot be balanced."
+          },
+          {
+            "product": "VCr3",
+            "feasible": null,
+            "reaction": null,
+            "gases": null,
+            "free_energy_eV": null,
+            "driving_force_meV_per_atom": null,
+            "kinetic_risk": null,
+            "feasible_air": null,
+            "free_energy_air_eV": null,
+            "kinetic_risk_air": null,
+            "error": "ValueError: could not balance NaVO3 + Cr2O3 -> VCr3: Reaction cannot be balanced."
+          }
+        ]
+      }
+    },
+    {
+      "pair": "BaCO3|In2O3",
+      "reactants": [
+        "BaCO3",
+        "In2O3"
+      ],
+      "air": false,
+      "products": [],
+      "inert": true,
+      "lower_C": null,
+      "upper_C": 800,
+      "corrected": false,
+      "result": {
+        "outcome": "agrees_kinetic_risk",
+        "outcome_air": "predicted_reaction",
+        "candidates": [
+          "Ba11In6O3",
+          "Ba2In2O5",
+          "Ba3In2O6",
+          "Ba9In4",
+          "BaIn",
+          "BaIn2",
+          "BaIn4"
+        ],
+        "tried": [
+          {
+            "product": "Ba11In6O3",
+            "feasible": false,
+            "reaction": "11 BaCO3 + 3 In2O3 -> Ba11In6O3 + 11 CO2 + 8.5 O2",
+            "gases": {
+              "CO2": 11.0,
+              "O2": 8.499999999999991
+            },
+            "free_energy_eV": 51.19946309530845,
+            "driving_force_meV_per_atom": -731.4209013615492,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 42.06145668606304,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba2In2O5",
+            "feasible": true,
+            "reaction": "2 BaCO3 + In2O3 -> Ba2In2O5 + 2 CO2",
+            "gases": {
+              "CO2": 1.9999999999999991
+            },
+            "free_energy_eV": -0.3716990697842517,
+            "driving_force_meV_per_atom": 24.77993798561678,
+            "kinetic_risk": true,
+            "feasible_air": true,
+            "free_energy_air_eV": -1.8097673198088282,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba3In2O6",
+            "feasible": true,
+            "reaction": "3 BaCO3 + In2O3 -> Ba3In2O6 + 3 CO2",
+            "gases": {
+              "CO2": 3.0000000000000004
+            },
+            "free_energy_eV": -0.36129782217640205,
+            "driving_force_meV_per_atom": 18.064891108820103,
+            "kinetic_risk": true,
+            "feasible_air": true,
+            "free_energy_air_eV": -2.518400197213272,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "Ba9In4",
+            "feasible": false,
+            "reaction": "9 BaCO3 + 2 In2O3 -> Ba9In4 + 9 CO2 + 7.5 O2",
+            "gases": {
+              "CO2": 9.000000000000002,
+              "O2": 7.500000000000002
+            },
+            "free_energy_eV": 50.73283578078423,
+            "driving_force_meV_per_atom": -922.4151960142586,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 43.17744244910576,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "BaIn",
+            "feasible": false,
+            "reaction": "BaCO3 + 0.5 In2O3 -> BaIn + CO2 + 1.25 O2",
+            "gases": {
+              "CO2": 0.9999999999999999,
+              "O2": 1.2500000000000009
+            },
+            "free_energy_eV": 7.029222775493455,
+            "driving_force_meV_per_atom": -937.2297033991273,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 6.129507616053192,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "BaIn2",
+            "feasible": false,
+            "reaction": "BaCO3 + In2O3 -> BaIn2 + CO2 + 2 O2",
+            "gases": {
+              "CO2": 0.9999999999999999,
+              "O2": 1.9999999999999993
+            },
+            "free_energy_eV": 9.704645631224764,
+            "driving_force_meV_per_atom": -970.4645631224764,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 8.696521851127716,
+            "kinetic_risk_air": false,
+            "error": null
+          },
+          {
+            "product": "BaIn4",
+            "feasible": false,
+            "reaction": "BaCO3 + 2 In2O3 -> BaIn4 + CO2 + 3.5 O2",
+            "gases": {
+              "CO2": 1.0,
+              "O2": 3.500000000000001
+            },
+            "free_energy_eV": 15.947747032687387,
+            "driving_force_meV_per_atom": -1063.1831355124925,
+            "kinetic_risk": false,
+            "feasible_air": false,
+            "free_energy_air_eV": 14.722806011276766,
+            "kinetic_risk_air": false,
+            "error": null
+          }
+        ]
+      }
+    }
+  ],
+  "totals": {
+    "outcome": {
+      "formed": {
+        "agrees": 68,
+        "unchecked": 7,
+        "rejected": 3
+      },
+      "inert": {
+        "agrees_kinetic_risk": 3,
+        "predicted_reaction": 5,
+        "agrees_uphill": 1,
+        "agrees_nothing_to_form": 1
+      }
+    },
+    "outcome_air": {
+      "formed": {
+        "agrees": 68,
+        "unchecked": 7,
+        "rejected": 3
+      },
+      "inert": {
+        "agrees_kinetic_risk": 2,
+        "predicted_reaction": 6,
+        "agrees_uphill": 1,
+        "agrees_nothing_to_form": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "target": "Cr2MoO6",
+    "lab": {
+      "precursors": [
+        "Cr2O3",
+        "MoO3"
+      ],
+      "temperatures_C": [
+        750,
+        900
+      ],
+      "hours": [
+        24,
+        null
+      ],
+      "outcome": "failed",
+      "found": "no crystalline product at 750 C; Mo lost at 900 C"
+    },
+    "ours": {
+      "target": "Cr2MoO6",
+      "precursors": [
+        "Cr2O3",
+        "MoO3"
+      ],
+      "firing_temperature_C": 966,
+      "dwell_hours": 4
+    },
+    "ours_assessment": {
+      "reaction": "Cr2O3 + MoO3 -> Cr2MoO6",
+      "verdict_class": "uncertain",
+      "enthalpy_eV": -0.07090472999080297,
+      "free_energy_eV": -0.07090472999080297,
+      "driving_force_meV_per_atom": 7.87830333231144,
+      "error_band_meV_per_atom": 56.22277118748237,
+      "onset_temperature_C": null,
+      "kinetic_risk": true,
+      "polymorph": null,
+      "target_stability": {
+        "above_hull_eV_per_atom": 0.016690477176950935,
+        "decomposes_to": [
+          [
+            "Cr2(MoO4)3",
+            0.6296296296296298
+          ],
+          [
+            "Cr2O3",
+            0.3703703703703705
+          ]
+        ]
+      },
+      "error": null
+    },
+    "ours_selectivity": {
+      "C1": null,
+      "rival": null,
+      "remaining": null
+    },
+    "lab_assessment": [
+      {
+        "reaction": "Cr2O3 + MoO3 -> Cr2MoO6",
+        "verdict_class": "uncertain",
+        "enthalpy_eV": -0.07090540551009147,
+        "free_energy_eV": -0.07090540551009147,
+        "driving_force_meV_per_atom": 7.878378390010163,
+        "error_band_meV_per_atom": 56.22277118748237,
+        "onset_temperature_C": null,
+        "kinetic_risk": true,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.016690402119250436,
+          "decomposes_to": [
+            [
+              "Cr2(MoO4)3",
+              0.6296296296296298
+            ],
+            [
+              "Cr2O3",
+              0.3703703703703705
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 750
+      },
+      {
+        "reaction": "Cr2O3 + MoO3 -> Cr2MoO6",
+        "verdict_class": "uncertain",
+        "enthalpy_eV": -0.07090540551009147,
+        "free_energy_eV": -0.07090540551009147,
+        "driving_force_meV_per_atom": 7.878378390010163,
+        "error_band_meV_per_atom": 56.22277118748237,
+        "onset_temperature_C": null,
+        "kinetic_risk": true,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.016690402119250436,
+          "decomposes_to": [
+            [
+              "Cr2(MoO4)3",
+              0.6296296296296298
+            ],
+            [
+              "Cr2O3",
+              0.3703703703703705
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 900
+      }
+    ]
+  },
+  {
+    "target": "LaMoO4",
+    "lab": {
+      "precursors": [
+        "La2O3",
+        "Mo"
+      ],
+      "temperatures_C": [
+        750,
+        900
+      ],
+      "hours": [
+        24,
+        null
+      ],
+      "outcome": "failed",
+      "found": "no crystalline product at 750 C; Mo lost at 900 C"
+    },
+    "ours": {
+      "target": "LaMoO4",
+      "precursors": [
+        "La2O3",
+        "MoO3"
+      ],
+      "firing_temperature_C": 948,
+      "dwell_hours": 6
+    },
+    "ours_assessment": {
+      "reaction": "0.5 La2O3 + MoO3 -> LaMoO4 + 0.25 O2",
+      "verdict_class": "feasible",
+      "enthalpy_eV": 0.2156693121317934,
+      "free_energy_eV": -0.4336025435970762,
+      "driving_force_meV_per_atom": 66.70808363031941,
+      "error_band_meV_per_atom": 53.61538461538461,
+      "onset_temperature_C": 132.4806740942709,
+      "kinetic_risk": false,
+      "polymorph": null,
+      "target_stability": {
+        "above_hull_eV_per_atom": 0.026578138271967866,
+        "decomposes_to": [
+          [
+            "La2MoO6",
+            0.75
+          ],
+          [
+            "MoO2",
+            0.25
+          ]
+        ]
+      },
+      "error": null
+    },
+    "ours_selectivity": {
+      "C1": null,
+      "rival": null,
+      "remaining": null
+    },
+    "lab_assessment": [
+      {
+        "reaction": "0.5 La2O3 + Mo + 1.25 O2 -> LaMoO4",
+        "verdict_class": "feasible",
+        "enthalpy_eV": -7.482898359157426,
+        "free_energy_eV": -4.7629110554314575,
+        "driving_force_meV_per_atom": 793.8185092385762,
+        "error_band_meV_per_atom": 56.222771187482394,
+        "onset_temperature_C": null,
+        "kinetic_risk": false,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.026578107848763466,
+          "decomposes_to": [
+            [
+              "La2MoO6",
+              0.75
+            ],
+            [
+              "MoO2",
+              0.25
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 750
+      },
+      {
+        "reaction": "0.5 La2O3 + Mo + 1.25 O2 -> LaMoO4",
+        "verdict_class": "feasible",
+        "enthalpy_eV": -7.482898534246063,
+        "free_energy_eV": -4.364144582854654,
+        "driving_force_meV_per_atom": 727.3574304757757,
+        "error_band_meV_per_atom": 56.222771187482394,
+        "onset_temperature_C": null,
+        "kinetic_risk": false,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.02657807866732309,
+          "decomposes_to": [
+            [
+              "La2MoO6",
+              0.75
+            ],
+            [
+              "MoO2",
+              0.25
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 900
+      }
+    ]
+  },
+  {
+    "target": "Mn3NiO6",
+    "lab": {
+      "precursors": [
+        "Mn2O3",
+        "Ni2O3"
+      ],
+      "temperatures_C": [
+        1100
+      ],
+      "hours": [
+        24
+      ],
+      "outcome": "failed",
+      "found": "the known Mn2NiO4 formed instead"
+    },
+    "ours": {
+      "target": "Mn3NiO6",
+      "precursors": [
+        "MnO2",
+        "NiO"
+      ],
+      "firing_temperature_C": 1123,
+      "dwell_hours": 8
+    },
+    "ours_assessment": {
+      "reaction": "3 MnO2 + NiO -> Mn3NiO6 + 0.5 O2",
+      "verdict_class": "feasible",
+      "enthalpy_eV": 0.8478077640041937,
+      "free_energy_eV": -0.6368270496974151,
+      "driving_force_meV_per_atom": 57.89336815431046,
+      "error_band_meV_per_atom": 53.15072906367325,
+      "onset_temperature_C": 524.1280907402027,
+      "kinetic_risk": false,
+      "polymorph": null,
+      "target_stability": {
+        "above_hull_eV_per_atom": 0.017484676837920432,
+        "decomposes_to": [
+          [
+            "Mn2O3",
+            0.5
+          ],
+          [
+            "MnNiO3",
+            0.5
+          ]
+        ]
+      },
+      "error": null
+    },
+    "ours_selectivity": {
+      "C1": null,
+      "rival": null,
+      "remaining": null
+    },
+    "lab_assessment": [
+      {
+        "reaction": "1.5 Mn2O3 + 0.5 Ni2O3 -> Mn3NiO6",
+        "verdict_class": "feasible",
+        "enthalpy_eV": -0.9788179663461802,
+        "free_energy_eV": -0.9788179663461802,
+        "driving_force_meV_per_atom": 97.88179663461803,
+        "error_band_meV_per_atom": 56.2227711874824,
+        "onset_temperature_C": null,
+        "kinetic_risk": false,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.017484724521636963,
+          "decomposes_to": [
+            [
+              "Mn2O3",
+              0.5
+            ],
+            [
+              "MnNiO3",
+              0.5
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 1100
+      }
+    ]
+  },
+  {
+    "target": "TaCr2O6",
+    "lab": {
+      "precursors": [
+        "Cr",
+        "Ta2O5"
+      ],
+      "temperatures_C": [
+        1200,
+        1500
+      ],
+      "hours": [
+        12,
+        36
+      ],
+      "outcome": "made",
+      "found": "98% disordered rutile TaCr2O6 + 2% Cr2O3"
+    },
+    "ours": {
+      "target": "TaCr2O6",
+      "precursors": [
+        "Cr2O3",
+        "Ta2O5"
+      ],
+      "firing_temperature_C": 1246,
+      "dwell_hours": 10
+    },
+    "ours_assessment": {
+      "reaction": "Cr2O3 + 0.5 Ta2O5 + 0.25 O2 -> TaCr2O6",
+      "verdict_class": "rejected",
+      "enthalpy_eV": -0.21343217860107488,
+      "free_energy_eV": 0.5942829584668647,
+      "driving_force_meV_per_atom": -66.03143982965165,
+      "error_band_meV_per_atom": 56.222771187482415,
+      "onset_temperature_C": null,
+      "kinetic_risk": false,
+      "polymorph": null,
+      "target_stability": {
+        "above_hull_eV_per_atom": 0.0066152148776517095,
+        "decomposes_to": [
+          [
+            "TaCrO4",
+            0.666666666666667
+          ],
+          [
+            "CrO2",
+            0.33333333333333215
+          ]
+        ]
+      },
+      "error": null
+    },
+    "ours_selectivity": {
+      "C1": null,
+      "rival": null,
+      "remaining": null
+    },
+    "lab_assessment": [
+      {
+        "reaction": "2 Cr + 0.5 Ta2O5 + 1.75 O2 -> TaCr2O6",
+        "verdict_class": "feasible",
+        "enthalpy_eV": -12.04637042755467,
+        "free_energy_eV": -6.563568282143457,
+        "driving_force_meV_per_atom": 729.2853646826064,
+        "error_band_meV_per_atom": 56.222771187482394,
+        "onset_temperature_C": null,
+        "kinetic_risk": false,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.0066152811050343985,
+          "decomposes_to": [
+            [
+              "TaCrO4",
+              0.666666666666667
+            ],
+            [
+              "CrO2",
+              0.33333333333333215
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 1200
+      },
+      {
+        "reaction": "2 Cr + 0.5 Ta2O5 + 1.75 O2 -> TaCr2O6",
+        "verdict_class": "feasible",
+        "enthalpy_eV": -12.046370904391814,
+        "free_energy_eV": -5.447022145517367,
+        "driving_force_meV_per_atom": 605.224682835263,
+        "error_band_meV_per_atom": 56.222771187482394,
+        "onset_temperature_C": null,
+        "kinetic_risk": false,
+        "polymorph": null,
+        "target_stability": {
+          "above_hull_eV_per_atom": 0.006615228123129313,
+          "decomposes_to": [
+            [
+              "TaCrO4",
+              0.666666666666667
+            ],
+            [
+              "CrO2",
+              0.33333333333333215
+            ]
+          ]
+        },
+        "error": null,
+        "temperature_C": 1500
+      }
+    ]
+  }
+]

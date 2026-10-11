@@ -1,0 +1,3805 @@
+[
+  {
+    "target": "Na3Ca18Fe(PO4)14",
+    "result": "Success",
+    "mp_id": "mp-725491",
+    "masses_mg": {
+      "CaCO3": 828.0,
+      "Fe2O3": 36.7,
+      "NH4H2PO4": 740.1,
+      "Na2CO3": 73.1
+    },
+    "temperature_C": 700.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Na3Ca18Fe(PO4)14",
+      "precursors": [
+        "CaCO3",
+        "Fe2O3",
+        "NH4H2PO4",
+        "Na2CO3"
+      ],
+      "firing_temperature_C": 968,
+      "dwell_hours": 12
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 268.0,
+    "dwell_factor": 3.0000000000000004,
+    "grams": {
+      "equation": "18 CaCO3 + 0.5 Fe2O3 + 14 PH6NO4 + 1.5 Na2CO3 -> Na3Ca18Fe(PO4)14 + 19.5 CO2 + 21 H2O + 14 H3N",
+      "fractions_ours_theirs": {
+        "CaCO3": [
+          0.49347398533881637,
+          0.49347398533881637
+        ],
+        "Fe2O3": [
+          0.02187257881876155,
+          0.02187257881876155
+        ],
+        "PH6NO4": [
+          0.4410870731271232,
+          0.4410870731271232
+        ],
+        "Na2CO3": [
+          0.04356636271529889,
+          0.04356636271529888
+        ]
+      },
+      "worst_fraction_difference": 6.938893903907228e-18
+    },
+    "simulator_ours": {
+      "reaction": "18 CaCO3 + 0.5 Fe2O3 + 14 PH6NO4 + 1.5 Na2CO3 -> Na3Ca18Fe(PO4)14 + 19.5 CO2 + 21 H2O + 14 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 4.677160599375459,
+      "free_energy_eV": -134.67612815017097,
+      "feasible": true,
+      "onset_temperature_C": -231.4928713451605,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 499.7258929505416,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -150.8922857078754
+    },
+    "simulator_theirs": {
+      "reaction": "18 CaCO3 + 0.5 Fe2O3 + 14 PH6NO4 + 1.5 Na2CO3 -> Na3Ca18Fe(PO4)14 + 19.5 CO2 + 21 H2O + 14 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 4.677160599375459,
+      "free_energy_eV": -104.5857431162279,
+      "feasible": true,
+      "onset_temperature_C": -231.4928713451605,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 388.07325831624456,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -117.30036562541702
+    }
+  },
+  {
+    "target": "Na7Mg7Fe5(PO4)12",
+    "result": "Success",
+    "mp_id": "mp-1173791",
+    "masses_mg": {
+      "Fe2O3": 228.1,
+      "MgO": 161.2,
+      "NH4H2PO4": 788.8,
+      "Na2CO3": 212.0
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Na7Mg7Fe5(PO4)12",
+      "precursors": [
+        "Fe2O3",
+        "MgO",
+        "NH4H2PO4",
+        "Na2CO3"
+      ],
+      "firing_temperature_C": 715,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 285.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "2.5 Fe2O3 + 7 MgO + 12 PH6NO4 + 3.5 Na2CO3 -> Na7Mg7Fe5(PO4)12 + 3.5 CO2 + 18 H2O + 12 H3N",
+      "fractions_ours_theirs": {
+        "Fe2O3": [
+          0.16408891446658516,
+          0.16408891446658513
+        ],
+        "MgO": [
+          0.11596288036831884,
+          0.11596288036831882
+        ],
+        "PH6NO4": [
+          0.5674411912812029,
+          0.5674411912812029
+        ],
+        "Na2CO3": [
+          0.15250701388389326,
+          0.15250701388389326
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "2.5 Fe2O3 + 7 MgO + 12 PH6NO4 + 3.5 Na2CO3 -> Na7Mg7Fe5(PO4)12 + 3.5 CO2 + 18 H2O + 12 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -4.876074937294123,
+      "free_energy_eV": -71.03916189381582,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 370.9616809076544,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -73.35644978200304
+    },
+    "simulator_theirs": {
+      "reaction": "2.5 Fe2O3 + 7 MgO + 12 PH6NO4 + 3.5 Na2CO3 -> Na7Mg7Fe5(PO4)12 + 3.5 CO2 + 18 H2O + 12 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -4.876074937294123,
+      "free_energy_eV": -90.12177058946799,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 470.6097680912166,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -93.10740543725989
+    }
+  },
+  {
+    "target": "MgV4Cu3O14",
+    "result": "Success",
+    "mp_id": "mp-1222158",
+    "masses_mg": {
+      "CuO": 371.3,
+      "MgO": 62.7,
+      "V2O5": 566.0
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "MgV4Cu3O14",
+      "precursors": [
+        "CuO",
+        "MgO",
+        "V2O5"
+      ],
+      "firing_temperature_C": 767,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 133.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "3 CuO + MgO + 2 V2O5 -> MgV4Cu3O14",
+      "fractions_ours_theirs": {
+        "CuO": [
+          0.3713,
+          0.3713
+        ],
+        "MgO": [
+          0.0627,
+          0.0627
+        ],
+        "V2O5": [
+          0.566,
+          0.566
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "3 CuO + MgO + 2 V2O5 -> MgV4Cu3O14",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.8103864200001423,
+      "free_energy_eV": -0.8103864200001423,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 36.83574636364283,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.8103864200001423
+    },
+    "simulator_theirs": {
+      "reaction": "3 CuO + MgO + 2 V2O5 -> MgV4Cu3O14",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.8103864200001423,
+      "free_energy_eV": -0.8103864200001423,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 36.83574636364283,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.8103864200001423
+    }
+  },
+  {
+    "target": "MgCuP2O7",
+    "result": "Success",
+    "mp_id": "mp-1041741",
+    "masses_mg": {
+      "CuO": 303.8,
+      "MgO": 154.0,
+      "NH4H2PO4": 878.7
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "MgCuP2O7",
+      "precursors": [
+        "CuO",
+        "MgO",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 863,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 137.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "CuO + MgO + 2 PH6NO4 -> MgCuP2O7 + 3 H2O + 2 H3N",
+      "fractions_ours_theirs": {
+        "CuO": [
+          0.22731013842124953,
+          0.22731013842124953
+        ],
+        "MgO": [
+          0.11522633744855967,
+          0.11522633744855967
+        ],
+        "PH6NO4": [
+          0.6574635241301908,
+          0.6574635241301908
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "CuO + MgO + 2 PH6NO4 -> MgCuP2O7 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.11299530750001503,
+      "free_energy_eV": -11.097190731780703,
+      "feasible": true,
+      "onset_temperature_C": -261.69794932338345,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 396.3282404207394,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -11.097190731780703
+    },
+    "simulator_theirs": {
+      "reaction": "CuO + MgO + 2 PH6NO4 -> MgCuP2O7 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.11299530750001503,
+      "free_energy_eV": -12.448944890458217,
+      "feasible": true,
+      "onset_temperature_C": -261.69794932338345,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 444.60517465922203,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -12.448944890458217
+    }
+  },
+  {
+    "target": "NaMnFe(PO4)2",
+    "result": "Success",
+    "mp_id": "mp-1173592",
+    "masses_mg": {
+      "Fe2O3": 246.6,
+      "MnO2": 268.6,
+      "NH4H2PO4": 710.7,
+      "Na2CO3": 163.7
+    },
+    "temperature_C": 700.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "NaMnFe(PO4)2",
+      "precursors": [
+        "Fe2O3",
+        "MnO2",
+        "NH4H2PO4",
+        "Na2CO3"
+      ],
+      "firing_temperature_C": 768,
+      "dwell_hours": 16
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 68.0,
+    "dwell_factor": 4.0,
+    "grams": {
+      "equation": "0.5 Fe2O3 + MnO2 + 2 PH6NO4 + 0.5 Na2CO3 -> NaMnFe(PO4)2 + 0.5 CO2 + 3 H2O + 2 H3N + 0.5 O2",
+      "fractions_ours_theirs": {
+        "Fe2O3": [
+          0.17746113989637308,
+          0.17746113989637305
+        ],
+        "MnO2": [
+          0.1932930339666091,
+          0.1932930339666091
+        ],
+        "PH6NO4": [
+          0.5114421416234888,
+          0.5114421416234888
+        ],
+        "Na2CO3": [
+          0.11780368451352909,
+          0.11780368451352906
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "0.5 Fe2O3 + MnO2 + 2 PH6NO4 + 0.5 Na2CO3 -> NaMnFe(PO4)2 + 0.5 CO2 + 3 H2O + 2 H3N + 0.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.8605639256250202,
+      "free_energy_eV": -11.672946205483452,
+      "feasible": true,
+      "onset_temperature_C": -201.66355112877312,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 359.167575553337,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -12.091860255920157
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 Fe2O3 + MnO2 + 2 PH6NO4 + 0.5 Na2CO3 -> NaMnFe(PO4)2 + 0.5 CO2 + 3 H2O + 2 H3N + 0.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.8605639256250202,
+      "free_energy_eV": -10.854352641717064,
+      "feasible": true,
+      "onset_temperature_C": -201.66355112877312,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 333.980081283602,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -11.245906412242423
+    }
+  },
+  {
+    "target": "K4TiSn3(PO5)4",
+    "result": "Success",
+    "mp_id": "mp-1224290",
+    "masses_mg": {
+      "NH4H2PO4": 458.1,
+      "K2CO3": 275.2,
+      "SnO2": 450.2,
+      "TiO2": 79.5
+    },
+    "temperature_C": 1100.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "K4TiSn3(PO5)4",
+      "precursors": [
+        "K2CO3",
+        "NH4H2PO4",
+        "SnO2",
+        "TiO2"
+      ],
+      "firing_temperature_C": 974,
+      "dwell_hours": 6
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 126.0,
+    "dwell_factor": 1.5,
+    "grams": {
+      "equation": "4 PH6NO4 + 2 K2CO3 + 3 SnO2 + TiO2 -> K4TiSn3(PO5)4 + 2 CO2 + 6 H2O + 4 H3N",
+      "fractions_ours_theirs": {
+        "PH6NO4": [
+          0.36270783847981003,
+          0.36270783847981
+        ],
+        "K2CO3": [
+          0.21789390340459225,
+          0.21789390340459222
+        ],
+        "SnO2": [
+          0.3564528899445764,
+          0.3564528899445764
+        ],
+        "TiO2": [
+          0.06294536817102138,
+          0.06294536817102138
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "2 K2CO3 + 4 PH6NO4 + 3 SnO2 + TiO2 -> K4TiSn3(PO5)4 + 2 CO2 + 6 H2O + 4 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.8111395574999165,
+      "free_energy_eV": -30.949036018089643,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 429.84772247346723,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -32.62027192920937
+    },
+    "simulator_theirs": {
+      "reaction": "4 PH6NO4 + 2 K2CO3 + 3 SnO2 + TiO2 -> K4TiSn3(PO5)4 + 2 CO2 + 6 H2O + 4 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.8111395574999442,
+      "free_energy_eV": -33.99387822154095,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 472.13719752140213,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -35.833959680350304
+    }
+  },
+  {
+    "target": "NaCaMgFe(SiO3)4",
+    "result": "Success",
+    "mp_id": "mp-1221075",
+    "masses_mg": {
+      "CaCO3": 223.6,
+      "Fe2O3": 178.4,
+      "MgCO3": 188.4,
+      "Na2CO3": 118.4,
+      "SiO2": 537.0
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "NaCaMgFe(SiO3)4",
+      "precursors": [
+        "CaCO3",
+        "Fe2O3",
+        "MgO",
+        "Na2CO3",
+        "SiO2"
+      ],
+      "firing_temperature_C": 1118,
+      "dwell_hours": 5
+    },
+    "exact": false,
+    "jaccard": 0.6666666666666666,
+    "per_metal": [
+      4,
+      5
+    ],
+    "temperature_error_C": 118.0,
+    "dwell_factor": 1.25,
+    "grams": {
+      "equation": "CaCO3 + 0.5 Fe2O3 + MgCO3 + 0.5 Na2CO3 + 4 SiO2 -> NaCaMgFe(SiO3)4 + 2.5 CO2",
+      "fractions_ours_theirs": {
+        "CaCO3": [
+          0.17948306309198908,
+          0.17948306309198908
+        ],
+        "Fe2O3": [
+          0.14320115588376947,
+          0.14320115588376947
+        ],
+        "MgCO3": [
+          0.151228126505057,
+          0.15122812650505701
+        ],
+        "Na2CO3": [
+          0.0950393321560443,
+          0.09503933215604432
+        ],
+        "SiO2": [
+          0.43104832236314017,
+          0.43104832236314017
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + 0.5 Fe2O3 + MgO + 0.5 Na2CO3 + 4 SiO2 -> NaCaMgFe(SiO3)4 + 1.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.5625059931249412,
+      "free_energy_eV": -4.0614438954587815,
+      "feasible": true,
+      "onset_temperature_C": -103.91585361191173,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 165.7732202228074,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.459595583961105
+    },
+    "simulator_theirs": {
+      "reaction": "CaCO3 + 0.5 Fe2O3 + MgCO3 + 0.5 Na2CO3 + 4 SiO2 -> NaCaMgFe(SiO3)4 + 2.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.3898709731249494,
+      "free_energy_eV": -5.663025072892561,
+      "feasible": true,
+      "onset_temperature_C": -22.258136871916065,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 205.92818446882038,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -7.79562139274392
+    }
+  },
+  {
+    "target": "Mn2VPO7",
+    "result": "Success",
+    "mp_id": "mp-1210613",
+    "masses_mg": {
+      "MnO2": 572.4,
+      "V2O5": 299.4,
+      "NH4H2PO4": 378.6
+    },
+    "temperature_C": 700.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Mn2VPO7",
+      "precursors": [
+        "MnO2",
+        "NH4H2PO4",
+        "V2O5"
+      ],
+      "firing_temperature_C": 882,
+      "dwell_hours": 16
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 182.0,
+    "dwell_factor": 4.0,
+    "grams": {
+      "equation": "2 MnO2 + 0.5 V2O5 + PH6NO4 -> Mn2VPO7 + 1.5 H2O + H3N + O2",
+      "fractions_ours_theirs": {
+        "MnO2": [
+          0.4577735124760077,
+          0.4577735124760076
+        ],
+        "V2O5": [
+          0.23944337811900193,
+          0.23944337811900188
+        ],
+        "PH6NO4": [
+          0.3027831094049904,
+          0.3027831094049904
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "2 MnO2 + PH6NO4 + 0.5 V2O5 -> Mn2VPO7 + 1.5 H2O + H3N + O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.7679758220833364,
+      "free_energy_eV": -6.387573537920819,
+      "feasible": true,
+      "onset_temperature_C": -22.734340584688,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 297.09644362422415,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -6.543163117695858
+    },
+    "simulator_theirs": {
+      "reaction": "2 MnO2 + 0.5 V2O5 + PH6NO4 -> Mn2VPO7 + 1.5 H2O + H3N + O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.7679758220833808,
+      "free_energy_eV": -5.102623545694008,
+      "feasible": true,
+      "onset_temperature_C": -22.734340584681945,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 237.33132770669803,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.233699163196566
+    }
+  },
+  {
+    "target": "K4MgFe3(PO4)5",
+    "result": "Success",
+    "mp_id": "mp-532755",
+    "masses_mg": {
+      "Fe2O3": 291.0,
+      "K2CO3": 335.8,
+      "(NH4)2HPO4": 802.2,
+      "MgCO3": 102.4
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "K4MgFe3(PO4)5",
+      "precursors": [
+        "Fe2O3",
+        "K2CO3",
+        "MgO",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 832,
+      "dwell_hours": 8
+    },
+    "exact": false,
+    "jaccard": 0.3333333333333333,
+    "per_metal": [
+      2,
+      4
+    ],
+    "temperature_error_C": 68.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "1.5 Fe2O3 + 2 K2CO3 + 5 PH9(NO2)2 + MgCO3 -> K4MgFe3(PO4)5 + 3 CO2 + 7.5 H2O + 10 H3N",
+      "fractions_ours_theirs": {
+        "Fe2O3": [
+          0.19002220190675198,
+          0.19002220190675198
+        ],
+        "K2CO3": [
+          0.21927647903878802,
+          0.21927647903878802
+        ],
+        "PH9(NO2)2": [
+          0.5238343998955204,
+          0.5238343998955204
+        ],
+        "MgCO3": [
+          0.06686691915893953,
+          0.06686691915893954
+        ]
+      },
+      "worst_fraction_difference": 1.3877787807814457e-17
+    },
+    "simulator_ours": {
+      "reaction": "1.5 Fe2O3 + 2 K2CO3 + MgO + 5 PH6NO4 -> K4MgFe3(PO4)5 + 2 CO2 + 7.5 H2O + 5 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -1.3717448237498506,
+      "free_energy_eV": -33.530309782033505,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 411.4148439513313,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -35.01125944099512
+    },
+    "simulator_theirs": {
+      "reaction": "1.5 Fe2O3 + 2 K2CO3 + 5 PH9(NO2)2 + MgCO3 -> K4MgFe3(PO4)5 + 3 CO2 + 7.5 H2O + 10 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.942478162499911,
+      "free_energy_eV": -47.5155413223941,
+      "feasible": true,
+      "onset_temperature_C": -250.33296645034275,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 454.6941753339148,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -49.873650301823346
+    }
+  },
+  {
+    "target": "MnAgO2",
+    "result": "Success",
+    "mp_id": "mp-996995",
+    "masses_mg": {
+      "Ag2CO3": 707.7,
+      "MnCO3": 590.1
+    },
+    "temperature_C": 500.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "MnAgO2",
+      "precursors": [
+        "Ag2O",
+        "MnO2"
+      ],
+      "firing_temperature_C": 807,
+      "dwell_hours": 12
+    },
+    "exact": false,
+    "jaccard": 0.0,
+    "per_metal": [
+      0,
+      2
+    ],
+    "temperature_error_C": 307.0,
+    "dwell_factor": 3.0000000000000004,
+    "grams": {
+      "equation": "0.5 Ag2CO3 + MnCO3 + 0.25 O2 -> MnAgO2 + 1.5 CO2",
+      "fractions_ours_theirs": {
+        "Ag2CO3": [
+          0.5453074433656958,
+          0.5453074433656957
+        ],
+        "MnCO3": [
+          0.45469255663430413,
+          0.45469255663430413
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "0.5 Ag2O + MnO2 -> MnAgO2 + 0.25 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.21523414916666406,
+      "free_energy_eV": -0.3590695768011021,
+      "feasible": true,
+      "onset_temperature_C": 131.66221992876444,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 79.7932392891338,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.3954414948623941
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 Ag2CO3 + MnCO3 + 0.25 O2 -> MnAgO2 + 1.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.3516349550000024,
+      "free_energy_eV": -2.510380977697832,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 295.3389385526861,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.261387959271962
+    }
+  },
+  {
+    "target": "KMn3O6",
+    "result": "Success",
+    "mp_id": "mp-1016190",
+    "masses_mg": {
+      "K2CO3": 230.4,
+      "Mn2O3": 789.6
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KMn3O6",
+      "precursors": [
+        "K2CO3",
+        "MnO2"
+      ],
+      "firing_temperature_C": 803,
+      "dwell_hours": 12
+    },
+    "exact": false,
+    "jaccard": 0.3333333333333333,
+    "per_metal": [
+      1,
+      2
+    ],
+    "temperature_error_C": 97.0,
+    "dwell_factor": 3.0000000000000004,
+    "grams": {
+      "equation": "0.5 K2CO3 + 1.5 Mn2O3 + 0.5 O2 -> KMn3O6 + 0.5 CO2",
+      "fractions_ours_theirs": {
+        "K2CO3": [
+          0.22588235294117645,
+          0.22588235294117648
+        ],
+        "Mn2O3": [
+          0.7741176470588235,
+          0.7741176470588236
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "0.5 K2CO3 + 3 MnO2 -> KMn3O6 + 0.5 CO2 + 0.25 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.42506329625006467,
+      "free_energy_eV": -1.3394278681796443,
+      "feasible": true,
+      "onset_temperature_C": -13.907066127134101,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 111.61898901497035,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -1.7361871896686445
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 K2CO3 + 1.5 Mn2O3 + 0.5 O2 -> KMn3O6 + 0.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.8732891934375386,
+      "free_energy_eV": -0.9255723980807482,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 80.48455635484767,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -1.2395835425278545
+    }
+  },
+  {
+    "target": "CaCo(PO3)4",
+    "result": "Success",
+    "mp_id": "mp-1045787",
+    "masses_mg": {
+      "Ca(OH)2": 178.6,
+      "CoO": 180.6,
+      "(NH4)2HPO4": 1273.1
+    },
+    "temperature_C": 700.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaCo(PO3)4",
+      "precursors": [
+        "CaCO3",
+        "Co3O4",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 840,
+      "dwell_hours": 12
+    },
+    "exact": false,
+    "jaccard": 0.0,
+    "per_metal": [
+      0,
+      3
+    ],
+    "temperature_error_C": 140.0,
+    "dwell_factor": 3.0000000000000004,
+    "grams": {
+      "equation": "Ca(HO)2 + CoO + 4 PH9(NO2)2 -> CaCo(PO3)4 + 7 H2O + 8 H3N",
+      "fractions_ours_theirs": {
+        "Ca(HO)2": [
+          0.10941616124486922,
+          0.1094161612448692
+        ],
+        "CoO": [
+          0.11064142620841759,
+          0.11064142620841758
+        ],
+        "PH9(NO2)2": [
+          0.7799424125467133,
+          0.7799424125467131
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + 0.3333 Co3O4 + 4 PH6NO4 -> CaCo(PO3)4 + CO2 + 6 H2O + 4 H3N + 0.1667 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 2.275828055000067,
+      "free_energy_eV": -22.55185293168181,
+      "feasible": true,
+      "onset_temperature_C": -171.1131645507986,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 407.56532584803324,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -23.322676689206137
+    },
+    "simulator_theirs": {
+      "reaction": "Ca(HO)2 + CoO + 4 PH9(NO2)2 -> CaCo(PO3)4 + 7 H2O + 8 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.8501459200000119,
+      "free_energy_eV": -27.036226054918384,
+      "feasible": true,
+      "onset_temperature_C": -210.82062531731805,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 380.7919162664561,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -27.036226054918384
+    }
+  },
+  {
+    "target": "Mn4Zn3(NiO6)2",
+    "result": "Success",
+    "mp_id": "mp-1222033",
+    "masses_mg": {
+      "Mn2O3": 435.4,
+      "NiO": 206.0,
+      "ZnO": 336.6
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Mn4Zn3(NiO6)2",
+      "precursors": [
+        "MnO2",
+        "NiO",
+        "ZnO"
+      ],
+      "firing_temperature_C": 1103,
+      "dwell_hours": 6
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 103.0,
+    "dwell_factor": 1.5,
+    "grams": {
+      "equation": "2 Mn2O3 + 2 NiO + 3 ZnO + 0.5 O2 -> Mn4Zn3(NiO6)2",
+      "fractions_ours_theirs": {
+        "Mn2O3": [
+          0.4451375396257286,
+          0.4451942740286298
+        ],
+        "NiO": [
+          0.2105532263012578,
+          0.21063394683026584
+        ],
+        "ZnO": [
+          0.3443092340730136,
+          0.3441717791411043
+        ]
+      },
+      "worst_fraction_difference": 0.0001374549319093088
+    },
+    "simulator_ours": {
+      "reaction": "4 MnO2 + 2 NiO + 3 ZnO -> Mn4Zn3(NiO6)2 + 0.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.13648684333335925,
+      "free_energy_eV": -1.599854102492805,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 72.72064102240023,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -1.692532369474329
+    },
+    "simulator_theirs": {
+      "reaction": "2 Mn2O3 + 2 NiO + 3 ZnO + 0.5 O2 -> Mn4Zn3(NiO6)2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -1.8676234962498688,
+      "free_energy_eV": -0.5137841429825203,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 1483.1624077550532,
+      "driving_force_meV_per_atom": 24.465911570596205,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.42804251917150515
+    }
+  },
+  {
+    "target": "CaNi(PO3)4",
+    "result": "Success",
+    "mp_id": "mp-1045813",
+    "masses_mg": {
+      "Ca(OH)2": 178.7,
+      "(NH4)2HPO4": 1273.9,
+      "NiO": 180.1
+    },
+    "temperature_C": 800.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaNi(PO3)4",
+      "precursors": [
+        "CaCO3",
+        "NH4H2PO4",
+        "NiO"
+      ],
+      "firing_temperature_C": 929,
+      "dwell_hours": 10
+    },
+    "exact": false,
+    "jaccard": 0.2,
+    "per_metal": [
+      1,
+      3
+    ],
+    "temperature_error_C": 129.0,
+    "dwell_factor": 2.5,
+    "grams": {
+      "equation": "Ca(HO)2 + 4 PH9(NO2)2 + NiO -> CaNi(PO3)4 + 7 H2O + 8 H3N",
+      "fractions_ours_theirs": {
+        "Ca(HO)2": [
+          0.10945060329515525,
+          0.10945060329515525
+        ],
+        "PH9(NO2)2": [
+          0.7802413180621057,
+          0.7802413180621057
+        ],
+        "NiO": [
+          0.11030807864273902,
+          0.11030807864273902
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + 4 PH6NO4 + NiO -> CaNi(PO3)4 + CO2 + 6 H2O + 4 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.796518524999929,
+      "free_energy_eV": -24.590103955178343,
+      "feasible": true,
+      "onset_temperature_C": -191.30228544498152,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 447.0927991850608,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -25.39557092007936
+    },
+    "simulator_theirs": {
+      "reaction": "Ca(HO)2 + 4 PH9(NO2)2 + NiO -> CaNi(PO3)4 + 7 H2O + 8 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.8379632874997525,
+      "free_energy_eV": -30.016745734628035,
+      "feasible": true,
+      "onset_temperature_C": -211.23104476452036,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 422.7710666849019,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -30.016745734628035
+    }
+  },
+  {
+    "target": "CaMn(PO3)4",
+    "result": "Success",
+    "mp_id": "mp-1045779",
+    "masses_mg": {
+      "CaCO3": 243.6,
+      "Mn2O3": 192.1,
+      "(NH4)2HPO4": 1285.5
+    },
+    "temperature_C": 700.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaMn(PO3)4",
+      "precursors": [
+        "CaCO3",
+        "MnO2",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 907,
+      "dwell_hours": 10
+    },
+    "exact": false,
+    "jaccard": 0.2,
+    "per_metal": [
+      1,
+      3
+    ],
+    "temperature_error_C": 207.0,
+    "dwell_factor": 2.5,
+    "grams": {
+      "equation": "CaCO3 + 0.5 Mn2O3 + 4 PH9(NO2)2 -> CaMn(PO3)4 + CO2 + 6 H2O + 8 H3N + 0.25 O2",
+      "fractions_ours_theirs": {
+        "CaCO3": [
+          0.14152916569835,
+          0.14152916569834997
+        ],
+        "Mn2O3": [
+          0.11160818033929816,
+          0.11160818033929816
+        ],
+        "PH9(NO2)2": [
+          0.7468626539623519,
+          0.7468626539623519
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + MnO2 + 4 PH6NO4 -> CaMn(PO3)4 + CO2 + 6 H2O + 4 H3N + 0.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 2.886127699166641,
+      "free_energy_eV": -24.272550437331255,
+      "feasible": true,
+      "onset_temperature_C": -147.7365469941932,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 433.43840066662955,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -25.142755359052664
+    },
+    "simulator_theirs": {
+      "reaction": "CaCO3 + 0.5 Mn2O3 + 4 PH9(NO2)2 -> CaMn(PO3)4 + CO2 + 6 H2O + 8 H3N + 0.25 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 3.6428299409375247,
+      "free_energy_eV": -26.013105644904833,
+      "feasible": true,
+      "onset_temperature_C": -153.6117056588249,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 363.8196593692984,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -26.697906472828638
+    }
+  },
+  {
+    "target": "MgNi(PO3)4",
+    "result": "Success",
+    "mp_id": "mp-1045786",
+    "masses_mg": {
+      "MgO": 101.0,
+      "(NH4)2HPO4": 1324.2,
+      "NiO": 187.3
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "MgNi(PO3)4",
+      "precursors": [
+        "MgO",
+        "NH4H2PO4",
+        "NiO"
+      ],
+      "firing_temperature_C": 951,
+      "dwell_hours": 8
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 51.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "MgO + 4 PH9(NO2)2 + NiO -> MgNi(PO3)4 + 6 H2O + 8 H3N",
+      "fractions_ours_theirs": {
+        "MgO": [
+          0.06263565891472868,
+          0.06263565891472868
+        ],
+        "PH9(NO2)2": [
+          0.8212093023255814,
+          0.8212093023255814
+        ],
+        "NiO": [
+          0.11615503875968991,
+          0.11615503875968992
+        ]
+      },
+      "worst_fraction_difference": 1.3877787807814457e-17
+    },
+    "simulator_ours": {
+      "reaction": "MgO + 4 PH6NO4 + NiO -> MgNi(PO3)4 + 6 H2O + 4 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.967660060000021,
+      "free_energy_eV": -23.18927210562158,
+      "feasible": true,
+      "onset_temperature_C": -224.11392810446318,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 445.94754049272274,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -23.18927210562158
+    },
+    "simulator_theirs": {
+      "reaction": "MgO + 4 PH9(NO2)2 + NiO -> MgNi(PO3)4 + 6 H2O + 8 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 2.1571464650001806,
+      "free_energy_eV": -30.370302153956146,
+      "feasible": true,
+      "onset_temperature_C": -195.34935830011125,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 446.62209049935507,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -30.370302153956146
+    }
+  },
+  {
+    "target": "KNaTi2(PO5)2",
+    "result": "Success",
+    "mp_id": "mp-1211611",
+    "masses_mg": {
+      "NH4H2PO4": 605.8,
+      "K2CO3": 182.0,
+      "Na2CO3": 139.5,
+      "TiO2": 420.6
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KNaTi2(PO5)2",
+      "precursors": [
+        "K2CO3",
+        "NH4H2PO4",
+        "Na2CO3",
+        "TiO2"
+      ],
+      "firing_temperature_C": 987,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 13.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "2 PH6NO4 + 0.5 K2CO3 + 0.5 Na2CO3 + 2 TiO2 -> KNaTi2(PO5)2 + CO2 + 3 H2O + 2 H3N",
+      "fractions_ours_theirs": {
+        "PH6NO4": [
+          0.4494398694265153,
+          0.44943986942651526
+        ],
+        "K2CO3": [
+          0.1350248534757771,
+          0.1350248534757771
+        ],
+        "Na2CO3": [
+          0.10349432450478523,
+          0.10349432450478521
+        ],
+        "TiO2": [
+          0.3120409525929223,
+          0.3120409525929223
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "0.5 K2CO3 + 2 PH6NO4 + 0.5 Na2CO3 + 2 TiO2 -> KNaTi2(PO5)2 + CO2 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.30752500729172694,
+      "free_energy_eV": -15.533548430621789,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 431.4874564061608,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -16.377876672371993
+    },
+    "simulator_theirs": {
+      "reaction": "2 PH6NO4 + 0.5 K2CO3 + 0.5 Na2CO3 + 2 TiO2 -> KNaTi2(PO5)2 + CO2 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.30752500729154786,
+      "free_energy_eV": -15.690623623656766,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 435.8506562126879,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -16.543662151597307
+    }
+  },
+  {
+    "target": "Hf2Sb2Pb4O13",
+    "result": "Success",
+    "mp_id": "mp-1224490",
+    "masses_mg": {
+      "HfO2": 257.1,
+      "PbCO3": 652.8,
+      "Sb2O3": 178.0
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Hf2Sb2Pb4O13",
+      "precursors": [
+        "HfO2",
+        "PbO",
+        "Sb2O3"
+      ],
+      "firing_temperature_C": 1073,
+      "dwell_hours": 4
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 173.0,
+    "dwell_factor": 1.0,
+    "grams": {
+      "equation": "2 HfO2 + 4 PbCO3 + Sb2O3 + O2 -> Hf2Sb2Pb4O13 + 4 CO2",
+      "fractions_ours_theirs": {
+        "HfO2": [
+          0.23632686827833438,
+          0.2363268682783344
+        ],
+        "PbCO3": [
+          0.6000551521279529,
+          0.6000551521279528
+        ],
+        "Sb2O3": [
+          0.16361797959371263,
+          0.16361797959371263
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "2 HfO2 + 4 PbO + Sb2O3 + O2 -> Hf2Sb2Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -6.162406463749958,
+      "free_energy_eV": -3.299474609057537,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2624.4123180064253,
+      "driving_force_meV_per_atom": 157.11783852654938,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.1181588381064356
+    },
+    "simulator_theirs": {
+      "reaction": "2 HfO2 + 4 PbCO3 + Sb2O3 + O2 -> Hf2Sb2Pb4O13 + 4 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -2.9716115100000433,
+      "free_energy_eV": -10.8748866304851,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 329.5420191056091,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -13.861017898808564
+    }
+  },
+  {
+    "target": "Zr2Sb2Pb4O13",
+    "result": "Success",
+    "mp_id": "mp-1215826",
+    "masses_mg": {
+      "PbCO3": 730.7,
+      "Sb2O3": 199.3,
+      "ZrO2": 168.5
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Zr2Sb2Pb4O13",
+      "precursors": [
+        "PbO",
+        "Sb2O3",
+        "ZrO2"
+      ],
+      "firing_temperature_C": 1035,
+      "dwell_hours": 6
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 135.0,
+    "dwell_factor": 1.5,
+    "grams": {
+      "equation": "4 PbCO3 + Sb2O3 + 2 ZrO2 + O2 -> Zr2Sb2Pb4O13 + 4 CO2",
+      "fractions_ours_theirs": {
+        "PbCO3": [
+          0.6651797906235776,
+          0.6651797906235777
+        ],
+        "Sb2O3": [
+          0.18142922166590805,
+          0.18142922166590808
+        ],
+        "ZrO2": [
+          0.15339098771051435,
+          0.15339098771051435
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "4 PbO + Sb2O3 + 2 ZrO2 + O2 -> Zr2Sb2Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -5.936058238749984,
+      "free_energy_eV": -3.153943091317737,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2517.983426733876,
+      "driving_force_meV_per_atom": 150.18776625322556,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -2.977745620181767
+    },
+    "simulator_theirs": {
+      "reaction": "4 PbCO3 + Sb2O3 + 2 ZrO2 + O2 -> Zr2Sb2Pb4O13 + 4 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -2.745263284999975,
+      "free_energy_eV": -10.64853840548503,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 322.68298198439487,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -13.634669673808496
+    }
+  },
+  {
+    "target": "Sn2Sb2Pb4O13",
+    "result": "Success",
+    "mp_id": "mp-1219056",
+    "masses_mg": {
+      "PbO": 588.2,
+      "Sb2O3": 192.1,
+      "SnO2": 198.6
+    },
+    "temperature_C": 800.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Sn2Sb2Pb4O13",
+      "precursors": [
+        "PbO",
+        "Sb2O3",
+        "SnO2"
+      ],
+      "firing_temperature_C": 1105,
+      "dwell_hours": 5
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 305.0,
+    "dwell_factor": 1.25,
+    "grams": {
+      "equation": "4 PbO + Sb2O3 + 2 SnO2 + O2 -> Sn2Sb2Pb4O13",
+      "fractions_ours_theirs": {
+        "PbO": [
+          0.6008785371335172,
+          0.6008785371335172
+        ],
+        "Sb2O3": [
+          0.19624067831239148,
+          0.19624067831239145
+        ],
+        "SnO2": [
+          0.20288078455409134,
+          0.2028807845540913
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "4 PbO + Sb2O3 + 2 SnO2 + O2 -> Sn2Sb2Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -6.265937388749995,
+      "free_energy_eV": -3.3349493595226494,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2673.092538759953,
+      "driving_force_meV_per_atom": 158.80711235822142,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.1493234413588023
+    },
+    "simulator_theirs": {
+      "reaction": "4 PbO + Sb2O3 + 2 SnO2 + O2 -> Sn2Sb2Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -6.265937388749995,
+      "free_energy_eV": -3.9836097730584332,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2673.092538759953,
+      "driving_force_meV_per_atom": 189.69570347897303,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.839064945516052
+    }
+  },
+  {
+    "target": "CaFe2P2O9",
+    "result": "Success",
+    "mp_id": "mp-1040941",
+    "masses_mg": {
+      "CaO": 156.8,
+      "Fe3O4": 431.7,
+      "(NH4)2HPO4": 738.3
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaFe2P2O9",
+      "precursors": [
+        "CaCO3",
+        "Fe2O3",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 910,
+      "dwell_hours": 8
+    },
+    "exact": false,
+    "jaccard": 0.0,
+    "per_metal": [
+      0,
+      3
+    ],
+    "temperature_error_C": 90.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "CaO + 0.6667 Fe3O4 + 2 PH9(NO2)2 + 0.1667 O2 -> CaFe2P2O9 + 3 H2O + 4 H3N",
+      "fractions_ours_theirs": {
+        "CaO": [
+          0.11819689431629729,
+          0.1181790774796503
+        ],
+        "Fe3O4": [
+          0.3252676013870044,
+          0.3253693096171239
+        ],
+        "PH9(NO2)2": [
+          0.5565355042966983,
+          0.5564516129032258
+        ]
+      },
+      "worst_fraction_difference": 0.00010170823011951269
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + Fe2O3 + 2 PH6NO4 -> CaFe2P2O9 + CO2 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.30025964499997565,
+      "free_energy_eV": -13.995395327275512,
+      "feasible": true,
+      "onset_temperature_C": -248.29963814734717,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 411.6292743316327,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -14.788131873898344
+    },
+    "simulator_theirs": {
+      "reaction": "CaO + 0.6667 Fe3O4 + 2 PH9(NO2)2 + 0.1667 O2 -> CaFe2P2O9 + 3 H2O + 4 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -1.5552468474999408,
+      "free_energy_eV": -18.754020853822166,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 480.8686305957177,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -18.72544031255183
+    }
+  },
+  {
+    "target": "KPr9(Si3O13)2",
+    "result": "Success",
+    "mp_id": "mp-1223421",
+    "masses_mg": {
+      "K2CO3": 36.5,
+      "Pr6O11": 809.9,
+      "SiO2": 190.6
+    },
+    "temperature_C": 1100.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": true,
+    "ours": {
+      "target": "KPr9(Si3O13)2",
+      "precursors": [
+        "K2CO3",
+        "Pr6O11",
+        "SiO2"
+      ],
+      "firing_temperature_C": 1178,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 78.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "0.5 K2CO3 + 1.5 Pr6O11 + 6 SiO2 -> KPr9(Si3O13)2 + 0.5 CO2 + 1.5 O2",
+      "fractions_ours_theirs": {
+        "K2CO3": [
+          0.0351976856316297,
+          0.0351976856316297
+        ],
+        "Pr6O11": [
+          0.7810028929604629,
+          0.7810028929604629
+        ],
+        "SiO2": [
+          0.18379942140790742,
+          0.18379942140790742
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "0.5 K2CO3 + 1.5 Pr6O11 + 6 SiO2 -> KPr9(Si3O13)2 + 0.5 CO2 + 1.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -6.655242617499992,
+      "free_energy_eV": -12.892397667507765,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 277.2558638173713,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -13.67173655302049
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 K2CO3 + 1.5 Pr6O11 + 6 SiO2 -> KPr9(Si3O13)2 + 0.5 CO2 + 1.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -6.655242617499992,
+      "free_energy_eV": -12.557147628641621,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 270.0461855621854,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -13.294596679836742
+    }
+  },
+  {
+    "target": "KNaP6(PbO3)8",
+    "result": "Success",
+    "mp_id": "mp-1223429",
+    "masses_mg": {
+      "K2CO3": 30.2,
+      "(NH4)2HPO4": 346.1,
+      "Na2CO3": 23.1,
+      "PbO": 779.9
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KNaP6(PbO3)8",
+      "precursors": [
+        "K2CO3",
+        "NH4H2PO4",
+        "Na2CO3",
+        "PbO"
+      ],
+      "firing_temperature_C": 949,
+      "dwell_hours": 4
+    },
+    "exact": false,
+    "jaccard": 0.6,
+    "per_metal": [
+      3,
+      4
+    ],
+    "temperature_error_C": 51.0,
+    "dwell_factor": 1.0,
+    "grams": {
+      "equation": "0.5 K2CO3 + 6 PH9(NO2)2 + 0.5 Na2CO3 + 8 PbO -> KNaP6(PbO3)8 + CO2 + 9 H2O + 12 H3N",
+      "fractions_ours_theirs": {
+        "K2CO3": [
+          0.025608411769693886,
+          0.025608411769693886
+        ],
+        "PH9(NO2)2": [
+          0.293479182565929,
+          0.293479182565929
+        ],
+        "Na2CO3": [
+          0.019587891121851945,
+          0.01958789112185195
+        ],
+        "PbO": [
+          0.6613245145425253,
+          0.6613245145425253
+        ]
+      },
+      "worst_fraction_difference": 3.469446951953614e-18
+    },
+    "simulator_ours": {
+      "reaction": "0.5 K2CO3 + 6 PH6NO4 + 0.5 Na2CO3 + 8 PbO -> KNaP6(PbO3)8 + CO2 + 9 H2O + 6 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -5.030005309791485,
+      "free_energy_eV": -43.91435075208827,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 467.1739441711518,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -44.73321815728211
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 K2CO3 + 6 PH9(NO2)2 + 0.5 Na2CO3 + 8 PbO -> KNaP6(PbO3)8 + CO2 + 9 H2O + 12 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -3.245775702291174,
+      "free_energy_eV": -59.01709549293222,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 500.1448770587476,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -59.87013402087277
+    }
+  },
+  {
+    "target": "MgTi2NiO6",
+    "result": "Success",
+    "mp_id": "mp-1221952",
+    "masses_mg": {
+      "MgO": 146.7,
+      "NiO": 271.9,
+      "TiO2": 581.4
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "MgTi2NiO6",
+      "precursors": [
+        "MgO",
+        "NiO",
+        "TiO2"
+      ],
+      "firing_temperature_C": 1306,
+      "dwell_hours": 5
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 306.0,
+    "dwell_factor": 1.25,
+    "grams": {
+      "equation": "MgO + NiO + 2 TiO2 -> MgTi2NiO6",
+      "fractions_ours_theirs": {
+        "MgO": [
+          0.1467,
+          0.1467
+        ],
+        "NiO": [
+          0.2719,
+          0.2719
+        ],
+        "TiO2": [
+          0.5814,
+          0.5814
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "MgO + NiO + 2 TiO2 -> MgTi2NiO6",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.26379345250003494,
+      "free_energy_eV": -0.26379345250003494,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 26.379345250003496,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.26379345250003494
+    },
+    "simulator_theirs": {
+      "reaction": "MgO + NiO + 2 TiO2 -> MgTi2NiO6",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.26379345250003494,
+      "free_energy_eV": -0.26379345250003494,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 26.379345250003496,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.26379345250003494
+    }
+  },
+  {
+    "target": "MgTi4(PO4)6",
+    "result": "Success",
+    "mp_id": "mp-1222070",
+    "masses_mg": {
+      "MgCO3": 107.3,
+      "NH4H2PO4": 878.5,
+      "TiO2": 406.6
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": true,
+    "ours": {
+      "target": "MgTi4(PO4)6",
+      "precursors": [
+        "MgO",
+        "NH4H2PO4",
+        "TiO2"
+      ],
+      "firing_temperature_C": 1067,
+      "dwell_hours": 5
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 67.0,
+    "dwell_factor": 1.25,
+    "grams": {
+      "equation": "MgCO3 + 6 PH6NO4 + 4 TiO2 -> MgTi4(PO4)6 + CO2 + 9 H2O + 6 H3N",
+      "fractions_ours_theirs": {
+        "MgCO3": [
+          0.0770611893134157,
+          0.07706118931341568
+        ],
+        "PH6NO4": [
+          0.6309250215455329,
+          0.6309250215455329
+        ],
+        "TiO2": [
+          0.29201378914105147,
+          0.2920137891410514
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "MgO + 6 PH6NO4 + 4 TiO2 -> MgTi4(PO4)6 + 9 H2O + 6 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.7953787274996857,
+      "free_energy_eV": -38.87367242034719,
+      "feasible": true,
+      "onset_temperature_C": -246.2795110214261,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 452.0194467482231,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -38.87367242034719
+    },
+    "simulator_theirs": {
+      "reaction": "MgCO3 + 6 PH6NO4 + 4 TiO2 -> MgTi4(PO4)6 + CO2 + 9 H2O + 6 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.6227437075004538,
+      "free_energy_eV": -38.88423530478125,
+      "feasible": true,
+      "onset_temperature_C": -222.14653833533737,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 436.901520278441,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -39.7372738327218
+    }
+  },
+  {
+    "target": "InSb3Pb4O13",
+    "result": "Success",
+    "mp_id": "mp-1223746",
+    "masses_mg": {
+      "In2O3": 91.5,
+      "PbO": 588.6,
+      "Sb2O3": 288.3
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "InSb3Pb4O13",
+      "precursors": [
+        "In2O3",
+        "PbO",
+        "Sb2O3"
+      ],
+      "firing_temperature_C": 937,
+      "dwell_hours": 36
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 37.0,
+    "dwell_factor": 9.000000000000002,
+    "grams": {
+      "equation": "0.5 In2O3 + 4 PbO + 1.5 Sb2O3 + 1.5 O2 -> InSb3Pb4O13",
+      "fractions_ours_theirs": {
+        "In2O3": [
+          0.09448574969021065,
+          0.09448574969021065
+        ],
+        "PbO": [
+          0.6078066914498141,
+          0.6078066914498141
+        ],
+        "Sb2O3": [
+          0.2977075588599752,
+          0.2977075588599752
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "0.5 In2O3 + 4 PbO + 1.5 Sb2O3 + 1.5 O2 -> InSb3Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -8.69326968125003,
+      "free_energy_eV": -4.832730011871373,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2451.8991396861916,
+      "driving_force_meV_per_atom": 230.13000056530348,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -4.588233543925962
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 In2O3 + 4 PbO + 1.5 Sb2O3 + 1.5 O2 -> InSb3Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -8.69326968125003,
+      "free_energy_eV": -4.950764939580343,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2451.8991396861916,
+      "driving_force_meV_per_atom": 235.75071140858776,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -4.713743883207035
+    }
+  },
+  {
+    "target": "FeSb3Pb4O13",
+    "result": "Success",
+    "mp_id": "mp-1224890",
+    "masses_mg": {
+      "Fe2O3": 54.8,
+      "PbCO3": 733.1,
+      "Sb2O3": 299.9
+    },
+    "temperature_C": 800.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "FeSb3Pb4O13",
+      "precursors": [
+        "Fe2O3",
+        "PbO",
+        "Sb2O3"
+      ],
+      "firing_temperature_C": 978,
+      "dwell_hours": 20
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 178.0,
+    "dwell_factor": 4.999999999999999,
+    "grams": {
+      "equation": "0.5 Fe2O3 + 4 PbCO3 + 1.5 Sb2O3 + 1.5 O2 -> FeSb3Pb4O13 + 4 CO2",
+      "fractions_ours_theirs": {
+        "Fe2O3": [
+          0.05037690751976467,
+          0.05037690751976466
+        ],
+        "PbCO3": [
+          0.6739290310718883,
+          0.6739290310718883
+        ],
+        "Sb2O3": [
+          0.2756940614083472,
+          0.2756940614083471
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "0.5 Fe2O3 + 4 PbO + 1.5 Sb2O3 + 1.5 O2 -> FeSb3Pb4O13",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -8.507256143749999,
+      "free_energy_eV": -4.515921013937078,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2393.590120304481,
+      "driving_force_meV_per_atom": 215.0438578065275,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -4.263140981817174
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 Fe2O3 + 4 PbCO3 + 1.5 Sb2O3 + 1.5 O2 -> FeSb3Pb4O13 + 4 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -5.316461190000004,
+      "free_energy_eV": -11.404892656030988,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 345.6028077585148,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -14.06421191476657
+    }
+  },
+  {
+    "target": "Mg3MnNi3O8",
+    "result": "Success",
+    "mp_id": "mp-1222170",
+    "masses_mg": {
+      "MgO": 279.9,
+      "MnO2": 201.3,
+      "NiO": 518.8
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Mg3MnNi3O8",
+      "precursors": [
+        "MgO",
+        "MnO2",
+        "NiO"
+      ],
+      "firing_temperature_C": 1313,
+      "dwell_hours": 6
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      3,
+      3
+    ],
+    "temperature_error_C": 413.0,
+    "dwell_factor": 1.5,
+    "grams": {
+      "equation": "3 MgO + MnO2 + 3 NiO -> Mg3MnNi3O8",
+      "fractions_ours_theirs": {
+        "MgO": [
+          0.2799,
+          0.2799
+        ],
+        "MnO2": [
+          0.2013,
+          0.2013
+        ],
+        "NiO": [
+          0.5188,
+          0.5187999999999999
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "3 MgO + MnO2 + 3 NiO -> Mg3MnNi3O8",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.504164430833326,
+      "free_energy_eV": -0.504164430833326,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 33.61096205555506,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.504164430833326
+    },
+    "simulator_theirs": {
+      "reaction": "3 MgO + MnO2 + 3 NiO -> Mg3MnNi3O8",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.504164430833326,
+      "free_energy_eV": -0.504164430833326,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 33.61096205555506,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.504164430833326
+    }
+  },
+  {
+    "target": "Ba6Na2Ta2V2O17",
+    "result": "Success",
+    "mp_id": "mp-1214664",
+    "masses_mg": {
+      "BaCO3": 737.4,
+      "Na2CO3": 66.0,
+      "Ta2O5": 275.2,
+      "V2O5": 113.3
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ba6Na2Ta2V2O17",
+      "precursors": [
+        "BaCO3",
+        "Na2CO3",
+        "Ta2O5",
+        "V2O5"
+      ],
+      "firing_temperature_C": 1016,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 116.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "6 BaCO3 + Na2CO3 + Ta2O5 + V2O5 -> Ba6Na2Ta2V2O17 + 7 CO2",
+      "fractions_ours_theirs": {
+        "BaCO3": [
+          0.61867606342814,
+          0.61867606342814
+        ],
+        "Na2CO3": [
+          0.055373772967530835,
+          0.05537377296753084
+        ],
+        "Ta2O5": [
+          0.2308918533434013,
+          0.23089185334340132
+        ],
+        "V2O5": [
+          0.09505831026092793,
+          0.09505831026092794
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "6 BaCO3 + Na2CO3 + Ta2O5 + V2O5 -> Ba6Na2Ta2V2O17 + 7 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 6.010233637916703,
+      "free_energy_eV": -13.986054800700696,
+      "feasible": true,
+      "onset_temperature_C": 114.32654186448838,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 279.72109601401394,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -20.032366961924332
+    },
+    "simulator_theirs": {
+      "reaction": "6 BaCO3 + Na2CO3 + Ta2O5 + V2O5 -> Ba6Na2Ta2V2O17 + 7 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 6.010233637916703,
+      "free_energy_eV": -12.186753354880103,
+      "feasible": true,
+      "onset_temperature_C": 114.32654186448838,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 243.73506709760207,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -17.68900764021502
+    }
+  },
+  {
+    "target": "Ba6Na2V2Sb2O17",
+    "result": "Success",
+    "mp_id": "mp-1214658",
+    "masses_mg": {
+      "BaCO3": 796.1,
+      "Na2CO3": 71.3,
+      "Sb2O3": 196.0,
+      "V2O5": 122.3
+    },
+    "temperature_C": 800.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ba6Na2V2Sb2O17",
+      "precursors": [
+        "BaCO3",
+        "Na2CO3",
+        "Sb2O3",
+        "V2O5"
+      ],
+      "firing_temperature_C": 873,
+      "dwell_hours": 10
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 73.0,
+    "dwell_factor": 2.5,
+    "grams": {
+      "equation": "6 BaCO3 + Na2CO3 + Sb2O3 + V2O5 + O2 -> Ba6Na2V2Sb2O17 + 7 CO2",
+      "fractions_ours_theirs": {
+        "BaCO3": [
+          0.6714177279244329,
+          0.6714177279244328
+        ],
+        "Na2CO3": [
+          0.060133254617525514,
+          0.06013325461752551
+        ],
+        "Sb2O3": [
+          0.1653031964240533,
+          0.1653031964240533
+        ],
+        "V2O5": [
+          0.10314582103398837,
+          0.10314582103398835
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "6 BaCO3 + Na2CO3 + Sb2O3 + V2O5 + O2 -> Ba6Na2V2Sb2O17 + 7 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.5428967179163848,
+      "free_energy_eV": -13.797706588297014,
+      "feasible": true,
+      "onset_temperature_C": -157.8748026729422,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 275.9541317659403,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -19.018949361993283
+    },
+    "simulator_theirs": {
+      "reaction": "6 BaCO3 + Na2CO3 + Sb2O3 + V2O5 + O2 -> Ba6Na2V2Sb2O17 + 7 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.5428967179163848,
+      "free_energy_eV": -12.820640723136627,
+      "feasible": true,
+      "onset_temperature_C": -157.8748026729422,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 256.4128144627325,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -17.70933477068027
+    }
+  },
+  {
+    "target": "K2TiCr(PO4)3",
+    "result": "Success",
+    "mp_id": "mp-1224541",
+    "masses_mg": {
+      "Cr2O3": 164.1,
+      "K2CO3": 298.5,
+      "(NH4)2HPO4": 855.7,
+      "TiO2": 172.5
+    },
+    "temperature_C": 1100.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "K2TiCr(PO4)3",
+      "precursors": [
+        "Cr2O3",
+        "K2CO3",
+        "NH4H2PO4",
+        "TiO2"
+      ],
+      "firing_temperature_C": 1050,
+      "dwell_hours": 10
+    },
+    "exact": false,
+    "jaccard": 0.6,
+    "per_metal": [
+      3,
+      4
+    ],
+    "temperature_error_C": 50.0,
+    "dwell_factor": 2.5,
+    "grams": {
+      "equation": "0.5 Cr2O3 + K2CO3 + 3 PH9(NO2)2 + TiO2 -> K2TiCr(PO4)3 + CO2 + 4.5 H2O + 6 H3N",
+      "fractions_ours_theirs": {
+        "Cr2O3": [
+          0.11007512744834988,
+          0.11007512744834988
+        ],
+        "K2CO3": [
+          0.20022806546820499,
+          0.20022806546820499
+        ],
+        "PH9(NO2)2": [
+          0.5739871210088544,
+          0.5739871210088544
+        ],
+        "TiO2": [
+          0.11570968607459083,
+          0.11570968607459083
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "0.5 Cr2O3 + K2CO3 + 3 PH6NO4 + TiO2 -> K2TiCr(PO4)3 + CO2 + 4.5 H2O + 3 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.6085633662498825,
+      "free_energy_eV": -23.123437906333844,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 486.8092190807125,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -24.009977535006445
+    },
+    "simulator_theirs": {
+      "reaction": "0.5 Cr2O3 + K2CO3 + 3 PH9(NO2)2 + TiO2 -> K2TiCr(PO4)3 + CO2 + 4.5 H2O + 6 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.28355143749993544,
+      "free_energy_eV": -31.3137707369313,
+      "feasible": true,
+      "onset_temperature_C": -260.8274793049359,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 526.2818611248958,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -32.23381146633597
+    }
+  },
+  {
+    "target": "KBaPrWO6",
+    "result": "Success",
+    "mp_id": "mp-1523149",
+    "masses_mg": {
+      "BaO2": 283.5,
+      "K2CO3": 115.7,
+      "Pr6O11": 285.6,
+      "WO3": 388.2
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KBaPrWO6",
+      "precursors": [
+        "BaCO3",
+        "K2CO3",
+        "Pr6O11",
+        "WO3"
+      ],
+      "firing_temperature_C": 1025,
+      "dwell_hours": 16
+    },
+    "exact": false,
+    "jaccard": 0.6,
+    "per_metal": [
+      3,
+      4
+    ],
+    "temperature_error_C": 25.0,
+    "dwell_factor": 4.0,
+    "grams": {
+      "equation": "BaO2 + 0.5 K2CO3 + 0.1667 Pr6O11 + WO3 -> KBaPrWO6 + 0.5 CO2 + 0.6667 O2",
+      "fractions_ours_theirs": {
+        "BaO2": [
+          0.2643356643356643,
+          0.2642124883504194
+        ],
+        "K2CO3": [
+          0.10787878787878788,
+          0.10782851817334577
+        ],
+        "Pr6O11": [
+          0.26582750582750586,
+          0.26616961789375587
+        ],
+        "WO3": [
+          0.36195804195804193,
+          0.36178937558247903
+        ]
+      },
+      "worst_fraction_difference": 0.000342112066250011
+    },
+    "simulator_ours": {
+      "reaction": "BaCO3 + 0.5 K2CO3 + 0.1667 Pr6O11 + WO3 -> KBaPrWO6 + 1.5 CO2 + 0.1667 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.9762901087499376,
+      "free_energy_eV": -3.798684602345041,
+      "feasible": true,
+      "onset_temperature_C": -7.730582860698917,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 256.0813139056513,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.132509978160235
+    },
+    "simulator_theirs": {
+      "reaction": "BaO2 + 0.5 K2CO3 + 0.1667 Pr6O11 + WO3 -> KBaPrWO6 + 0.5 CO2 + 0.6667 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.620858151250018,
+      "free_energy_eV": -3.836556498143315,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 298.93925448564465,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -4.377397927194939
+    }
+  },
+  {
+    "target": "Mg3NiO4",
+    "result": "Success (offline)",
+    "mp_id": "mp-1099253",
+    "masses_mg": {
+      "MgO": 618.1,
+      "NiO": 381.9
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Mg3NiO4",
+      "precursors": [
+        "MgO",
+        "NiO"
+      ],
+      "firing_temperature_C": 1320,
+      "dwell_hours": 5
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      2,
+      2
+    ],
+    "temperature_error_C": 320.0,
+    "dwell_factor": 1.25,
+    "grams": {
+      "equation": "3 MgO + NiO -> Mg3NiO4",
+      "fractions_ours_theirs": {
+        "MgO": [
+          0.6181,
+          0.6181
+        ],
+        "NiO": [
+          0.3819,
+          0.38189999999999996
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "3 MgO + NiO -> Mg3NiO4",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.08752468499994046,
+      "free_energy_eV": -0.08752468499994046,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 10.940585624992558,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.08752468499994046
+    },
+    "simulator_theirs": {
+      "reaction": "3 MgO + NiO -> Mg3NiO4",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.08752468499994046,
+      "free_energy_eV": -0.08752468499994046,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 10.940585624992558,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.08752468499994046
+    }
+  },
+  {
+    "target": "Ba2ZrSnO6",
+    "result": "Success",
+    "mp_id": "mp-1228067",
+    "masses_mg": {
+      "Ba(OH)2": 590.2,
+      "SnO2": 259.6,
+      "ZrO2": 212.2
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ba2ZrSnO6",
+      "precursors": [
+        "BaCO3",
+        "SnO2",
+        "ZrO2"
+      ],
+      "firing_temperature_C": 1445,
+      "dwell_hours": 6
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 445.0,
+    "dwell_factor": 1.5,
+    "grams": {
+      "equation": "2 Ba(HO)2 + SnO2 + ZrO2 -> Ba2ZrSnO6 + 2 H2O",
+      "fractions_ours_theirs": {
+        "Ba(HO)2": [
+          0.5557438794726931,
+          0.5557438794726931
+        ],
+        "SnO2": [
+          0.2444444444444445,
+          0.24444444444444446
+        ],
+        "ZrO2": [
+          0.19981167608286254,
+          0.19981167608286252
+        ]
+      },
+      "worst_fraction_difference": 2.7755575615628914e-17
+    },
+    "simulator_ours": {
+      "reaction": "2 BaCO3 + SnO2 + ZrO2 -> Ba2ZrSnO6 + 2 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 2.585590934999946,
+      "free_energy_eV": -5.02886664908049,
+      "feasible": true,
+      "onset_temperature_C": 310.27081703337126,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 314.3041655675306,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -7.3312632979923205
+    },
+    "simulator_theirs": {
+      "reaction": "2 Ba(HO)2 + SnO2 + ZrO2 -> Ba2ZrSnO6 + 2 H2O",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.7377438150000094,
+      "free_energy_eV": -5.720294885114534,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 357.51843031965836,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.720294885114534
+    }
+  },
+  {
+    "target": "Y3In2Ga3O12",
+    "result": "Success (offline)",
+    "mp_id": "mp-1207946",
+    "masses_mg": {
+      "Y2(CO3)3(H2O)3": 688.4,
+      "Ga2O3": 313.3,
+      "In2O3": 309.3
+    },
+    "temperature_C": 1100.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Y3In2Ga3O12",
+      "precursors": [
+        "Ga2O3",
+        "In2O3",
+        "Y2O3"
+      ],
+      "firing_temperature_C": 1423,
+      "dwell_hours": 12
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 323.0,
+    "dwell_factor": 3.0000000000000004,
+    "grams": {
+      "equation": "1.5 Y2H6(CO4)3 + 1.5 Ga2O3 + In2O3 -> Y3In2(GaO4)3 + 4.5 CO2 + 4.5 H2O",
+      "fractions_ours_theirs": {
+        "Y2H6(CO4)3": [
+          0.5250953470633105,
+          0.5250953470633104
+        ],
+        "Ga2O3": [
+          0.238977879481312,
+          0.238977879481312
+        ],
+        "In2O3": [
+          0.2359267734553776,
+          0.23592677345537758
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "1.5 Ga2O3 + In2O3 + 1.5 Y2O3 -> Y3In2(GaO4)3",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.7166843068750491,
+      "free_energy_eV": -0.7166843068750491,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 35.83421534375246,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.7166843068750491
+    },
+    "simulator_theirs": {
+      "reaction": null,
+      "enthalpy_source": null,
+      "enthalpy_eV": null,
+      "free_energy_eV": null,
+      "feasible": null,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": null,
+      "kinetic_risk": null,
+      "error": "ValueError: Materials Project has no entry for Y2(CO3)3(H2O)3 -- pass the structure and the critic to score it instead",
+      "feasible_air": null,
+      "free_energy_air_eV": null
+    }
+  },
+  {
+    "target": "Ba9Ca3La4(Fe4O15)2",
+    "result": "Partial",
+    "mp_id": "mp-1228537",
+    "masses_mg": {
+      "BaCO3": 625.7,
+      "CaCO3": 105.8,
+      "Fe2O3": 225.0,
+      "La2O3": 229.6
+    },
+    "temperature_C": 1100.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ba9Ca3La4(Fe4O15)2",
+      "precursors": [
+        "BaCO3",
+        "CaCO3",
+        "Fe2O3",
+        "La2O3"
+      ],
+      "firing_temperature_C": 1239,
+      "dwell_hours": 12
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 139.0,
+    "dwell_factor": 3.0000000000000004,
+    "grams": {
+      "equation": "9 BaCO3 + 3 CaCO3 + 4 Fe2O3 + 2 La2O3 -> Ba9Ca3La4(Fe4O15)2 + 12 CO2",
+      "fractions_ours_theirs": {
+        "BaCO3": [
+          0.5275271899502572,
+          0.5275271899502572
+        ],
+        "CaCO3": [
+          0.08919989882809205,
+          0.08919989882809205
+        ],
+        "Fe2O3": [
+          0.18969732737543207,
+          0.18969732737543207
+        ],
+        "La2O3": [
+          0.19357558384621867,
+          0.19357558384621867
+        ]
+      },
+      "worst_fraction_difference": 0.0
+    },
+    "simulator_ours": {
+      "reaction": "9 BaCO3 + 3 CaCO3 + 4 Fe2O3 + 2 La2O3 -> Ba9Ca3La4(Fe4O15)2 + 12 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 21.885977910000232,
+      "free_energy_eV": -18.323091271737884,
+      "feasible": true,
+      "onset_temperature_C": 549.9200727495991,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 203.58990301930984,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -30.48117674501562
+    },
+    "simulator_theirs": {
+      "reaction": "9 BaCO3 + 3 CaCO3 + 4 Fe2O3 + 2 La2O3 -> Ba9Ca3La4(Fe4O15)2 + 12 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 21.885977910000232,
+      "free_energy_eV": -14.626989286973416,
+      "feasible": true,
+      "onset_temperature_C": 549.9200727495991,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 162.52210318859352,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -25.667478039829493
+    }
+  },
+  {
+    "target": "CaGd2Zr(GaO3)4",
+    "result": "Partial",
+    "mp_id": "mp-686296",
+    "masses_mg": {
+      "Ca(OH)2": 80.8,
+      "Ga2O3": 409.0,
+      "Gd2O3": 395.4,
+      "ZrO2": 134.4
+    },
+    "temperature_C": 1100.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaGd2Zr(GaO3)4",
+      "precursors": [
+        "CaCO3",
+        "Ga2O3",
+        "Gd2O3",
+        "ZrO2"
+      ],
+      "firing_temperature_C": 1419,
+      "dwell_hours": 8
+    },
+    "exact": false,
+    "jaccard": 0.6,
+    "per_metal": [
+      3,
+      4
+    ],
+    "temperature_error_C": 319.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "Ca(HO)2 + 2 Ga2O3 + Gd2O3 + ZrO2 -> CaGd2Zr(GaO3)4 + H2O",
+      "fractions_ours_theirs": {
+        "Ca(HO)2": [
+          0.07924676343664183,
+          0.07924676343664182
+        ],
+        "Ga2O3": [
+          0.40113770105923896,
+          0.4011377010592389
+        ],
+        "Gd2O3": [
+          0.38779913691643786,
+          0.3877991369164378
+        ],
+        "ZrO2": [
+          0.13181639858768146,
+          0.13181639858768143
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + 2 Ga2O3 + Gd2O3 + ZrO2 -> CaGd2Zr(GaO3)4 + CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.2258151649999242,
+      "free_energy_eV": -3.5238005265583467,
+      "feasible": true,
+      "onset_temperature_C": -171.2427212581024,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 153.2087185460151,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -4.657578278633588
+    },
+    "simulator_theirs": {
+      "reaction": "Ca(HO)2 + 2 Ga2O3 + Gd2O3 + ZrO2 -> CaGd2Zr(GaO3)4 + H2O",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.9222264775001291,
+      "free_energy_eV": -3.609180097233763,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 156.9208737927723,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.609180097233763
+    }
+  },
+  {
+    "target": "InSb3(PO4)6",
+    "result": "Partial",
+    "mp_id": "mp-1224667",
+    "masses_mg": {
+      "NH4H2PO4": 657.3,
+      "In2O3": 132.2,
+      "Sb2O5": 462.2
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "InSb3(PO4)6",
+      "precursors": [
+        "In2O3",
+        "NH4H2PO4",
+        "Sb2O3"
+      ],
+      "firing_temperature_C": 814,
+      "dwell_hours": 10
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 86.0,
+    "dwell_factor": 2.5,
+    "grams": {
+      "equation": "6 PH6NO4 + 0.5 In2O3 + 1.5 Sb2O5 -> InSb3(PO4)6 + 9 H2O + 6 H3N",
+      "fractions_ours_theirs": {
+        "PH6NO4": [
+          0.5251258288727331,
+          0.5251258288727331
+        ],
+        "In2O3": [
+          0.10561636174802269,
+          0.10561636174802269
+        ],
+        "Sb2O5": [
+          0.36925780937924424,
+          0.3692578093792443
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "0.5 In2O3 + 6 PH6NO4 + 1.5 Sb2O3 + 1.5 O2 -> InSb3(PO4)6 + 9 H2O + 6 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -3.4595484900000635,
+      "free_energy_eV": -32.17153097432407,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 378.4885996979303,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -31.951885198902144
+    },
+    "simulator_theirs": {
+      "reaction": "6 PH6NO4 + 0.5 In2O3 + 1.5 Sb2O5 -> InSb3(PO4)6 + 9 H2O + 6 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.7567781900003108,
+      "free_energy_eV": -32.96899680093095,
+      "feasible": true,
+      "onset_temperature_C": -213.8002998381723,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 387.87055059918765,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -32.96899680093095
+    }
+  },
+  {
+    "target": "KNa2Ga3(SiO4)3",
+    "result": "Partial",
+    "mp_id": "mp-1211711",
+    "masses_mg": {
+      "Ga2O3": 492.8,
+      "K2CO3": 121.1,
+      "Na2CO3": 185.8,
+      "SiO2": 316.0
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KNa2Ga3(SiO4)3",
+      "precursors": [
+        "Ga2O3",
+        "K2CO3",
+        "Na2CO3",
+        "SiO2"
+      ],
+      "firing_temperature_C": 979,
+      "dwell_hours": 8
+    },
+    "exact": true,
+    "jaccard": 1.0,
+    "per_metal": [
+      4,
+      4
+    ],
+    "temperature_error_C": 79.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "1.5 Ga2O3 + 0.5 K2CO3 + Na2CO3 + 3 SiO2 -> KNa2Ga3(SiO4)3 + 1.5 CO2",
+      "fractions_ours_theirs": {
+        "Ga2O3": [
+          0.441695796361029,
+          0.44169579636102896
+        ],
+        "K2CO3": [
+          0.10854172268530968,
+          0.10854172268530966
+        ],
+        "Na2CO3": [
+          0.16653222192345613,
+          0.16653222192345613
+        ],
+        "SiO2": [
+          0.28323025903020527,
+          0.28323025903020527
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "1.5 Ga2O3 + 0.5 K2CO3 + Na2CO3 + 3 SiO2 -> KNa2Ga3(SiO4)3 + 1.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.08381115333323863,
+      "free_energy_eV": -4.245748293821397,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 166.4999330910352,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.504200392271013
+    },
+    "simulator_theirs": {
+      "reaction": "1.5 Ga2O3 + 0.5 K2CO3 + Na2CO3 + 3 SiO2 -> KNa2Ga3(SiO4)3 + 1.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.08381115333323863,
+      "free_energy_eV": -3.9831655089325544,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 156.20256897774723,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.162219998647179
+    }
+  },
+  {
+    "target": "Zn3Ni4(SbO6)2",
+    "result": "Partial",
+    "mp_id": "mp-1216023",
+    "masses_mg": {
+      "Ni(OH)2": 428.0,
+      "Sb2O3": 336.5,
+      "ZnO": 281.8
+    },
+    "temperature_C": 900.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Zn3Ni4(SbO6)2",
+      "precursors": [
+        "NiO",
+        "Sb2O3",
+        "ZnO"
+      ],
+      "firing_temperature_C": 1130,
+      "dwell_hours": 8
+    },
+    "exact": false,
+    "jaccard": 0.5,
+    "per_metal": [
+      2,
+      3
+    ],
+    "temperature_error_C": 230.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "4 Ni(HO)2 + Sb2O3 + 3 ZnO + O2 -> Zn3Ni4(SbO6)2 + 4 H2O",
+      "fractions_ours_theirs": {
+        "Ni(HO)2": [
+          0.4090995985471229,
+          0.40906049890088886
+        ],
+        "Sb2O3": [
+          0.32154463773657044,
+          0.32160948102838577
+        ],
+        "ZnO": [
+          0.26935576371630665,
+          0.26933002007072543
+        ]
+      },
+      "worst_fraction_difference": 6.484329181533077e-05
+    },
+    "simulator_ours": {
+      "reaction": "4 NiO + Sb2O3 + 3 ZnO + O2 -> Zn3Ni4(SbO6)2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -5.579599150000057,
+      "free_energy_eV": -2.5954422344173236,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": 2350.3764326888668,
+      "driving_force_meV_per_atom": 123.59248735320588,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -2.4064490137435213
+    },
+    "simulator_theirs": {
+      "reaction": "4 Ni(HO)2 + Sb2O3 + 3 ZnO + O2 -> Zn3Ni4(SbO6)2 + 4 H2O",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -5.798527600000078,
+      "free_energy_eV": -12.4859142404105,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 378.361037588197,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -12.327900202828294
+    }
+  },
+  {
+    "target": "Mn7(P2O7)4",
+    "result": "Partial",
+    "mp_id": "mp-778008",
+    "masses_mg": {
+      "NH4H2PO4": 851.8,
+      "MnO": 459.6
+    },
+    "temperature_C": 500.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Mn7(P2O7)4",
+      "precursors": [
+        "MnO2",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 811,
+      "dwell_hours": 8
+    },
+    "exact": false,
+    "jaccard": 0.3333333333333333,
+    "per_metal": [
+      1,
+      2
+    ],
+    "temperature_error_C": 311.0,
+    "dwell_factor": 2.0,
+    "grams": {
+      "equation": "8 PH6NO4 + 7 MnO + 0.5 O2 -> Mn7(P2O7)4 + 12 H2O + 8 H3N",
+      "fractions_ours_theirs": {
+        "PH6NO4": [
+          0.6495348482537746,
+          0.6495348482537745
+        ],
+        "MnO": [
+          0.35046515174622545,
+          0.3504651517462254
+        ]
+      },
+      "worst_fraction_difference": 1.1102230246251565e-16
+    },
+    "simulator_ours": {
+      "reaction": "7 MnO2 + 8 PH6NO4 -> Mn7(P2O7)4 + 12 H2O + 8 H3N + 3 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 7.649631164165914,
+      "free_energy_eV": -42.055980485313256,
+      "feasible": true,
+      "onset_temperature_C": -106.30067753084623,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 359.4528246607971,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -42.49405980725355
+    },
+    "simulator_theirs": {
+      "reaction": "8 PH6NO4 + 7 MnO + 0.5 O2 -> Mn7(P2O7)4 + 12 H2O + 8 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -2.1674785100003726,
+      "free_energy_eV": -31.859451459163395,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 287.02208521768824,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -31.80738286045194
+    }
+  },
+  {
+    "target": "KBaGdWO6",
+    "result": "Partial",
+    "mp_id": "mp-1523079",
+    "masses_mg": {
+      "BaO2": 276.0,
+      "Gd2O3": 295.4,
+      "K2CO3": 112.6,
+      "WO3": 377.9
+    },
+    "temperature_C": 1000.0,
+    "hours_per_firing": 4.0,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KBaGdWO6",
+      "precursors": [
+        "BaCO3",
+        "Gd2O3",
+        "K2CO3",
+        "WO3"
+      ],
+      "firing_temperature_C": 976,
+      "dwell_hours": 10
+    },
+    "exact": false,
+    "jaccard": 0.6,
+    "per_metal": [
+      3,
+      4
+    ],
+    "temperature_error_C": 24.0,
+    "dwell_factor": 2.5,
+    "grams": {
+      "equation": "BaO2 + 0.5 Gd2O3 + 0.5 K2CO3 + WO3 -> KBaGdWO6 + 0.5 CO2 + 0.5 O2",
+      "fractions_ours_theirs": {
+        "BaO2": [
+          0.25991147942367454,
+          0.2599114794236746
+        ],
+        "Gd2O3": [
+          0.27818061964403423,
+          0.2781806196440343
+        ],
+        "K2CO3": [
+          0.10603634993878897,
+          0.10603634993878897
+        ],
+        "WO3": [
+          0.3558715509935022,
+          0.35587155099350226
+        ]
+      },
+      "worst_fraction_difference": 5.551115123125783e-17
+    },
+    "simulator_ours": {
+      "reaction": "BaCO3 + 0.5 Gd2O3 + 0.5 K2CO3 + WO3 -> KBaGdWO6 + 1.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.9069000099998713,
+      "free_energy_eV": -3.24506563232796,
+      "feasible": true,
+      "onset_temperature_C": -0.3023309484333936,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 223.79762981572136,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -4.500502631711694
+    },
+    "simulator_theirs": {
+      "reaction": "BaO2 + 0.5 Gd2O3 + 0.5 K2CO3 + WO3 -> KBaGdWO6 + 0.5 CO2 + 0.5 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.6902482500000078,
+      "free_energy_eV": -3.4546668124708537,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 276.37334499766826,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.9669277002521404
+    }
+  },
+  {
+    "target": "La5Mn5O16",
+    "result": "Failed",
+    "mp_id": "mp-531717",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "La5Mn5O16",
+      "precursors": [
+        "La2O3",
+        "MnO2"
+      ],
+      "firing_temperature_C": 1298,
+      "dwell_hours": 20
+    },
+    "simulator_ours": {
+      "reaction": "2.5 La2O3 + 5 MnO2 -> La5Mn5O16 + 0.75 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -6.437314003750092,
+      "free_energy_eV": -8.943402877668323,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 325.2146500970299,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -9.102118997823855
+    }
+  },
+  {
+    "target": "Mo(PO3)5",
+    "result": "Failed",
+    "mp_id": "mp-504210",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Mo(PO3)5",
+      "precursors": [
+        "MoO3",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 645,
+      "dwell_hours": 4
+    },
+    "simulator_ours": {
+      "reaction": "MoO3 + 5 PH6NO4 -> Mo(PO3)5 + 7.5 H2O + 5 H3N + 0.25 O2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 5.080759642499925,
+      "free_energy_eV": -18.055459407093252,
+      "feasible": true,
+      "onset_temperature_C": -71.52243692403002,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 282.11655323583204,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -18.086376295088414
+    }
+  },
+  {
+    "target": "V3AgO8",
+    "result": "Failed",
+    "mp_id": "mp-1100976",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "V3AgO8",
+      "precursors": [
+        "Ag2O",
+        "V2O5"
+      ],
+      "firing_temperature_C": 478,
+      "dwell_hours": 5
+    },
+    "simulator_ours": {
+      "reaction": "0.5 Ag2O + 1.5 V2O5 -> V3AgO8",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.3804326350000125,
+      "free_energy_eV": -0.3804326350000125,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 31.702719583334375,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.3804326350000125
+    }
+  },
+  {
+    "target": "Ca2Sn3O8",
+    "result": "Failed",
+    "mp_id": "mp-1386610",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ca2Sn3O8",
+      "precursors": [
+        "CaCO3",
+        "SnO2"
+      ],
+      "firing_temperature_C": 1258,
+      "dwell_hours": 5
+    },
+    "simulator_ours": {
+      "reaction": "2 CaCO3 + 3 SnO2 -> Ca2Sn3O8 + 2 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 2.0215344600000305,
+      "free_energy_eV": -4.764180832532492,
+      "feasible": true,
+      "onset_temperature_C": 182.99535166768675,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 250.7463596069733,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -6.815989247968483
+    }
+  },
+  {
+    "target": "Ca2Ti3O8",
+    "result": "Failed",
+    "mp_id": "mp-1397126",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ca2Ti3O8",
+      "precursors": [
+        "CaCO3",
+        "TiO2"
+      ],
+      "firing_temperature_C": 1251,
+      "dwell_hours": 5
+    },
+    "simulator_ours": {
+      "reaction": "2 CaCO3 + 3 TiO2 -> Ca2Ti3O8 + 2 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 1.8859114399999957,
+      "free_energy_eV": -4.868781413811481,
+      "feasible": true,
+      "onset_temperature_C": 152.39294969223454,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 256.25165335849897,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -6.911209521042494
+    }
+  },
+  {
+    "target": "CuAg2P2O7",
+    "result": "Failed",
+    "mp_id": "mp-1213198",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CuAg2P2O7",
+      "precursors": [
+        "Ag2O",
+        "CuO",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 749,
+      "dwell_hours": 20
+    },
+    "simulator_ours": {
+      "reaction": "Ag2O + CuO + 2 PH6NO4 -> CuAg2P2O7 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.522174872499947,
+      "free_energy_eV": -9.563193837662242,
+      "feasible": true,
+      "onset_temperature_C": -220.22768637273376,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 329.76530474697387,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -9.563193837662242
+    }
+  },
+  {
+    "target": "KMg3V3CuO12",
+    "result": "Failed",
+    "mp_id": "mp-1211434",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "KMg3V3CuO12",
+      "precursors": [
+        "CuO",
+        "K2CO3",
+        "MgO",
+        "V2O5"
+      ],
+      "firing_temperature_C": 709,
+      "dwell_hours": 10
+    },
+    "simulator_ours": {
+      "reaction": "CuO + 0.5 K2CO3 + 3 MgO + 1.5 V2O5 -> KMg3V3CuO12 + 0.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -2.0643053012499664,
+      "free_energy_eV": -3.1524727366026113,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 146.62663891174935,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -3.4815037974425778
+    }
+  },
+  {
+    "target": "CaTiNiP2O9",
+    "result": "Failed",
+    "mp_id": "mp-1043092",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaTiNiP2O9",
+      "precursors": [
+        "CaCO3",
+        "NH4H2PO4",
+        "NiO",
+        "TiO2"
+      ],
+      "firing_temperature_C": 1146,
+      "dwell_hours": 8
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + 2 PH6NO4 + NiO + TiO2 -> CaTiNiP2O9 + CO2 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.02066877750006157,
+      "free_energy_eV": -17.16784263872202,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 504.9365481977065,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -18.118704380800192
+    }
+  },
+  {
+    "target": "CaCr2P2O9",
+    "result": "Failed",
+    "mp_id": "mp-1040889",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "CaCr2P2O9",
+      "precursors": [
+        "CaCO3",
+        "Cr2O3",
+        "NH4H2PO4"
+      ],
+      "firing_temperature_C": 1124,
+      "dwell_hours": 4
+    },
+    "simulator_ours": {
+      "reaction": "CaCO3 + Cr2O3 + 2 PH6NO4 -> CaCr2P2O9 + CO2 + 3 H2O + 2 H3N",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 0.3094726149999118,
+      "free_energy_eV": -16.571881688777882,
+      "feasible": true,
+      "onset_temperature_C": -247.53714594418724,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 487.4082849640553,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -17.508002946533946
+    }
+  },
+  {
+    "target": "Ba4InSbO8",
+    "result": "Failed",
+    "mp_id": "mp-1228129",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ba4InSbO8",
+      "precursors": [
+        "BaCO3",
+        "In2O3",
+        "Sb2O3"
+      ],
+      "firing_temperature_C": 1324,
+      "dwell_hours": 24
+    },
+    "simulator_ours": {
+      "reaction": "4 BaCO3 + 0.5 In2O3 + 0.5 Sb2O3 + 0.5 O2 -> Ba4InSbO8 + 4 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 4.277040897499821,
+      "free_energy_eV": -8.181010509454634,
+      "feasible": true,
+      "onset_temperature_C": 275.17619053317844,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 314.65425036363973,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -12.353951408116384
+    }
+  },
+  {
+    "target": "YbMoO4",
+    "result": "Failed",
+    "mp_id": "mp-1207551",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "YbMoO4",
+      "precursors": [
+        "MoO3",
+        "Yb2O3"
+      ],
+      "firing_temperature_C": 1080,
+      "dwell_hours": 8
+    },
+    "simulator_ours": {
+      "reaction": null,
+      "enthalpy_source": null,
+      "enthalpy_eV": null,
+      "free_energy_eV": null,
+      "feasible": null,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": null,
+      "kinetic_risk": null,
+      "error": "ValueError: Materials Project has no entry for Yb2O3, YbMoO4 -- pass the structure and the critic to score it instead",
+      "feasible_air": null,
+      "free_energy_air_eV": null
+    }
+  },
+  {
+    "target": "Ta4PbO11",
+    "result": "Failed",
+    "mp_id": "mp-1194594",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": true,
+    "ours": {
+      "target": "Ta4PbO11",
+      "precursors": [
+        "PbO",
+        "Ta2O5"
+      ],
+      "firing_temperature_C": 1215,
+      "dwell_hours": 8
+    },
+    "simulator_ours": {
+      "reaction": "PbO + 2 Ta2O5 -> Ta4PbO11",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -0.5266917909375577,
+      "free_energy_eV": -0.5266917909375577,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 32.918236933597356,
+      "kinetic_risk": true,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -0.5266917909375577
+    }
+  },
+  {
+    "target": "BaGdCrFeO6",
+    "result": "Failed",
+    "mp_id": "mp-1518724",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "BaGdCrFeO6",
+      "precursors": [
+        "BaCO3",
+        "Cr2O3",
+        "Fe2O3",
+        "Gd2O3"
+      ],
+      "firing_temperature_C": 1233,
+      "dwell_hours": 24
+    },
+    "simulator_ours": {
+      "reaction": "BaCO3 + 0.5 Cr2O3 + 0.5 Fe2O3 + 0.5 Gd2O3 + 0.25 O2 -> BaGdCrFeO6 + CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -23.50522237500012,
+      "free_energy_eV": -26.041879627422777,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 2003.2215098017518,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -27.000316658021035
+    }
+  },
+  {
+    "target": "Ca3Ti3Cr2O12",
+    "result": "Failed",
+    "mp_id": "mp-1214263",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Ca3Ti3Cr2O12",
+      "precursors": [
+        "CaCO3",
+        "Cr2O3",
+        "TiO2"
+      ],
+      "firing_temperature_C": 1218,
+      "dwell_hours": 6
+    },
+    "simulator_ours": {
+      "reaction": "3 CaCO3 + Cr2O3 + 3 TiO2 -> Ca3Ti3Cr2O12 + 3 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": 2.23784863500005,
+      "free_energy_eV": -7.674817686189785,
+      "feasible": true,
+      "onset_temperature_C": 63.48677198001178,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 264.64888573068225,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -10.672127667586821
+    }
+  },
+  {
+    "target": "Na3V3Cr2O12",
+    "result": "Failed",
+    "mp_id": "mp-1202673",
+    "masses_mg": {},
+    "temperature_C": null,
+    "hours_per_firing": null,
+    "in_training_corpus": false,
+    "ours": {
+      "target": "Na3V3Cr2O12",
+      "precursors": [
+        "Cr2O3",
+        "Na2CO3",
+        "V2O5"
+      ],
+      "firing_temperature_C": 750,
+      "dwell_hours": 8
+    },
+    "simulator_ours": {
+      "reaction": "Cr2O3 + 1.5 Na2CO3 + 1.5 V2O5 -> Na3V3Cr2O12 + 1.5 CO2",
+      "enthalpy_source": "Materials Project, every species",
+      "enthalpy_eV": -1.001719288125036,
+      "free_energy_eV": -4.402498735707563,
+      "feasible": true,
+      "onset_temperature_C": null,
+      "ceiling_temperature_C": null,
+      "driving_force_meV_per_atom": 179.69382594724743,
+      "kinetic_risk": false,
+      "error": null,
+      "feasible_air": true,
+      "free_energy_air_eV": -5.430798272127901
+    }
+  }
+]
