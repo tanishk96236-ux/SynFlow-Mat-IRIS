@@ -124,9 +124,9 @@ All tests use experiments the models were not trained on.
 | Test | Result | Script | Output in `results/` |
 |---|---|---|---|
 | A-Lab pairwise reactions (Table 2 of Szymanski et al. 2023) | The feasibility check agreed with **95.8 %** of the reactions the robot made (88.7 % before gases were taken from the balanced equation), and with **70 %** of those that did not react when kinetic evidence is used | `eval_alab.py --enthalpies measured` | `alab_table2_measured.json` |
-| A-Lab's 57 targets: precursor masses | **42 / 42** recipes match the masses the robot weighed | `eval_alab_targets.py` | `alab_targets.json` |
+| A-Lab's 57 targets: precursor masses | Given the robot's precursors, **42 / 42** recipes match the masses it weighed | `eval_alab_targets.py` | `alab_targets.json` |
 | A-Lab's 57 targets: precursors | 76.7 % of per-metal precursor choices match | `eval_alab_targets.py` | `alab_targets.json` |
-| A-Lab's 57 targets: temperature | MAE 166 °C; the system fires on average 107 °C hotter than the robot | `eval_alab_targets.py` | `alab_targets.json` |
+| A-Lab's 57 targets: temperature | MAE 166 °C on the 40 unseen targets; the system fires on average 108 °C hotter than the robot | `eval_alab_targets.py` | `alab_targets.json` |
 | Unseen literature recipes (981 targets): temperature | MAE 194 °C (median 120 °C), against 279 °C for predicting the mean; a k-nearest-neighbour baseline scores the same (193 °C) | `eval_unseen.py`, `knn_baseline.py` | `unseen_evaluation*.json` |
 | Unseen literature recipes: precursors | 55.7 % exactly right; Jaccard similarity 0.72 | `eval_unseen.py` | `unseen_evaluation.json` |
 | Hold time | 48.6 % within a factor of 2 (median baseline 45.7 %) | `train_dwell.py` | `dwell_result.json` |
